@@ -1,0 +1,12 @@
+---
+baseurl: "/Newberry-French-paleography"
+collections:
+  background_essay:
+    output: true
+    permalink: /essay/:name
+  page:
+    output: true
+    permalink: /:collection/:name
+  transcriptions:
+    output: true
+    permalink: /:collection/:name

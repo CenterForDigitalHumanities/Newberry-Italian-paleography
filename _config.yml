@@ -1,5 +1,5 @@
 ---
-baseurl: "/Newberry-French-paleography"
+baseurl: "/Newberry-Italian-paleography"
 collections:
   background_essay:
     output: true

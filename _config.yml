@@ -6,7 +6,7 @@ collections:
     permalink: /essay/:name
   page:
     output: true
-    permalink: /:collection/:name
+    permalink: /:slug
   transcriptions:
     output: true
     permalink: /:collection/:name

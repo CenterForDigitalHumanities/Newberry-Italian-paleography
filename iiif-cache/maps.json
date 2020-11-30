@@ -1,0 +1,109 @@
+{
+    "accessed": 1606770600000,
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.library.utoronto.ca/presentation/v2/collections/italianpaleography:historicalmaps",
+    "@type": "sc:Collection",
+    "label": "Historical Maps",
+    "metadata": [
+        {
+            "label": "title",
+            "value": [
+                "Historical Maps"
+            ]
+        }
+    ],
+    "attribution": "For rights and reproduction information please contact collections@library.utoronto.ca",
+    "manifests": [
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_102/manifest",
+            "@type": "sc:Manifest",
+            "label": "Sixteenth-Century Copy of Ptolemy's Maps"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_101/manifest",
+            "@type": "sc:Manifest",
+            "label": "Manuscript Portolan Atlas of the Mediterranean Sea Attributed to Giacomo Giroldi"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_119/manifest",
+            "@type": "sc:Manifest",
+            "label": "Tentivo Gasparo's Atlas"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_100/manifest",
+            "@type": "sc:Manifest",
+            "label": "The Sphere"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_103/manifest",
+            "@type": "sc:Manifest",
+            "label": "Manuscript Portolan Atlas of the Mediterranean Sea Attributed to the Conte di Ottomano Freducci"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_104/manifest",
+            "@type": "sc:Manifest",
+            "label": "Manuscript Portolan Atlas of the World Attributed to Battista Agnese"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_105/manifest",
+            "@type": "sc:Manifest",
+            "label": "Manuscript Portolan Atlas of the World Attributed to Battista Agnese (2)"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_106/manifest",
+            "@type": "sc:Manifest",
+            "label": "Manuscript Portolan Atlas of the World Attributed to Battista Agnese (3)"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_107/manifest",
+            "@type": "sc:Manifest",
+            "label": "Maps of Naval Operations between Christian and Turkish Fleets in the Aegean Sea"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_108/manifest",
+            "@type": "sc:Manifest",
+            "label": "Manuscript Portolan Atlas Attributed to Francesco Ghisolfi"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_109/manifest",
+            "@type": "sc:Manifest",
+            "label": "Manuscript Portolan Chart of the Mediterranean and Black Seas"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_112/manifest",
+            "@type": "sc:Manifest",
+            "label": "Giovanni Oliva's Manuscript Portolan Atlas of the Mediterranean Sea"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_113/manifest",
+            "@type": "sc:Manifest",
+            "label": "Portolan Atlas of the Mediterranean Sea Attributed to Caloiro et Oliva"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_114/manifest",
+            "@type": "sc:Manifest",
+            "label": "Portolan Atlas of the Mediterranean Sea Attributed to Caloiro et Oliva (2)"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_115/manifest",
+            "@type": "sc:Manifest",
+            "label": "Manuscript World Map"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_116/manifest",
+            "@type": "sc:Manifest",
+            "label": "View of St. Mark's Square from the Piazzetta in Venice"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_117/manifest",
+            "@type": "sc:Manifest",
+            "label": "Anonymous Portolan Atlas of Mediterranean Sea"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_118/manifest",
+            "@type": "sc:Manifest",
+            "label": "Portolan Chart of the Adriatic Sea and the Coast of Italy"
+        }
+    ],
+    "total": 18
+}

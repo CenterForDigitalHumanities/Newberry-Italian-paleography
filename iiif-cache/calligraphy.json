@@ -1,0 +1,94 @@
+{
+    "accessed": 1606770600000,
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.library.utoronto.ca/presentation/v2/collections/italianpaleography:calligraphybooks",
+    "@type": "sc:Collection",
+    "label": "Calligraphy Books",
+    "metadata": [
+        {
+            "label": "title",
+            "value": [
+                "Calligraphy Books"
+            ]
+        }
+    ],
+    "attribution": "For rights and reproduction information please contact collections@library.utoronto.ca",
+    "manifests": [
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_200/manifest",
+            "@type": "sc:Manifest",
+            "label": "Calligraphy Specimens of Beau-Chesne"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_201/manifest",
+            "@type": "sc:Manifest",
+            "label": "Italian Gothic Alphabet"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_202/manifest",
+            "@type": "sc:Manifest",
+            "label": "Alphabets of Textura and Rotunda Letters"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_203/manifest",
+            "@type": "sc:Manifest",
+            "label": "Alphabet with Forms and Proportions"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_204/manifest",
+            "@type": "sc:Manifest",
+            "label": "Three Alphabets of Capital Letters"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_205/manifest",
+            "@type": "sc:Manifest",
+            "label": "Specimens of Italian Writing and Penmanship"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_206/manifest",
+            "@type": "sc:Manifest",
+            "label": "Specimen of Chancery Cursive Script"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_207/manifest",
+            "@type": "sc:Manifest",
+            "label": "Calligraphy Specimens with Writings and Ornamental Initials"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_208/manifest",
+            "@type": "sc:Manifest",
+            "label": "Rodomonte Giordi's Calligraphy Manual"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_209/manifest",
+            "@type": "sc:Manifest",
+            "label": "Dario Pisani's Calligraphy Manual"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_210/manifest",
+            "@type": "sc:Manifest",
+            "label": "Vincenzio del Sera's Calligraphy Book"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_211/manifest",
+            "@type": "sc:Manifest",
+            "label": "Ascanio Zabarelli's Calligraphy Book"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_212/manifest",
+            "@type": "sc:Manifest",
+            "label": "Valerio Spada's Specimens of Calligraphy"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_213/manifest",
+            "@type": "sc:Manifest",
+            "label": "Rocco Castelli's Specimens of Calligraphy"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_214/manifest",
+            "@type": "sc:Manifest",
+            "label": "Illustrated Alphabet"
+        }
+    ],
+    "total": 15
+}

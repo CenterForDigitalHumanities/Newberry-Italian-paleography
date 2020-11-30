@@ -1,0 +1,34 @@
+{
+    "accessed": 1606770600000,
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.library.utoronto.ca/presentation/v2/collections/italianpaleography:root",
+    "@type": "sc:Collection",
+    "label": "Italian Paleography",
+    "metadata": [
+        {
+            "label": "title",
+            "value": [
+                "Italian Paleography"
+            ]
+        }
+    ],
+    "attribution": "For rights and reproduction information please contact collections@library.utoronto.ca",
+    "collections": [
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/collections/italianpaleography:historicalmaps",
+            "@type": "sc:Collection",
+            "label": "Historical Maps"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/collections/italianpaleography:manuscripts",
+            "@type": "sc:Collection",
+            "label": "Manuscripts"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/collections/italianpaleography:calligraphybooks",
+            "@type": "sc:Collection",
+            "label": "Calligraphy Books"
+        }
+    ],
+    "total": 3
+}

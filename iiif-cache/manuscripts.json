@@ -1,0 +1,529 @@
+{
+    "accessed": 1606770600000,
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://iiif.library.utoronto.ca/presentation/v2/collections/italianpaleography:manuscripts",
+    "@type": "sc:Collection",
+    "label": "Manuscripts",
+    "metadata": [
+        {
+            "label": "title",
+            "value": [
+                "Manuscripts"
+            ]
+        }
+    ],
+    "attribution": "For rights and reproduction information please contact collections@library.utoronto.ca",
+    "manifests": [
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_001/manifest",
+            "@type": "sc:Manifest",
+            "label": "Memorial Book of Pepo Albizzi"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_002/manifest",
+            "@type": "sc:Manifest",
+            "label": "Collection of Diplomatic Speeches"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_003/manifest",
+            "@type": "sc:Manifest",
+            "label": "Prayers to Saint Jerome"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_004/manifest",
+            "@type": "sc:Manifest",
+            "label": "The Sphere"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_005/manifest",
+            "@type": "sc:Manifest",
+            "label": "The Mirror of the Cross"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_006/manifest",
+            "@type": "sc:Manifest",
+            "label": "Italian Proverbs"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_007/manifest",
+            "@type": "sc:Manifest",
+            "label": "Rule of Saint Benedict (in Italian)"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_008/manifest",
+            "@type": "sc:Manifest",
+            "label": "Lives of the Fathers"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_009/manifest",
+            "@type": "sc:Manifest",
+            "label": "On the First Punic War in Vernacular"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_010/manifest",
+            "@type": "sc:Manifest",
+            "label": "Miscellany"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_011/manifest",
+            "@type": "sc:Manifest",
+            "label": "Supplication"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_012/manifest",
+            "@type": "sc:Manifest",
+            "label": "Handbook for Confessors"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_013/manifest",
+            "@type": "sc:Manifest",
+            "label": "Commentary on Petrarch's Triumph of Fame"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_014/manifest",
+            "@type": "sc:Manifest",
+            "label": "Saint Jerome's Life and Letters"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_015/manifest",
+            "@type": "sc:Manifest",
+            "label": "Philosophical Considerations on God and the Soul"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_016/manifest",
+            "@type": "sc:Manifest",
+            "label": "Lorenzo de' Medici Letter"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_017/manifest",
+            "@type": "sc:Manifest",
+            "label": "Register for Contracts and Purchases of the Orsucci Family."
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_018/manifest",
+            "@type": "sc:Manifest",
+            "label": "Partial Index of Livy's Historiae"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_019/manifest",
+            "@type": "sc:Manifest",
+            "label": "On the First Punic War"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_020/manifest",
+            "@type": "sc:Manifest",
+            "label": "Humanistic Miscellany"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_021/manifest",
+            "@type": "sc:Manifest",
+            "label": "Collection of Vernacular Prose and Verse"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_022/manifest",
+            "@type": "sc:Manifest",
+            "label": "Ballate by Paolo da Firenze"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_023/manifest",
+            "@type": "sc:Manifest",
+            "label": "Sacred Poems"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_024/manifest",
+            "@type": "sc:Manifest",
+            "label": "Venetian Chronicle"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_025/manifest",
+            "@type": "sc:Manifest",
+            "label": "Account and Memorandum Book of the Works Administration of Santa Maria degli Alberighi in Florence"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_026/manifest",
+            "@type": "sc:Manifest",
+            "label": "Letter to Joannes Barbadico from Leonardo Loredano"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_027/manifest",
+            "@type": "sc:Manifest",
+            "label": "The Vincenzo Capirola Lutebook"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_028/manifest",
+            "@type": "sc:Manifest",
+            "label": "Mantiga Family's Account Book"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_029/manifest",
+            "@type": "sc:Manifest",
+            "label": "Florentine Priorista"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_030/manifest",
+            "@type": "sc:Manifest",
+            "label": "Michelangelo Letter"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_031/manifest",
+            "@type": "sc:Manifest",
+            "label": "Memorial and Account Book of the Angelio Family"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_032/manifest",
+            "@type": "sc:Manifest",
+            "label": "Collection of documents from Piacenza and Parma"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_033/manifest",
+            "@type": "sc:Manifest",
+            "label": "Francesco I de' Medici Letter"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_034/manifest",
+            "@type": "sc:Manifest",
+            "label": "Life of Cardinal Reginaldo Polo and Senate Report by Marin de Cavalli"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_035/manifest",
+            "@type": "sc:Manifest",
+            "label": "Lodovico Castelvetro's autograph notes on Petrarch"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_036/manifest",
+            "@type": "sc:Manifest",
+            "label": "Cellini Letter"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_037/manifest",
+            "@type": "sc:Manifest",
+            "label": "Copies of Venetian Documents in Latin and Vernacular"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_038/manifest",
+            "@type": "sc:Manifest",
+            "label": "Orders of the Society of St. Ambrose"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_039/manifest",
+            "@type": "sc:Manifest",
+            "label": "Essay by Lodovico Castelvetro on the Poets' Invocation to the Muses"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_040/manifest",
+            "@type": "sc:Manifest",
+            "label": "Guild Statutes of the Florentine Mercanzia and its University"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_041/manifest",
+            "@type": "sc:Manifest",
+            "label": "Notarial Certificate Concerning the Legitimation of Marco Negroponte, Issued in Venice, 1581"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_042/manifest",
+            "@type": "sc:Manifest",
+            "label": "Giacomo Castelvetro's Autograph Documents"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_043/manifest",
+            "@type": "sc:Manifest",
+            "label": "Collection of Italian Poetry"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_044/manifest",
+            "@type": "sc:Manifest",
+            "label": "Cambini's History of France"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_045/manifest",
+            "@type": "sc:Manifest",
+            "label": "Florentine Chronicle"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_046/manifest",
+            "@type": "sc:Manifest",
+            "label": "Copy of the Iliad in Tuscan Translation"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_047/manifest",
+            "@type": "sc:Manifest",
+            "label": "Special Dispensations for Foreigners to Join the Order of St. Stephen"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_048/manifest",
+            "@type": "sc:Manifest",
+            "label": "Collection of Veneziano's Poems in Sicilian Dialect"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_049/manifest",
+            "@type": "sc:Manifest",
+            "label": "History of Venice by Gian Giacomo Caroldo"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_050/manifest",
+            "@type": "sc:Manifest",
+            "label": "Collection of Documents Bound Together"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_051/manifest",
+            "@type": "sc:Manifest",
+            "label": "Register of Government and Public Officials of the City of Florence"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_052/manifest",
+            "@type": "sc:Manifest",
+            "label": "Strozzi Text Dedicated to Grand Duke Ferdinando II"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_053/manifest",
+            "@type": "sc:Manifest",
+            "label": "Seventeenth-Century Register of Florentine Families"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_054/manifest",
+            "@type": "sc:Manifest",
+            "label": "Record Book Concerning Rights of Patronage of the General Chapter of the Franciscans in Vicenza"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_055/manifest",
+            "@type": "sc:Manifest",
+            "label": "Statutes of the Sienese Guild of Stationers and Booksellers"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_056/manifest",
+            "@type": "sc:Manifest",
+            "label": "Giacomo Franco Letter"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_057/manifest",
+            "@type": "sc:Manifest",
+            "label": "Treatise on Political Issues Relating to Italy"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_058/manifest",
+            "@type": "sc:Manifest",
+            "label": "Coraro's History of France"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_059/manifest",
+            "@type": "sc:Manifest",
+            "label": "Robert Dudley Letter"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_061/manifest",
+            "@type": "sc:Manifest",
+            "label": "Prose and Poetry by Giovanni Battista Ciampoli"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_062/manifest",
+            "@type": "sc:Manifest",
+            "label": "Register of the Angelio Family's Affairs and Properties in Barga"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_063/manifest",
+            "@type": "sc:Manifest",
+            "label": "Gasparo Tentivo's Atlas"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_064/manifest",
+            "@type": "sc:Manifest",
+            "label": "Cardinal Azzolino's Poetry"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_065/manifest",
+            "@type": "sc:Manifest",
+            "label": "Essay on the Jesuit's Customs and Government"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_066/manifest",
+            "@type": "sc:Manifest",
+            "label": "Ajax"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_067/manifest",
+            "@type": "sc:Manifest",
+            "label": "Notes on payments made for the funeral of Cardinal Giacomo de Angelis"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_068/manifest",
+            "@type": "sc:Manifest",
+            "label": "Choirbook of Hymns and Motets"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_069/manifest",
+            "@type": "sc:Manifest",
+            "label": "Book of Fortune"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_070/manifest",
+            "@type": "sc:Manifest",
+            "label": "Sundial Manual"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_071/manifest",
+            "@type": "sc:Manifest",
+            "label": "The Discourse of Vincenzo Galilei"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_072/manifest",
+            "@type": "sc:Manifest",
+            "label": "Register of Criminals Executed in Venice"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_073/manifest",
+            "@type": "sc:Manifest",
+            "label": "Giovanni Battista Bodoni's Notes"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_074/manifest",
+            "@type": "sc:Manifest",
+            "label": "Treatise on the Tuscan Language"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_075/manifest",
+            "@type": "sc:Manifest",
+            "label": "The Study of Counterpoint from Johann Joseph Fux’s Gradus ad parnassum."
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_076/manifest",
+            "@type": "sc:Manifest",
+            "label": "Alessandro Giunta Letter"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_077/manifest",
+            "@type": "sc:Manifest",
+            "label": "Fortification by \"Monsiu di Vouban\""
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_078/manifest",
+            "@type": "sc:Manifest",
+            "label": "Notes in Luca Pacioli's Somma"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_079/manifest",
+            "@type": "sc:Manifest",
+            "label": "Terze Rime by Dante Alighieri"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_080/manifest",
+            "@type": "sc:Manifest",
+            "label": "Notes in Giambattista della Porta's Magiae naturalis"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_081/manifest",
+            "@type": "sc:Manifest",
+            "label": "The Mirror of the Cross (Printed Book)"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_300/manifest",
+            "@type": "sc:Manifest",
+            "label": "Pisan Naval Account"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_301/manifest",
+            "@type": "sc:Manifest",
+            "label": "Book of Hours"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_302/manifest",
+            "@type": "sc:Manifest",
+            "label": "Copy of Dante Alighieri's Divine Comedy"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_303/manifest",
+            "@type": "sc:Manifest",
+            "label": "Copy of Dante Alighieri's Divine Comedy transcribed by Andrea Lancia"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_304/manifest",
+            "@type": "sc:Manifest",
+            "label": "Aristotle's Ethics Translated by Taddeo Alderotti"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_305/manifest",
+            "@type": "sc:Manifest",
+            "label": "Acciaiuoli Family Correspondence"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_306/manifest",
+            "@type": "sc:Manifest",
+            "label": "Copy of Francesco Petrarca's Songbook Rerum Vulgarium Fragmenta"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_307/manifest",
+            "@type": "sc:Manifest",
+            "label": "Algorismus"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_308/manifest",
+            "@type": "sc:Manifest",
+            "label": "Chiarini Family Correspondence"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_309/manifest",
+            "@type": "sc:Manifest",
+            "label": "Rule of Saint Augustine for Nuns"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_310/manifest",
+            "@type": "sc:Manifest",
+            "label": "Book of Sun and Moon Calculations"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_311/manifest",
+            "@type": "sc:Manifest",
+            "label": "Chronicle of Rome and Southern Italy"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_312/manifest",
+            "@type": "sc:Manifest",
+            "label": "The Flower of Battle"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_313/manifest",
+            "@type": "sc:Manifest",
+            "label": "Account Book on the Management of a Landed Estate"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_314/manifest",
+            "@type": "sc:Manifest",
+            "label": "The Art of Cooking"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_315/manifest",
+            "@type": "sc:Manifest",
+            "label": "Religious Miscellany"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_317/manifest",
+            "@type": "sc:Manifest",
+            "label": "Legend of St. Blaise"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_318/manifest",
+            "@type": "sc:Manifest",
+            "label": "Copy of Giovanni Boccaccio's Filostrato"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_319/manifest",
+            "@type": "sc:Manifest",
+            "label": "Agreement between Bernardo de Lazara and Pietro Calzetta for the Decoration of the Corpus Christi Chapel in Padua"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_320/manifest",
+            "@type": "sc:Manifest",
+            "label": "Inventory of Buildings Selected by Michelangelo to be Demolished "
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_321/manifest",
+            "@type": "sc:Manifest",
+            "label": "Account Book of Santa Maria degli Alberighi in Florence"
+        },
+        {
+            "@id": "https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_322/manifest",
+            "@type": "sc:Manifest",
+            "label": "Giuseppe Gualdi's Diary"
+        }
+    ],
+    "total": 102
+}

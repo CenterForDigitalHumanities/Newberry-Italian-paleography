@@ -1,0 +1,145 @@
+:root {
+    --bg-color          : #ffffff;
+    --bg-secondary-color: #f3f3f6;
+    --color-primary     : #14854F;
+    --color-lightGrey   : #d2d6dd;
+    --color-grey        : #747681;
+    --color-darkGrey    : #3f4144;
+    --color-error       : #d43939;
+    --color-success     : #28bd14;
+    --grid-maxWidth     : 120rem;
+    --grid-gutter       : 2rem;
+    --font-size         : 1.6rem;
+    --font-color        : #333333;
+    --font-family-sans  : -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
+        "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif;
+    --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+}
+
+html {
+    font-family: 'Open sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    max-width: var(--grid-maxWidth);
+    margin   : 0 auto;
+    width    : 96%;
+    padding  : 0 calc(var(--grid-gutter) / 2);
+    display  : flex;
+}
+
+.row {
+    display        : flex;
+    flex-flow      : row wrap;
+    justify-content: flex-start;
+    margin-left    : calc(var(--grid-gutter) / -2);
+    margin-right   : calc(var(--grid-gutter) / -2);
+    flex-wrap      : initial;
+}
+
+.sidebar {
+    max-width : 30em;
+    min-width : 200px;
+    flex-basis: 200px;
+}
+
+.reverse {
+    flex-flow: row-reverse;
+}
+
+.grow {
+    flex-grow: 3;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    display  : flex;
+}
+
+.thumbnail {
+    object-fit     : cover;
+    object-position: top center;
+    padding        : calc(var(--grid-gutter) / 2);
+}
+
+.record {
+    display       : flex;
+    flex-basis    : 100%;
+    max-width     : 30em;
+    flex-direction: column;
+    padding       : calc(var(--grid-gutter) / 2);
+    box-shadow    : -1px -1px 3px rgba(0, 0, 0, .4);
+    margin        : calc(var(--grid-gutter) / 4);
+}
+
+dt,
+dd {
+    border-top    : 1px solid #e5e5e5;
+    padding-right : 0;
+    line-height   : 1.42857143;
+    margin        : 0 auto;
+    color         : #555;
+    display       : inline-block;
+    padding-top   : 6px;
+    padding-bottom: 4px;
+    box-sizing    : border-box;
+    vertical-align: top;
+}
+
+dt {
+    font-weight: bold;
+    width      : 15%;
+}
+
+dd {
+    width       : 85%;
+    word-break  : break-word;
+    padding-left: 40px;
+}
+
+dd p {
+    padding: 0;
+    margin : 0;
+}
+
+.record h4 {
+    margin: 0 auto;
+}
+
+.record a {
+    background : white;
+    color      : #be3c2b;
+    border     : 1px solid #be3c2b;
+    padding    : 3px 6px;
+    text-align : center;
+    font-weight: bold;
+}
+
+#mirador-bookreader {
+    position: relative;
+    overflow: hidden;
+    width   : 100%;
+    height  : 40em;
+}
+
+@media screen and (max-width: 599px) {
+    .container {
+        width: 100%;
+    }
+
+    .col,
+    [class*="col-"],
+    [class^='col-'] {
+        -webkit-box-flex: 0;
+        -ms-flex        : 0 1 100%;
+        flex            : 0 1 100%;
+        max-width       : 100%;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .record {
+        max-width: 100%;
+    }
+}

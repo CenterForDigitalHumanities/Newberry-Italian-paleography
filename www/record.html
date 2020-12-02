@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Manuscript Record | Italian Paleography</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        header
+    </header>
+
+    <div role="main">
+        <h1 id="pageHeader">Title</h1>
+        <a href="#transcribe">Transcribe with TPEN</a>
+        <div id="view">
+            <div id="book-viewer" class="container">
+                <div id="mirador-bookreader" class="islandora-mirador-bookreader mirador-reader"></div>
+            </div>
+
+            <div class="container" id="metadata">
+            </div>
+        </div>
+    </div>
+    <!-- region: Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="region region-footer">
+                <div id="block-panels-mini-footer-panel" class="block block-panels-mini contextual-links-region">
+
+
+                    <div class="content">
+                        <div class="row" id="mini-panel-footer_panel">
+                            <div class="col-sm-8">
+                                <div class="panel-pane pane-custom pane-1 footer-bottom" id="footer-partner">
+
+                                    <h2 class="pane-title">
+                                        Partners </h2>
+
+
+                                    <div class="pane-content">
+                                        <ul>
+                                            <li><a href="http://www.newberry.org/" target="_blank"><img
+                                                        alt="The Newberry Library"
+                                                        src="//content.library.utoronto.ca/common/dh-images/paleography/NewberryLogo_with_tag.png" /></a>
+                                            </li>
+                                            <li><a href="http://onesearch.library.utoronto.ca" target="_blank"><img
+                                                        alt="University of Toronto Libraries"
+                                                        src="//content.library.utoronto.ca/common/dh-images/paleography/UTL-logo.png" /></a>
+                                            </li>
+                                            <li><a href="http://lib.slu.edu" target="_blank"><img
+                                                        alt="St Louis University Libraries"
+                                                        src="//content.library.utoronto.ca/common/dh-images/paleography/slu.gif" /></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="panel-pane pane-custom pane-2 footer-bottom" id="footer-contact">
+
+
+
+                                    <div class="pane-content">
+                                        <p>Header image: Newberry Library, VAULT folio Case MS 214, f.1r</p>
+                                        <p>Supported by a grant from <a href="http://mellon.org" target="_blank">The
+                                                Andrew W. Mellon Foundation</a></p>
+                                        <p><a href="https://italian-paleography.library.utoronto.ca">Italian
+                                                Paleography</a> is licensed under a <a
+                                                href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
+                                                rel="license">Creative Commons Attribution-NonCommercial-NoDerivatives
+                                                4.0 International License</a>.</p>
+                                        <p>Follow us on Twitter:<br /><a class="twitter-follow-button"
+                                                data-show-count="false"
+                                                href="https://twitter.com/italpaleography?ref_src=twsrc%5Etfw">Follow
+                                                @italpaleography</a></p>
+                                        <script async="" src="https://platform.twitter.com/widgets.js"
+                                            charset="utf-8"></script>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button class="scrollToTop" id="back-to-top" aria-label="Scroll to top"><span
+            class="icon icon-angle-up"></span></button>
+    <script type="text/javascript" src="https://mirador-dev.netlify.app/dist/mirador.min.js?v=1606873758455"></script>
+    <script type="text/javascript">
+        const params = (new URL(document.location)).searchParams
+        const manifest_url = params.get('id')
+        fetch(manifest_url)
+            .then(status => { if (!status.ok) { throw Error(status) } return status })
+            .then(response => response.json())
+            .then(manifest => {
+                Mirador.viewer({
+                    id: "mirador-bookreader",
+                    windows: [{
+                        manifestId: manifest_url,
+                        view: 'single',
+                        thumbnailNavigationPosition: 'far-bottom'
+                    }],
+                    window: {
+                        allowClose: false, // Prevent the user from closing this window
+                        allowMaximize: false,
+                        defaultSideBarPanel: 'info',
+                        sideBarOpenByDefault: false,
+                        views: [ // Only allow the user to select single and gallery view
+                            { key: 'single' },
+                            { key: 'gallery' },
+                        ]
+                    },
+                    workspace: {
+                        type: 'mosaic',
+                    },
+                    workspaceControlPanel: {
+                        enabled: false
+                    }
+                })
+                let dl=``
+                manifest.metadata.forEach(dat=>{
+                    dl+=`<dt>${dat.label}</dt><dd>${Array.isArray(dat.value)?dat.value.join(", "):dat.value}</dd>`
+            })
+            metadata.innerHTML = `<dl>${dl}</dl>`
+            pageHeader.textContent = manifest.label
+            })
+            .catch(err => { throw Error(err) })
+
+    </script>
+
+</body>
+
+</html>

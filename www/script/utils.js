@@ -21,7 +21,7 @@ function renderManuscripts(elem, manuscripts,noTranscribe) {
     <div class="record" data-id="${b['@id']}">
         <h4>${b.label}</h4>
         <div class="row">
-            <img class="thumbnail" src="http://placekitten.com/65/80">
+            <img class="thumbnail" >
             <dl>
             </dl>
         </div>
@@ -66,8 +66,8 @@ function renderManuscripts(elem, manuscripts,noTranscribe) {
             .catch(err => { throw Error(err) })
         )
     })
-    Promise.all(loading).then(() => populateSidebar(facets, FILTERS))
     query.addEventListener("input", filterQuery)
+    return Promise.all(loading).then(() => populateSidebar(facets, FILTERS))
 }
 
 function fetchList(url) {

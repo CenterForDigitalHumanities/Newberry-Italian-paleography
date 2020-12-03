@@ -1,5 +1,5 @@
 var records = document.querySelectorAll(".record")
-function renderManuscripts(elem, manuscripts,noTranscribe) {
+function renderManuscripts(elem, manuscripts, noTranscribe) {
 
     const TPEN_BASE = "http://paleo.rerum.io/TPEN-NL/"
     const FIELDS = page_FIELDS || [
@@ -26,7 +26,7 @@ function renderManuscripts(elem, manuscripts,noTranscribe) {
             </dl>
         </div>
         <div class="btn-group">
-            <a href="./record.html?id=${b['@id']}">View</a> ${(!noTranscribe)?``:`<a href="${TPEN_BASE}?projectID=${b.tpenProject}">Transcribe</a>`}
+            <a href="./record.html?id=${b['@id']}">View</a> ${(!noTranscribe) ? `` : `<a href="${TPEN_BASE}?projectID=${b.tpenProject}">Transcribe</a>`}
         </div>
     </div>`, ``)
 
@@ -166,3 +166,8 @@ function populateSidebar(facets, FILTERS) {
     Array.from(facetsElements).forEach(el => el.addEventListener("click", filterFacets))
     updateCount()
 }
+
+
+let templates = document.createElement("script")
+templates.src = "script/templates.js"
+document.body.append(templates)

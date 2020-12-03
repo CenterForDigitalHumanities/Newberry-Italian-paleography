@@ -61,7 +61,8 @@ function renderManuscripts(elem, manuscripts,noTranscribe) {
                 })
                 r.setAttribute("data-query", SEARCH.reduce((a, b) => a += (metadataMap.has(b) ? metadataMap.get(b) : "*") + " ", ""))
                 r.querySelector("dl").innerHTML = dl
-                r.querySelector("img").src = manifest.sequences[0].canvases[0].thumbnail['@id']
+                let middleOfTheBook = Math.floor(manifest.sequences[0].canvases.length / 2)
+                r.querySelector("img").src = manifest.sequences[0].canvases[middleOfTheBook].thumbnail['@id']
             })
             .catch(err => { throw Error(err) })
         )

@@ -97,6 +97,7 @@
     </footer>
     <button class="scrollToTop" id="back-to-top" aria-label="Scroll to top"><span
             class="icon icon-angle-up"></span></button>
+    <script src="script/utils.js"></script>
     <script type="text/javascript" src="https://mirador-dev.netlify.app/dist/mirador.min.js?v=1606873758455"></script>
     <script type="text/javascript">
         const params = (new URL(document.location)).searchParams
@@ -129,12 +130,12 @@
                         enabled: false
                     }
                 })
-                let dl=``
-                manifest.metadata.forEach(dat=>{
-                    dl+=`<dt>${dat.label}</dt><dd>${Array.isArray(dat.value)?dat.value.join(", "):dat.value}</dd>`
-            })
-            metadata.innerHTML = `<dl>${dl}</dl>`
-            pageHeader.textContent = manifest.label
+                let dl = ``
+                manifest.metadata.forEach(dat => {
+                    dl += `<dt>${dat.label}</dt><dd>${Array.isArray(dat.value) ? dat.value.join(", ") : dat.value}</dd>`
+                })
+                metadata.innerHTML = `<dl>${dl}</dl>`
+                pageHeader.textContent = manifest.label
             })
             .catch(err => { throw Error(err) })
 

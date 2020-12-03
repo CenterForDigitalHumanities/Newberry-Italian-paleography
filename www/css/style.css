@@ -37,6 +37,26 @@ html {
     margin-right   : calc(var(--grid-gutter) / -2);
     flex-wrap      : initial;
 }
+.col {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+.col,
+[class*=" col-"],
+[class^='col-'] {
+    margin: 0 calc(var(--grid-gutter) / 2) calc(var(--grid-gutter) / 2);
+}
+
+a.col {
+    max-width: 40vw;
+}
+
+a.col img {
+    object-fit: contain;
+    object-position: center;
+    max-width: 100%;
+}
 
 .sidebar {
     max-width : 30em;
@@ -60,6 +80,15 @@ html {
     background    : var(--color-primary);
     color         : var(--color-lightGrey);
     border-left: var(--color-primary) solid thick;
+}
+
+nav a {
+    line-height: 1.6;
+    background-color: var(--bg-secondary-color);
+    border-radius: .25em;
+    margin: 2px;
+    text-decoration: none;
+    padding: 0 .5em;
 }
 
 facet {
@@ -184,7 +213,7 @@ dd p {
     border     : 1px solid #be3c2b;
     padding    : 3px 6px;
     text-align : center;
-    font-weight: bold;s
+    font-weight: bold;
 }
 
 #Documents {

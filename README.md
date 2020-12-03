@@ -1,6 +1,6 @@
-# Newberry-French-paleography
+# Newberry-Italian-paleography
 Static pages for the Newberry French Renaissance Paleography project
-[./background-essay](https://centerfordigitalhumanities.github.io/Newberry-French-paleography/background-essay)
+[./background-essay](https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/background-essay)
 
 ## Essays
 

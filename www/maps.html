@@ -5,19 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Manuscripts—Italian Renaissance Paleography</title>
+    <title>Maps—Italian Renaissance Paleography</title>
     <link rel="stylesheet" href="./css/style.css">
+    <style>
+        img.thumbnail {
+            object-fit: contain;
+            object-position: center;
+            min-width: 160px;
+        }
+    </style>
 </head>
 
 <body>
     <header>header</header>
 
-    <h1>Manuscripts</h1>
+    <h1>Maps</h1>
     <div class="container reverse">
         <div id="Documents" class="grow wrap">list loading</div>
         <div class="sidebar">
             <h3>Refine Results <button role="button" id="queryReset">clear all</button></h3>
-            <progress value="107" max="107">107 of 107</progress>
+            <progress value="12" max="12">12 of 12</progress>
             <input id="query" type="text" placeholder="type to filter">
             <section id="facetFilter"></section>
         </div>
@@ -31,15 +38,17 @@
             // script, decoration, physical description
         ]
         const page_FILTERS = {
-            "Type of Resource": "resource-type", Genre: "genre", Language: "language",
-            Script: "script", "Reading Difficulty": "readability", Topic: "topic",
-            Region: "region", "Time Period": "period", Repository: "repository"
+            Language: "language",
+            Topic: "topic",
+            Region: "region", "Time Period": "period"
         }
         const page_SEARCH = [
             "Title", "Physical Description", "Note(s)", "Region",
             "Topic", "Subject", "Repository", "Call Number", "Is Part Of"
         ]
-        loadManuscripts("../iiif-cache/manuscripts.json", Documents)
+        loadManuscripts("../iiif-cache/maps.json", Documents, "no transcribing").then(()=>{
+            Array.from(document.querySelectorAll(".thumbnail")).forEach(el=>el.onload=i=>i.target.src=i.target.src.replace("80,","160,"))
+        })
     </script>
 
     <footer>footer</footer>

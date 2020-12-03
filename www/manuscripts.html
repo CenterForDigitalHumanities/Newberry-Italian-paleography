@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Manuscripts—French Renaissance Paleography</title>
+    <title>Manuscripts—Italian Renaissance Paleography</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -16,23 +16,16 @@
     <div class="container reverse">
         <div id="Manuscripts" class="grow wrap">list loading</div>
         <div class="sidebar">
-            <h3>Refine Results</h3>
-            <ul>
-                <li>Type of Resource</li>
-                <li>Genre</li>
-                <li>Script</li>
-                <li>Reading Difficulty</li>
-                <li>Topic</li>
-                <li>Region</li>
-                <li>Time Period</li>
-                <li>Repository</li>
-            </ul>
+            <h3>Refine Results <button role="button" id="queryReset">clear all</button></h3>
+            <progress value="107" max="107">107 of 107</progress>
+            <input id="query" type="text" placeholder="type to filter">
+            <section id="facetFilter"></section>
         </div>
     </div>
 
     <script src="./script/utils.js"></script>
-    <script >
-        loadManuscripts("../iiif-cache/manuscripts.json",Manuscripts)
+    <script>
+        loadManuscripts("../iiif-cache/manuscripts.json", Manuscripts)
     </script>
 
     <footer>footer</footer>

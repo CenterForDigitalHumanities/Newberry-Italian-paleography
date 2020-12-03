@@ -42,6 +42,72 @@ html {
     max-width : 30em;
     min-width : 200px;
     flex-basis: 200px;
+    position  : relative;
+}
+
+.sidebar ul {
+    margin : 0;
+    padding: 0;
+}
+
+.sidebar li {
+    padding       : calc(var(--grid-gutter) / 4) 0;
+    margin        : 0;
+    display       : block;
+    overflow      : hidden;
+    text-transform: capitalize;
+    text-overflow : ellipsis;
+    background    : var(--color-primary);
+    color         : var(--color-lightGrey);
+    border-left: var(--color-primary) solid thick;
+}
+
+facet {
+    display     : block;
+    position    : relative;
+    cursor      : pointer;
+    transition  : background-color .2s;
+    border-left : var(--color-primary) solid thin;
+    padding-left: calc(var(--grid-gutter)/4);
+    font-size   : smaller;
+}
+
+facet:hover {
+    background-color: var(--color-lightGrey);
+}
+
+facet.clicked {
+    background-color: var(--color-grey);
+}
+
+facet::after {
+    content         : "("attr(data-count)")";
+    position        : absolute;
+    right           : 0;
+    border-radius   : 15%;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.sidebar progress,
+.sidebar input {
+    box-sizing: border-box;
+    width     : 100%;
+    transition: width, progress-value .5s ease-out;
+}
+
+.sidebar input {
+    line-height: 1.6;
+    margin-bottom: var(--grid-gutter);
+}
+
+progress::after {
+    content   : attr(value)" of "attr(max);
+    font-size : .6em;
+    color     : #666666;
+    position  : relative;
+    text-align: right;
+    display   : block;
+    bottom    : 1em;
 }
 
 .reverse {
@@ -71,6 +137,11 @@ html {
     padding       : calc(var(--grid-gutter) / 2);
     box-shadow    : -1px -1px 3px rgba(0, 0, 0, .4);
     margin        : calc(var(--grid-gutter) / 4);
+}
+
+.record[class*='hide-'],
+facet[class*='hide-'] {
+    display: none !important;
 }
 
 dt,

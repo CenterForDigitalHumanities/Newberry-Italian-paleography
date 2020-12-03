@@ -187,6 +187,11 @@ dd p {
     font-weight: bold;
 }
 
+#Documents {
+    overflow: auto;
+    height: calc(100vh - 100px);
+}
+
 #mirador-bookreader {
     position: relative;
     overflow: hidden;

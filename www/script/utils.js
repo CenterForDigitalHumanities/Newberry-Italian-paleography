@@ -1,32 +1,33 @@
 var records = document.querySelectorAll(".record")
-function renderManuscripts(elem, manuscripts) {
+function renderManuscripts(elem, manuscripts,noTranscribe) {
 
     const TPEN_BASE = "http://paleo.rerum.io/TPEN-NL/"
-    const FIELDS = [
+    const FIELDS = page_FIELDS || [
         "Alternative Title", "Date Issued", "Is Part Of",
         "Date Issued", "Author(s) or Contributor(s)"
         // script, decoration, physical description
     ]
-    const FILTERS = {
+    const FILTERS = page_FILTERS || {
         "Type of Resource": "resource-type", Genre: "genre", Language: "language",
         Script: "script", "Reading Difficulty": "readability", Topic: "topic",
         Region: "region", "Time Period": "period", Repository: "repository"
     }
-    const SEARCH = [
+    const SEARCH = page_SEARCH || [
         "Title", "Physical Description", "Note(s)", "Region",
         "Topic", "Subject", "Repository", "Call Number", "Is Part Of"
     ]
 
-    let list = manuscripts.reduce((a, b) => a += `<div class="record" data-id="${b['@id']}">
-    <h4>${b.label}</h4>
-    <div class="row">
-    <img class="thumbnail" src="http://placekitten.com/65/80">
-    <dl>
-    </dl>
-    </div>
-    <div class="btn-group">
-    <a href="./record.html?id=${b['@id']}">View</a> <a href="${TPEN_BASE}?projectID=${b.tpenProject}">Transcribe</a>
-    </div>
+    let list = manuscripts.reduce((a, b) => a += `
+    <div class="record" data-id="${b['@id']}">
+        <h4>${b.label}</h4>
+        <div class="row">
+            <img class="thumbnail" src="http://placekitten.com/65/80">
+            <dl>
+            </dl>
+        </div>
+        <div class="btn-group">
+            <a href="./record.html?id=${b['@id']}">View</a> ${(!noTranscribe)?``:`<a href="${TPEN_BASE}?projectID=${b.tpenProject}">Transcribe</a>`}
+        </div>
     </div>`, ``)
 
     elem.innerHTML = list
@@ -80,7 +81,7 @@ function flashMessage(err) {
     alert(err.message)
 }
 
-async function loadManuscripts(url, elem, pagination = [0,]) {
+async function loadManuscripts(url, elem, noTranscribe, pagination = [0,]) {
     const data = await fetchList(url).catch(err => flashMessage(err)) || {}
     if (data["@id"]) {
         fetchList(data["@id"])
@@ -128,7 +129,8 @@ function updateCount() {
     countBar.max = records.length
     countBar.textContent = countBarValue + " of " + countBar.max
     clearInterval(progress)
-    let step = parseInt((countBarValue - countBar.value) / 25)
+    const notzero = countBarValue > countBar.value ? 1 : -1
+    let step = parseInt((countBarValue - countBar.value) / 25) || notzero
     progress = setInterval(() => {
         countBar.value += step
         if (Math.abs(countBar.value - countBarValue) < 2) {
@@ -153,6 +155,7 @@ function updateCount() {
 function populateSidebar(facets, FILTERS) {
     let side = `<ul>`
     for (const f in FILTERS) {
+        if (!facets[FILTERS[f]]) continue
         side += `<li>${f}</li>`
         side += Array.from(facets[FILTERS[f]]).reduce((a, b) => a += `<facet data-facet="${FILTERS[f]}">${b}</facet>`, ``)
     }

@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Manuscripts—French Renaissance Paleography</title>
+    <title>Calligraphy Books—French Renaissance Paleography</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>header</header>
 
-    <h1>Manuscripts</h1>
+    <h1>Calligraphy Books</h1>
     <div class="container reverse">
         <div id="Documents" class="grow wrap">list loading</div>
         <div class="sidebar">
             <h3>Refine Results <button role="button" id="queryReset">clear all</button></h3>
-            <progress value="107" max="107">107 of 107</progress>
+            <progress value="12" max="12">12 of 12</progress>
             <input id="query" type="text" placeholder="type to filter">
             <section id="facetFilter"></section>
         </div>
@@ -31,15 +31,15 @@
             // script, decoration, physical description
         ]
         const page_FILTERS = {
-            "Type of Resource": "resource-type", Genre: "genre", Language: "language",
-            Script: "script", "Reading Difficulty": "readability", Topic: "topic",
-            Region: "region", "Time Period": "period", Repository: "repository"
+            "Type of Resource": "resource-type", Language: "language",
+            Topic: "topic",
+            Region: "region", "Time Period": "period"
         }
         const page_SEARCH = [
             "Title", "Physical Description", "Note(s)", "Region",
             "Topic", "Subject", "Repository", "Call Number", "Is Part Of"
         ]
-        loadManuscripts("../iiif-cache/manuscripts.json", Documents)
+        loadManuscripts("../iiif-cache/calligraphy.json", Documents, "no transcribing")
     </script>
 
     <footer>footer</footer>

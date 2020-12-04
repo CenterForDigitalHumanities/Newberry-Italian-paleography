@@ -68,7 +68,7 @@ function renderManuscripts(elem, manuscripts, noTranscribe) {
         )
     })
     query.addEventListener("input", filterQuery)
-    return Promise.all(loading).then(() => populateSidebar(facets, FILTERS))
+    return Promise.all(loading).then(() => populateSidebar(facets, FILTERS)).catch(err=>console.error(err))
 }
 
 function fetchList(url) {
@@ -100,11 +100,13 @@ async function loadManuscripts(url, elem, noTranscribe, pagination = [0,]) {
     renderManuscripts(elem, manuscripts)
 }
 
-queryReset.addEventListener("click", ev => {
-    Array.from(document.querySelectorAll(".clicked")).forEach(el => el.dispatchEvent(new Event("click")))
-    query.value = ""
-    query.dispatchEvent(new Event("input"))
-})
+if (window.queryReset) {
+    queryReset.addEventListener("click", ev => {
+        Array.from(document.querySelectorAll(".clicked")).forEach(el => el.dispatchEvent(new Event("click")))
+        query.value = ""
+        query.dispatchEvent(new Event("input"))
+    })
+}
 
 function filterQuery(event) {
     const queryString = event.target.value

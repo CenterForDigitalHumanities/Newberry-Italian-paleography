@@ -47,7 +47,7 @@
             "Topic", "Subject", "Repository", "Call Number", "Is Part Of"
         ]
         loadManuscripts("../iiif-cache/maps.json", Documents, "no transcribing").then(()=>{
-            Array.from(document.querySelectorAll(".thumbnail")).forEach(el=>el.onload=i=>i.target.src=i.target.src.replace("80,","160,"))
+            Array.from(document.querySelectorAll(".thumbnail")).forEach(el=>el.addEventListener("load",i=>i.target.src=i.target.src.replace("80,","160,"),{once:true}))
         })
     </script>
 

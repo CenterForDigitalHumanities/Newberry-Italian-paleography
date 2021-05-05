@@ -169,7 +169,6 @@ function populateSidebar(facets, FILTERS) {
     updateCount()
 }
 
-
 let templates = document.createElement("script")
 templates.src = "script/templates.js"
 document.body.append(templates)

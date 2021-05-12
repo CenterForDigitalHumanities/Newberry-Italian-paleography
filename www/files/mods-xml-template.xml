@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:flvc="info:flvc/manifest/v1" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd">
+    <!-- Title of item -->
+    <titleInfo>
+        <title></title>
+        <!-- Alternate Title. -->
+        <subTitle></subTitle>
+    </titleInfo>
+    <!-- Italian title -->
+    <titleInfo type="alternative">
+        <title></title>
+    </titleInfo>
+    
+    <!-- If the image is part of a larger work, please indicate here: For example, title of entire manuscript the item is from -->
+    <relatedItem type="constituent">
+        <titleInfo>
+            <title></title>
+        </titleInfo>
+    </relatedItem>
+    
+    <!-- Provide an identifier for each object. Needs to follow the format below but can be any number as long as each one is unique. Please keep the italian paleography: in the identifier  -->
+    <identifier type="local">italianpaleography:IP_000</identifier>
+    
+    <!-- Author section. Keep the roleTerm and code as is below.-->
+    <name type="personal">
+        <namePart></namePart>
+        <role>
+            <roleTerm type="text">author</roleTerm>
+        </role>
+        <role>
+            
+            <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+    </name>
+    
+    <!-- Contributor section, illuminator, scribe etc. If you want the description, such as Illumiator, to show up on site follow the format below and put a comma after the name followed by role. Please keep the contributor/ctb as below. Simply copy and paste if you require more -->
+    <name type="personal">
+        <namePart></namePart>
+        <namePart></namePart>
+        <affiliation></affiliation>
+        <role>
+            <roleTerm type="text" authority="marcrelator">contributor</roleTerm>
+        </role>
+        <role>
+            <roleTerm type="code">ctb</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart></namePart>
+        <namePart></namePart>
+        <affiliation></affiliation>
+        <role>
+            <roleTerm type="text" authority="marcrelator">contributor</roleTerm>
+        </role>
+        <role>
+            <roleTerm type="code">ctb</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart></namePart>
+        <namePart></namePart>
+        <affiliation></affiliation>
+        <role>
+            <roleTerm type="text" authority="marcrelator">contributor</roleTerm>
+        </role>
+        <role>
+            <roleTerm type="code">ctb</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart></namePart>
+        <namePart></namePart>
+        <affiliation></affiliation>
+        <role>
+            <roleTerm type="text" authority="marcrelator">contributor</roleTerm>
+        </role>
+        <role>
+            <roleTerm type="code">ctb</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart></namePart>
+        <namePart></namePart>
+        <affiliation></affiliation>
+        <role>
+            <roleTerm type="text" authority="marcrelator">contributor</roleTerm>
+        </role>
+        <role>
+            <roleTerm type="code">ctb</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart></namePart>
+        <namePart></namePart>
+        <affiliation></affiliation>
+        <role>
+            <roleTerm type="text" authority="marcrelator">contributor</roleTerm>
+        </role>
+        <role>
+            <roleTerm type="code">ctb</roleTerm>
+        </role>
+    </name>
+    
+    <!-- Indicate resource type: text, for any manuscript document, cartography, for maps, and sound recording, for sound recording  -->
+    <typeOfResource></typeOfResource>
+    
+    <!-- Use below to further refine the type of resource above. Using the controlled vocab or thesaurus as desired. Below is the the Library of Congress Thesaurus for Graphic Materials. Use only one for each resource.  -->
+    <genre authority="gmgpc"></genre>
+    <genre authority="gmgpc"></genre>
+    <genre authority="gmgpc"></genre>
+    
+    <!-- Place created information. Can be textural field for city, country, province etc -->
+    <originInfo>
+        <place>
+            <placeTerm type="text"></placeTerm>
+        </place>
+        
+        <!-- Date created information. If you have a firm year please just write it. No need for the start/end lines afterwards -->
+        <dateIssued></dateIssued>
+        <dateIssued encoding="marc" point="start"></dateIssued>
+        <dateIssued encoding="marc" point="end"></dateIssued>
+    </originInfo>
+    
+    <physicalDescription>
+        
+        <!-- form is a designation of a particular physical presentation of a resource, including the physical form or medium of material for a resource. Use form to indicate whether the material is a Manuscript document, Manuscript book, Manuscript roll, Printed book, Printed document or Sound recording (for facets)-->
+        <form></form>
+        <form type="material"></form>
+        
+        <!-- Extent is a statement of the number and specific material of the units of the resource that express physical extent -->
+        <extent></extent>
+        <!-- Note is a general Textual information about the physical description of a resource. You can refine the information as such below  -->
+        <note type="note" displayLabel="Note"></note>
+        
+        <!-- you can further refine the note type if you would like. Do this for Script, Marginalia and Decoration. See below -->
+        <note type="script" displayLabel="Script"></note>
+        <note type="marks" displayLabel="Marginalia"></note>
+        <note type="technique" displayLabel="Decoration"></note>
+    </physicalDescription>
+    
+    <!-- Insert short abstract information about the item here. -->
+    <abstract displayLabel="Summary"></abstract>
+    
+    <!-- Reading Difficulty -->
+    <targetAudience></targetAudience>
+    
+    <!-- Use to indicate Provenance information as seen below -->  
+    <note type="ownership" displayLabel="Provenance"></note>
+    
+    <!-- Use this section for Topics, under topic, and Subject manner, under genre. On French there are facets for Topic and Region (use geographic). Should we decide on a controlled vocabulary for this? --> 
+    <subject>
+        <topic authority="lcsh"></topic>
+        <topic authority="lcsh"></topic>
+        <topic authority="lcsh"></topic>
+        <topic authority="lcsh"></topic>
+        <geographic></geographic>
+        <temporal></temporal>
+        <genre authority="lcsh"></genre>
+        <genre authority="lcsh"></genre>
+        <genre authority="lcsh"></genre>
+        <genre authority="lcsh"></genre>
+    </subject>
+    
+    <!-- Call Number -->
+    <classification></classification>
+    
+    <!-- Digital Rights Image Holder -->
+    <accessCondition type="use and reproduction"></accessCondition>
+    
+    <!-- Repository -->
+    <location displayLabel="">
+        <physicalLocation></physicalLocation>
+        
+        <!-- Section below contains URL for Permanent Link, Partial Transcription, Background Essay. Please fill in catalogue link between the a href= quotes. Others will be done at UofT -->
+        <url displayLabel="Catalog Link"></url> 
+        <url displayLabel="Partial Transcription"></url>
+        <url displayLabel="Background Essay"></url>
+    </location>
+</mods>
+

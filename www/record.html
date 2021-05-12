@@ -95,7 +95,8 @@
     <script type="text/javascript" src="https://mirador-dev.netlify.app/dist/mirador.min.js?v=1606873758455"></script>
     <script type="text/javascript">
         const params = (new URL(document.location)).searchParams
-        const manifest_url = params.get('id')
+        const manifest_id = params.get('id')
+        const manifest_url = new RegExp(/^\d{3,4}/).test(manifest_id) ? `https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_${manifest_id}/manifest` : manifest_id
         fetch(manifest_url)
             .then(status => { if (!status.ok) { throw Error(status) } return status })
             .then(response => response.json())

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Generate Markdown From CSV | French Paleography</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+            #downloadessays, #downloadtranscriptions{
+                display: none;
+            }
+
+            #downloadallessays, #downloadalltranscriptions{
+                display:  none;
+                color: -webkit-link;
+                cursor: pointer;
+                padding: 6px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header></header>
+        <div>
+            <p>Click below to generate new Background Essays markdown files for download</p>
+            <input type="button" value="Generate New Background Essays Markdown from the CSV" onclick="newBackgroundEssays(event)" />
+            <h4> Background Essays Available for Download </h4>
+            <input id="downloadallessays" type="button" value="Download All Backgound Essays" onclick="downloadAll(event, 'essays')" />
+            <ul id="availableessays"></ul>
+        </div>
+        <div>
+            <p>Click below to generate new Partial Transcription markdown files for download.</p>
+            <input type="button" value="Generate New Partial Transcription Markdown from the CSV" onclick="newPartialTranscriptions(event)" />
+            <h4> Partial Transcriptions Available for Download </h4>
+            <input id="downloadalltranscriptions" type="button" value="Download All Partial Transcriptions" onclick="downloadAll(event, 'transcriptions')" />
+            <ul id="availabletranscriptions"></ul>
+        </div>
+        <script src="./script/utils.js"></script>
+        <script src="./csv-parser/generate-markdown.js"></script>
+        <script src="./csv-parser/papaparse.min.js"></script>
+        <footer></footer>
+    </body>
+</html>

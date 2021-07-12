@@ -8,6 +8,12 @@ Static pages for the Newberry French Renaissance Paleography project
 - [{{ essay.title }}]({{ site.baseurl }}{{ essay.url }})
 {% endfor %}
 
+## Partial Transcriptions
+
+{% for transcription in site.transcriptions %}
+- [{{ transcription.title }}]({{ site.baseurl }}{{ transcription.url }})
+{% endfor %}
+
 ## Content
 
 {% for p in site.page %}

@@ -1,0 +1,3108 @@
+﻿"Nid","Title","Author UID","Body","Post Date","Updated Date","Published status","Path"
+"2","Reference","251","<p>Reference material for French Renaissance Paleography.</p>","Thursday, April 3, 2014 - 16:37","Thursday, December 17, 2015 - 12:32","Yes","/reference"
+"5","Resources","1","<p>Resources for French Renaissance Paleography.</p>","Thursday, April 10, 2014 - 15:53","Thursday, June 18, 2015 - 12:22","Yes","/resources"
+"8","About French Documents","1","<p>In development.</p>","Wednesday, August 13, 2014 - 13:42","Friday, June 19, 2015 - 14:04","Yes","/types_of_documents"
+"9","Codicology","1","<p>In development.</p>","Wednesday, August 13, 2014 - 13:43","Tuesday, December 8, 2015 - 12:26","No","/codicology"
+"16","Interactive Map","100","<p>This interactive map, created by Emily Kelley, displays most of the manuscripts available on the French Renaissance Paleography site. Manuscripts with unknown coordinates are not available on this map. Click <a href=""/islandora/object/paleography:manuscripts"">here</a> for a full list of manuscripts contained within the French Renaissance Paleography site.</p>
+<div>
+<iframe title=""Interactive map"" allowfullscreen="""" frameborder=""0"" height=""520"" mozallowfullscreen="""" msallowfullscreen="""" oallowfullscreen="""" src=""https://frp.cartodb.com/viz/2ba1e24e-c5ff-11e5-bc97-0ef24382571b/embed_map""></iframe></div>","Thursday, October 9, 2014 - 10:18","Wednesday, April 10, 2019 - 11:47","Yes","/content/interactive-map"
+"17","French Scripts and Hands","100","<p>Marc H. Smith. <a href=""http://www.palaeographia.org/glm/glm.htm?art=smith"">""Pour une préhistoire des écritures modernes.""</a> <em>La Gazette du livre médiéval </em>40 (printemps 2002): 1-13.</p>
+<p>Marc H. Smith. <a href=""/sites/default/files/lackner_25_smith_279-298.pdf"">""L’écriture de la chancellerie de France au xiv<sup>e</sup> siècle : observations sur ses origines et sa diffusion en Europe.""</a> In <em>Régionalisme et internationalisme : problèmes de paléographie et de codicologie du Moyen Âge.</em> Ed. Frank Lackner and Otto Kresten. Vienna: Verlag der Österreichischen Akademie der Wissenschaten, 2008: 279-298.</p>
+<p>Marc H. Smith.<a href=""/sites/default/files/les-gothiques-documentaires-un-carrefour-dans-l-histoire-de-l-ecriture-latine.pdf""> ""Les <em>gothiques documentaires</em> : un carrefour dans l'histoire de l'écriture latine.""</a> <em>Archiv für Diplomatik </em>50 (2004): 417-465.</p>","Thursday, October 9, 2014 - 10:18","Friday, February 26, 2016 - 14:31","Yes","/content/french-scripts-and-hands"
+"18","About French Documents","100","<p>Here are some helpful links:</p>
+<p><a href=""http://theleme.enc.sorbonne.fr/cours/diplomatique"">Notions de diplomatique</a> on the École des Chartes website.</p>
+<p><a href=""http://www.cei.lmu.de/VID/"">Charters Encoding Intiative/Vocabulaire international de la diplomatique</a><br />
+(Based on <em>Vocabulaire international de la diplomatique</em>. Ed. Maria Milagros Càrcel Ortí. València: Universitat de València, 1997.)</p>
+<p>Section <a href=""http://www.menestrel.fr/spip.php?rubrique382&lang=fr"">Diplomatique</a> of the Ménestrel website.</p>","Thursday, October 9, 2014 - 10:19","Monday, February 8, 2016 - 16:51","Yes","/content/about-french-documents"
+"19","Manuscript Preservation","100","<p>Manuscript materials from the Middle Ages and Renaissance encompass a variety of formats including bound volumes, letters, legal documents, calligraphic samples, and maps. The manuscripts themselves were written on paper or parchment, although associated bindings may have been in paper, leather, or vellum. While some documents may be written with pigments or gouache, during the late Middle Ages iron gall ink began to be widely used for handwritten documents as well as for artist’s drawings. Its indelibility also made it desirable for official legal records.</p>
+<p>The preservation of early manuscripts requires consideration of their material composition. A stable storage environment is one of the most important factors in securing their longevity. The optimal environment will be a relatively constant temperature and humidity with very little fluctuation (Newberry Library conditions: 65 degrees Fahrenheit, 45 % Relative Humidity +/- 5%). Additionally, because the damaging effects of light are cumulative, light exposure should be minimized for these materials.</p>
+<p>Manuscripts of this time period may exhibit preservation issues from years of handling and/ or improper storage. Some damage or degradation such as iron gall ink corrosion may require professional conservation treatment to prolong the life of the item. Other common preservation issues include tightly folded documents, planar distortion of parchment or paper, physical damage, restrictive openings of book bindings, flaking pigments.</p>
+<p>Materials that were digitized in this website project were first reviewed by a conservator to identify preservation issues that would require treatment before their digitization. For example, folded documents required unfolding prior to digital capture. Documents and letters that have been folded for hundreds of years are not easy to unfold and may be damaged if attempts are made. In the case of these manuscripts, careful humidification and flattening was performed by a conservator.  Parchment materials, which are extremely hygroscopic, were examined for planar distortions. Distortions not only create issues for digital capture, they present serious preservation concerns for the conservator. Undulations in the page may result in flaking, loss, or lifting of the pigments used for writing. In such cases a conservator, working under a microscope, would perform time-consuming consolidation of the pigments. In addition to conservation of fragile materials prior to digitization, conservators worked with digitization staff to provide the best possible support for the bound codices to reduce stress on bindings during image capture.</p>
+<p>Because even the least invasive conservation treatment alters the original manuscript, preventing deterioration of early manuscripts must be of utmost priority to the researcher as well the institutional depository. Proper storage for these materials as well as gentle handling by researchers will help to ensure these primary sources are preserved for future generations of scholars.</p>
+<p>For more about preservation, see the website of the <a href=""http://www.conservation-us.org/"">American Institute for Conservation of Historic and Artistic Works</a>.</p>
+<p>Lesa Dowd<br />
+Director, Conservation Services<br />
+The Newberry Library</p>","Thursday, October 9, 2014 - 10:19","Tuesday, February 9, 2016 - 16:00","Yes","/manuscript-preservation"
+"21","Transcribing & Editing Conventions","100","<p><strong>Metadata</strong><br />
+For our metadata schema, we have used <a href=""http://www.loc.gov/standards/mods/"">MODS</a>. Click <a href=""/sites/default/files/full_metadata_schema.png"">here</a> for a chart of our full schema.</p>
+<p>We used controlled vocabulary for some of the metadata fields.<br />
+Subjects field: <a href=""http://fast.oclc.org/searchfast/"">FAST</a><br />
+Author/Contributor, Publisher, and Provenance fields: <a href=""http://id.loc.gov/search/?q=&q="">LC Name Authority File</a><br />
+Language field: <a href=""http://id.loc.gov/vocabulary/iso639-2.html"">Iso639-2 Languages</a></p>
+<p>For the Region field, we divided the territory of France into three parts: From Troyes northward is Northern France; Central France is the area between Troyes and Saint-Etienne; Southern France covers the rest of the territory. The complete geographical information (region, departement, <em>arrondissement</em>, <em>canton</em>, <em>commune</em>) for each manuscript appears in the Background Essays and Transcriptions.</p>
+<p><strong>Transcriptions</strong><br />
+We have used the following protocol for our partial transcriptions of the manuscripts presented in this website. We derived it from the “Conseils pour l’édition des textes de l’époque moderne (XVIe-XVIIIe siècle)” [see below], written by Bernard Barbiche and slightly revised by Marc Smith.</p>
+<p>- Line breaks are indicated with a single vertical slash.<br />
+- Paragraph breaks are indicated with a double vertical slash.<br />
+- We have expanded abbreviations and used underlining to indicate what has been added, excepts in a few cases where it is not possible to know for certain what the scribe intended (for instance, ""led."" could be either ""ledict"" or ""ledit"").<br />
+- Editorial additions are placed in square brackets.<br />
+- We have indicated insertions with slanted slashes: <em><strong>\insertion/</strong></em>.<br />
+- We have used caps where a word is highlighted in the original by the use of a particular script.<br />
+- We have used caps for signatures, and very occasionally for emphasis.<br />
+- We have placed textual annotations in endnotes using <strong>a, b, c</strong>.<br />
+- We have placed historical and contextual commentary in footnotes using <strong>1, 2, 3</strong>.</p>
+<p>~~~~~~~~~~~~~~~~~~~~</p>
+<p><strong>Conseils pour l’édition des textes de l’époque moderne (XVI<sup>e</sup>-XVIII<sup>e</sup> siècle)</strong></p>
+<p>Bernard Barbiche -- Version légèrement révisée par Marc Smith (2010). Les passages additionnels ou modifiés sont signalés par des soufflets < >.</p>
+<p><em>Avertissement</em></p>
+<p>Le texte qui suit reprend, sous une forme abrégée et remaniée, les conseils naguère publiés dans <em>L’Édition des textes anciens, XVI</em><em><sup>e</sup></em><em>-XVIII</em><em><sup>e</sup></em> <em>siècle, </em>sous la direction de Bernard Barbiche et Monique Chatenet (Paris : Inventaire général, 1990 ; 2<sup>e</sup> éd. 1993, coll. « Docu­ments et méthodes », 1). Sur certains points, il propose des normes légèrement différentes de celles qui avaient été primitivement énoncées, notamment en ce qui concerne l’accen­tuation des documents des XVI<sup>e</sup> et XVII<sup>e</sup> siècles. Ces modifications sont l’aboutissement d’une étude et d’une réflexion menées sur les imprimés d’époque. L’application des nouvelles règles ci-dessous préconisées devrait rendre plus facile et plus claire l’édition des textes de la première modernité.</p>
+<p><strong>Une édition critique n’est pas une reproduction photographique.</strong> Elle résulte d’un compromis raisonnable entre, d’une part, le respect du texte à publier (dont on ne doit en aucun cas moderniser la graphie) et, d’autre part, le souci de le rendre aussi intelligible que possible pour un lecteur d’aujourd’hui. Un bon éditeur de textes doit faire preuve de constance, de rigueur et de bon sens.</p>
+<p><strong>I.    L’établissement du texte</strong></p>
+<p>Un texte peut nous être parvenu sous diverses formes : brouillon, minute, original, copie, enregistrement au départ ou à l’arrivée, édition ancienne, etc. C’est ce qu’on appelle la <strong>tradition</strong>. Une édition ancienne doit être traitée comme une copie manuscrite.</p>
+<p><strong>1. </strong>Si l’on possède <strong>un seul état </strong>du texte, on le reproduit tel quel en signalant éventuellement les formes aberrantes qu’il présente à l’aide de crochets carrés [ ], de [<em>sic</em>] ou de notes. Avant de décréter qu’une forme est aberrante, on s’assurera que l’usage n’a pas évolué depuis l’époque considérée.</p>
+<p><strong>2. </strong>Si l’on possède <strong>plusieurs états </strong>du texte<strong>, dont l’original </strong>ou <strong>les originaux</strong>, ce(s) dernier(s) ser(ven)t de base à l’édition. Il peut être utile de signaler en note les variantes que présentent certains autres états (minute, registre d’expédition au départ, édition ancienne).</p>
+<p><strong>3. </strong>Si l’on possède <strong>plusieurs états </strong>du texte <strong>autres que l’original, </strong>on choisit celui qui est le plus proche de l’original et on signale en note les variantes que présentent les autres états par rapport au texte de base.</p>
+<p><strong>4. </strong>Seules sont à retenir les <strong>variantes </strong>qui ont une incidence sur le sens du texte, à l’exclusion des particularités purement graphiques ou grammaticales.</p>
+<p><strong>5. </strong>Si les <strong>variantes </strong>sont <strong>nombreuses, </strong>on les regroupe dans une série spéciale de notes appelées par des lettres. Si elles sont <strong>rares</strong>, on peut les inclure dans la série générale des notes appelées par des numéros.</p>
+<p><strong>6. </strong>Si l’<strong>abondance des variantes </strong>est telle que l’annotation critique risque d’être trop complexe, on peut recourir à une présentation <des différents états> du texte en colonnes.</p>
+<p><strong>7. </strong>Les <strong>additions et corrections </strong>marginales ou interlinéaires seront intégrées à leur place dans l’édition, mais leur présence et leur position seront signalées en note <ou par des signes d’insertion, tels que ` ´, ainsi que, éventuellement, les mots raturés, dans la mesure où ils sont lisibles>.</p>
+<p><strong>8. </strong>Les <strong>annotations marginales, apostilles, adresses dorsales, mentions hors teneur </strong>seront signalées dans l’apparat critique.</p>
+<p><strong>II.   La transcription</strong></p>
+<p><strong>1. </strong>En règle générale, il est <strong>inutile de numéroter les lignes </strong>du document édité. Si l’on juge indispensable de procéder à cette signalisation (dans le cas d’un document très abîmé, par exemple), on indiquera les numéros des lignes entre crochets  [ ]. <De même si on choisit d’indiquer au fil du texte les numéros de feuillet.></p>
+<p><strong>2. Graphie. — </strong>La graphie du document doit être rigoureusement respectée. Toutefois, les lettres <em>i </em>et <em>u </em>ayant valeur de consonne seront en principe transcrites respectivement par <em>j </em>et <em>v</em>. Les textes ou passages chiffrés seront <si possible> décryptés.</p>
+<p><strong>3. Transcription des nombres. — </strong>En règle générale, les nombres seront reproduits tels qu’ils se présentent dans le document (en toutes lettres, en chiffres romains ou arabes). Toutefois, dans les comptes ou autres documents financiers, il est recommandé de transcrire en chiffres arabes les données exprimées en chiffres romains.</p>
+<p><strong>4. Lacunes. — </strong>Les passages effacés ou détruits, les lettres ou mots omis accidentellement par le scribe seront restitués entre crochets dans la mesure du possible (à l’aide du sens ou d’une copie, par exemple). En cas d’impossibilité de reconstitution du texte, ces passages seront représentés par des points de suspension, également placés entre crochets […].</p>
+<p><strong>5. Abréviations. — </strong>Les abréviations doivent être développées, sans qu’il soit nécessaire d’indiquer de façon apparente les lettres restituées. Toutefois, dans certains cas ambigus, il peut être préférable de reproduire tel quel un mot abrégé : par exemple <em>s</em><em><sup>r</sup></em> (sieur ou seigneur ?), <em>mons</em><em><sup>r</sup></em> (monsieur ou monseigneur ?), <em>m</em><em><sup>e</sup></em> (maître ou messire ?). D’autres abréviations courantes et aisément intelligibles pourront de même être conservées (<em>led., lad.</em> <ledit, ladite><em>, l. </em><ou £> [livre],<em> s. </em>[sol],<em> d. </em>[denier], <etc.>). Pour résoudre les abréviations, on se référera autant que possible aux graphies clairement attestées dans d’autres parties du texte édité <ou à la même époque et dans le même milieu>.</p>
+<p><strong>6. Séparation des mots. — </strong>Les mots agglutinés seront séparés (par exemple, <em>treshumble </em>sera transcrit <em>tres humble</em>). En revanche, les locutions qui, par la suite, se sont soudées pour ne former qu’un seul mot (il s’agit essentiellement de futurs adverbes et conjonctions : <em>aussi tôt, en fin, long tems, lors que, par tout, sur tout, tous jours</em>) ne seront pas réunies.</p>
+<p><strong>7. Accentuation. — </strong>En matière d’accentuation, il convient d’appliquer à chaque corpus de textes un système cohérent inspiré le plus possible des usages graphiques et typographiques du temps. Concrètement, il paraît sage de distinguer trois périodes :</p>
+<p><em>a) </em><em>Le XVI</em><em><sup>e</sup></em> <em>siècle (jusque vers les années 1580).</em> On appliquera aux textes du XVI<sup>e</sup> siècle les normes fixées pour l’édition des textes médiévaux. Seul l’accent aigu sera utilisé sur la lettre <em>e</em> pour distinguer <em>e</em> tonique de <em>e</em> atone en monosyllabe ou en syllabe finale (n<strong>é</strong>, tomb<strong>é</strong>, vous av<strong>é</strong>s, apr<strong>é</strong>s, proc<strong>é</strong>s). On n’accentuera pas les finales en -ee (n<strong>ee</strong>, arm<strong>ee</strong>). <On emploiera l’accent grave seulement sur les lettres <em>a</em>, <em>e</em> et <em>u</em>, dans les prépositions et les adverbes monosyllabiques, pour les distinguer des mots homographes (à, là, dès, lès, où)>.</p>
+<p><em>b) </em><em>Le XVII</em><em><sup>e</sup></em><em> siècle (vers 1580-vers 1715).</em> Pour l’édition des documents du XVII<sup>e</sup> siècle, les accents peuvent être plus largement utilisés. En particulier, on accentuera les finales en <em>ée</em> (n<strong>é</strong>e, arm<strong>é</strong>e). En revanche, on n’accentuera pas la lettre <em>e</em> à l’intérieur d’un mot<em> (</em>mani<strong>e</strong>re, p<strong>e</strong>re, pr<strong>e</strong>sent<em>).</em></p>
+<p><em>c) </em><em>Le XVIII</em><em><sup>e</sup></em> <em>siècle</em><em>.</em> Pour les documents du XVIII<sup>e</sup> siècle, on appliquera l’usage actuel.</p>
+<p><strong>8. Autres signes orthographiques. — </strong>Le tréma, la cédille, l’apostrophe seront introduits et utilisés conformément à l’usage actuel, même pour des textes du XVI<sup>e</sup> siècle. Inversement, on supprimera le tréma s’il figure sur des mots qui n’en comportent plus aujourd’hui (ex.: <em>queüe, veü)</em>. On emploiera le trait d’union avec modération.</p>
+<p><strong>9. Ponctuation, majuscules et minuscules. — </strong>On appliquera dans tous les cas les règles actuelles, sans tenir compte de la pratique du scribe.</p>
+<p><strong>10. Alinéas. — </strong>En principe, la disposition du texte sera respectée. Toutefois, il peut être utile d’introduire des alinéas dans des développements trop longs ou trop compacts.</p>
+<p><strong>III.  L’apparat critique</strong></p>
+<p>Chaque pièce d’un recueil de documents (actes officiels, correspondances, actes notariés) doit être enchâssée dans un apparat critique comportant :</p>
+<p>— le numéro d’ordre ;</p>
+<p>— s’il s’agit de lettres, les noms du signataire et du destinataire (ou celui du destinataire seul s’il s’agit d’un recueil de lettres du même auteur) ;</p>
+<p>— la date de temps et de lieu exprimée suivant le comput moderne ;</p>
+<p>— le sommaire du document ;</p>
+<p>— le « tableau de la tradition » (sous une forme moins sophistiquée que pour les documents du haut Moyen Age) ;</p>
+<p>— éventuellement les mentions hors teneur, l’adresse et les analyses dorsales (si elles présentent de l’intérêt) ;</p>
+<p>— des notes historiques et critiques.</p>","Thursday, October 9, 2014 - 10:21","Tuesday, February 9, 2016 - 16:40","Yes","/content/transcribing-editing-conventions"
+"22","Teaching","100","<p><span style=""line-height: 18.9091px;"">If you have suggestions for how to use materials in this website for course units, please post them on our <a href=""https://groups.google.com/forum/?hl=en#!forum/french-renaissance-paleography"">discussion forum</a>.</span></p>
+<p>Below are a few ideas to start with.</p>
+<p>~</p>
+<p>Many of the manuscripts in the site may be used to introduce subjects in French civilization, history, language, and literature:</p>
+<p><strong>People</strong><br /><a href=""http://paleography.library.utoronto.ca/islandora/object/paleography:461#page/1/mode/1up"">Mary, Queen of Scots</a> and <a href=""http://paleography.library.utoronto.ca/islandora/object/paleography:430#page/1/mode/1up"">Queen Elizabeth I</a><br /><a href=""http://paleography.library.utoronto.ca/islandora/object/paleography:1817#page/1/mode/1up"">William the Conqueror</a><br /><a href=""https://paleography.library.utoronto.ca/islandora/search/catch_all_fields_mt%3A%28%22Henry%20II%22%29"">King Henry II of France and Catherine de Medici</a><br /><a href=""https://paleography.library.utoronto.ca/islandora/search/catch_all_fields_mt%3A%28king%20queen%29"">Kings and Queens</a></p>
+<p> </p>
+<p><strong>Places</strong><br /><a href=""https://paleography.library.utoronto.ca/islandora/search/bordeaux?type=dismax"">Bordeaux</a><br /><a href=""https://paleography.library.utoronto.ca/islandora/search/catch_all_fields_mt%3A%28loire%20valley%29?f[0]=-entity_type%3A%22node%22&sort=mods_originInfo_qualifier_approximate_dateIssued_s%20asc"">Châteaux of the Loire Valley</a><br /><a href=""https://paleography.library.utoronto.ca/islandora/search/new%20france?type=dismax&f%5B0%5D=mods_subject_geographic_ms%3A%22New\%20France%22"">New France</a><br /><a href=""https://paleography.library.utoronto.ca/islandora/search/catch_all_fields_mt%3A%28Auvergne%29?f[0]=-entity_type%3A%22node%22"">Village life in Auvergne</a></p>
+<p> </p>
+<p><strong>Topics</strong><br /><a href=""https://paleography.library.utoronto.ca/islandora/object/paleography:calligraphybooks"">Calligraphy</a><br /><a href=""http://dcc.newberry.org/collections/daily-life-in-early-modern-france"">Daily life</a> (Digital Collections for the Classroom)<br /><a href=""http://paleography.library.utoronto.ca/islandora/object/paleography:447#page/1/mode/1up"">Fur trade in New France</a> (see also <a href=""http://paleography.library.utoronto.ca/islandora/object/paleography%3A384"">Champlain map</a>)<br /><a href=""https://paleography.library.utoronto.ca/islandora/search/catch_all_fields_mt%3A%28%22hundred%20years%20war%22%29"">Hundred Years War</a><a href=""https://paleography.library.utoronto.ca/islandora/search/catch_all_fields_mt%3A%28%22hundred%20years%20war%22%29?f[0]=-entity_type%3A%22node%22&sort=mods_originInfo_qualifier_approximate_dateIssued_s%20asc""> (1337-1453)</a><br /><a href=""https://paleography.library.utoronto.ca/islandora/search/catch_all_fields_mt%3A%28warfare%29?f[0]=-entity_type%3A%22node%22&sort=mods_originInfo_qualifier_approximate_dateIssued_s%20desc"">Warfare and fortresses</a><br /><a href=""https://paleography.library.utoronto.ca/islandora/search/catch_all_fields_mt%3A%28marriage%29?sort=mods_originInfo_qualifier_approximate_dateIssued_s%20asc"">Women and marriage in <em>Ancien Régime</em> France</a><br /><a href=""https://paleography.library.utoronto.ca/islandora/search/devotional?type=dismax"">Spiritual life</a></p>
+<p> </p>
+<p><strong>Language & Literature</strong><br /><a href=""https://paleography.library.utoronto.ca/islandora/search/catch_all_fields_mt%3A%28Historiography%29?sort=mods_originInfo_qualifier_approximate_dateIssued_s%20asc"">Historiography</a><br /><a href=""https://paleography.library.utoronto.ca/islandora/search/catch_all_fields_mt%3A%28foreign%29?sort=mods_originInfo_qualifier_approximate_dateIssued_s%20asc"">French outside France</a><br /><a href=""https://paleography.library.utoronto.ca/islandora/search/arthurian?type=dismax"">King Arthur and the Knights of the Round Table</a><br /><a href=""https://paleography.library.utoronto.ca/islandora/search/catch_all_fields_mt%3A%28narrative%29?sort=mods_originInfo_qualifier_approximate_dateIssued_s%20asc"">Romances, novels and tales</a></p>
+<p> </p>
+<p><strong>Diplomatic Descriptions</strong></p>
+<p>Students in a French language or literature class could be given the assignment of writing formal diplomatic descriptions of documents included in this site or elsewhere. Click <a href=""/sites/default/files/diplomatic_description.png"">here</a> to see a model.</p>
+<p> </p>
+<p><strong>Sound recordings</strong></p>
+<p>For four of the manuscript documents included in this site, we have provided a recording of a portion of the text. You will find a link to the recording in the Notes field in the metadata for each of these manuscripts:</p>
+<ul><li>
+<p><a href=""/islandora/object/paleography:429"">Harangue faicte à la Royne mere du Roy à Poictiers par le seigneur de Salevert, presidial de ladicte ville, le lendemain de son arrivée qui fut le vingt huictiesme novembre 1575</a></p>
+</li>
+<li>
+<p><a href=""/islandora/object/paleography:443"">Investiture de l'Ile d'Orléans donnée au procureur des concessionnaires par le gouverneur général de la Nouvelle-France</a></p>
+</li>
+<li>
+<p><a href=""/islandora/object/paleography:404"">Les xv joyes Nostre Dame</a></p>
+</li>
+<li>
+<p><a href=""https://paleography.library.utoronto.ca/islandora/object/paleography:462#003a7648-d745-4300-94e9-3bddea9a292f"">Jehan Marion, <em>V</em></a><em><a href=""/islandora/object/paleography:462"">ers d'amour</a></em></p>
+</li>
+</ul><p> </p>","Thursday, October 9, 2014 - 10:21","Friday, February 12, 2016 - 14:02","Yes","/content/teaching"
+"23","Abbreviations","100","<h3><strong>Abré</strong><strong>viations franç</strong><strong>aises</strong></h3>
+<p>Cette liste a été créée par Marc Smith. Elle intègre et étend celle qui figure dans Maurice Prou, <em>Manuel de paléographie latine et française</em>, 4e éd. refondue avec la collaboration d'Alain de Boüard, Paris, 1924, p. 455-474.</p>
+<p>[This list of French abbreviations has been prepared by Marc Smith. It is an expansion of the list found in the fourth edition of <a href=""https://archive.org/stream/manueldepalog00prou#page/350/mode/2up"">Maurice Prou's classic manual for Latin and French paleography</a>.]</p>
+<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>Abréviations fréquentes</h3>
+</td>
+</tr><tr><td><strong><u>p</u></strong> [p barré]</td>
+<td>per, par</td>
+</tr><tr><td><strong><sub>c</sub>p </strong>[p à barre courbe]</td>
+<td>pro</td>
+</tr><tr><td><sup><strong>2</strong></sup> [ondulé]</td>
+<td>ur</td>
+</tr><tr><td><sup><strong>9</strong></sup> [exposant]</td>
+<td>us</td>
+</tr><tr><td><strong>9</strong></td>
+<td>com, con, cun</td>
+</tr></tbody></table><p><a href=""#A"">A</a>  <a href=""#B"">B</a>  <a href=""#C"">C</a>  <a href=""#D"">D</a>  <a href=""#E"">E</a>  <a href=""#F"">F</a>  <a href=""#G"">G</a>  <a href=""#H"">H</a>  <a href=""#I"">I</a>  <a href=""#J"">J</a>  <a href=""#K"">K</a>  <a href=""#L"">L</a>  <a href=""#M"">M</a>  <a href=""#N"">N</a>  <a href=""#O"">O</a>  <a href=""#P"">P</a>  <a href=""#Q"">Q</a>  <a href=""#R"">R</a>  <a href=""#S"">S</a>  <a href=""#T"">T</a>  <a href=""#V"">V</a>  <a href=""#X"">X</a><br /><a href=""#9"">9</a>  <a href=""#special"">Signes spéciaux : monnaies</a><a name=""A"" id=""A""></a></p>
+<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>A</h3>
+</td>
+</tr><tr><td>ab'</td>
+<td>aboutant, aboutissant</td>
+</tr><tr><td>about'</td>
+<td>aboutant, aboutissant</td>
+</tr><tr><td>abdb</td>
+<td>aboutissant d'un bout</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>aca'e, acae'</td>
+<td>à cause</td>
+</tr><tr><td>acau'e, acaue'</td>
+<td>à cause</td>
+</tr><tr><td>accoust'</td>
+<td>accoustumé(es)</td>
+</tr><tr><td>acoust'</td>
+<td>acoustumé(es)</td>
+</tr><tr><td>acq<sup>on</sup></td>
+<td>acquisition</td>
+</tr><tr><td>acqui'on, acquion'</td>
+<td>acquisition</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ad'</td>
+<td>a di(c)t</td>
+</tr><tr><td>ad<sup><sub>eurs</sub></sup></td>
+<td>admodiateurs</td>
+</tr><tr><td>adjo<sup>2</sup>'</td>
+<td>adjourné(es)</td>
+</tr><tr><td>adm'de</td>
+<td>admende</td>
+</tr><tr><td>adrec'</td>
+<td>adreçié(s), adreçant(es)</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>aff""</td>
+<td>affin</td>
+</tr><tr><td>affe</td>
+<td>affere, affaire</td>
+</tr><tr><td>af<sup>fer</sup></td>
+<td>affermer, affirmer</td>
+</tr><tr><td>aff""es, affes'</td>
+<td>afferes, affaires</td>
+</tr><tr><td>aff""<sup>on</sup></td>
+<td>affermation, affirmation</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>als'</td>
+<td>alias</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>am'de</td>
+<td>amande</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ann</td>
+<td>annuel(les)</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ap'liq', apliq'</td>
+<td>apostolique, appostolique</td>
+</tr><tr><td>app<sup>ans</sup></td>
+<td>appel(l)ans</td>
+</tr><tr><td>appart', a<u>pp</u>t'</td>
+<td>appartient</td>
+</tr><tr><td>apparten', a<u>pp</u>ten'</td>
+<td>appartenant, appartenances, appartendra</td>
+</tr><tr><td>app<sup>ons</sup></td>
+<td>appellations</td>
+</tr><tr><td>a<u>pp</u>t'</td>
+<td>appartenant</td>
+</tr><tr><td>app<sup>t</sup>, appt'</td>
+<td>appoin(c)tement</td>
+</tr><tr><td>app<sup>ter</sup></td>
+<td>appoin(c)ter</td>
+</tr><tr><td>ap's, aps'</td>
+<td>aprés</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>arbitre</td>
+<td>arbitraire</td>
+</tr><tr><td>arc<sup>d'</sup></td>
+<td>arcediacre, archidiacre</td>
+</tr><tr><td>arg</td>
+<td>argent</td>
+</tr><tr><td>ar<sup>le</sup></td>
+<td>article</td>
+</tr><tr><td>arp'</td>
+<td>arpent(s)</td>
+</tr><tr><td>arr'</td>
+<td>arrera(i)ges</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ass'</td>
+<td>ass(ç)avoir</td>
+</tr><tr><td>ass'</td>
+<td>assigner</td>
+</tr><tr><td>ass'</td>
+<td>assis(es), assiz(es)</td>
+</tr><tr><td>ass'e</td>
+<td>assise, assize</td>
+</tr><tr><td>ass'es</td>
+<td>assises, assizes</td>
+</tr><tr><td>ass'<sup><sub>on</sub></sup></td>
+<td>assignation</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>au</td>
+<td>avoit, avoir</td>
+</tr><tr><td>auct'e</td>
+<td>auctorité</td>
+</tr><tr><td>auct'ee</td>
+<td>auctorisée</td>
+</tr><tr><td>aud'</td>
+<td>audi(c)t</td>
+</tr><tr><td>au'e, aue'</td>
+<td>au(l)tre</td>
+</tr><tr><td>au'em't, au'emt'</td>
+<td>au(l)trement</td>
+</tr><tr><td>aum'</td>
+<td>au moyen</td>
+</tr><tr><td>auq'l</td>
+<td>auquel</td>
+</tr><tr><td>au'r</td>
+<td>avoir</td>
+</tr><tr><td>ausd'</td>
+<td>ausdi(c)ts, ausdiz, ausdictz</td>
+</tr><tr><td>aut'</td>
+<td>autre</td>
+</tr><tr><td>au't</td>
+<td>avoit</td>
+</tr><tr><td>aut'm't, aut'mt'</td>
+<td>autrement</td>
+</tr><tr><td>aut's</td>
+<td>autres</td>
+</tr><tr><td><a id=""B"" name=""B""></a>Auu'gne</td>
+<td>Auvergne</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 500px;""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>B</h3>
+</td>
+</tr><tr><td>b’</td>
+<td>boisseau - boisseaulx</td>
+</tr><tr><td>b’</td>
+<td>brevet [<i>en marge d’acte notarié</i>]</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>baill’</td>
+<td>bailliage</td>
+</tr><tr><td>Barth’i</td>
+<td>Barthelemi</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>bich’</td>
+<td>bichet</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>bn’</td>
+<td>bien</td>
+</tr><tr><td>bns’</td>
+<td>biens</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>bo<sup>2</sup>g’</td>
+<td>bourgeois</td>
+</tr><tr><td>bouch’r - bouchr’</td>
+<td>bouchier</td>
+</tr><tr><td>bourg’</td>
+<td>bourgeois</td>
+</tr><tr><td>Bourg<sup>ne</sup></td>
+<td>Bourgogne</td>
+</tr><tr><td>bout’</td>
+<td>boutant</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><a id=""C"" name=""C""></a>bt’</td>
+<td>bout</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 500px;""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>C</h3>
+</td>
+</tr><tr><td>ca’e - cae’</td>
+<td>cause</td>
+</tr><tr><td>cap<sup>re</sup></td>
+<td>capitulaire - cappitulaire</td>
+</tr><tr><td>cau’e - caue’</td>
+<td>cause</td>
+</tr><tr><td>cau’on - cauon’</td>
+<td>caution</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ced’</td>
+<td>cedit - cedict [<i>transcrire</i> ced.]</td>
+</tr><tr><td>cestass’</td>
+<td>c’est assavoir</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ch’al - chal’</td>
+<td>cheval</td>
+</tr><tr><td>chapp<sup>re</sup> - chapp’re - chappre’</td>
+<td>chappitre</td>
+</tr><tr><td>chap<sup>re</sup> - chap’re - chapre’</td>
+<td>chapitre - chappitre</td>
+</tr><tr><td>chas9</td>
+<td>chascun</td>
+</tr><tr><td>chastell’</td>
+<td>chastellet</td>
+</tr><tr><td>ch’aulx - chaulx’</td>
+<td>chevaulx</td>
+</tr><tr><td>ch’ge</td>
+<td>charge</td>
+</tr><tr><td>ch’ler’ - chler’</td>
+<td>chevalier - chevallier</td>
+</tr><tr><td>ch’les</td>
+<td>Charles</td>
+</tr><tr><td>chlet</td>
+<td>Chastelet - Chastellet</td>
+</tr><tr><td>ch’lr - chlr’</td>
+<td>chevalier - chevallier</td>
+</tr><tr><td>ch’lx - chlx’</td>
+<td>chevaulx</td>
+</tr><tr><td>chr’</td>
+<td>chevalier - chevallier</td>
+</tr><tr><td>ch’re - chre’</td>
+<td>chartre</td>
+</tr><tr><td>ch’s - chs’</td>
+<td>choses</td>
+</tr><tr><td>ch’un - chun’</td>
+<td>cha(s)cun</td>
+</tr><tr><td>ch’une - chune’</td>
+<td>cha(s)cune</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>cinq<sup>te</sup></td>
+<td>cinquante</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>cle’m’t - cme’mt’</td>
+<td>clerement - clairement</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>coe’</td>
+<td>comme</td>
+</tr><tr><td>cog<sup>c</sup></td>
+<td>cognoissance</td>
+</tr><tr><td>cog<sup>tre</sup></td>
+<td>cognoistre</td>
+</tr><tr><td>coi’con’ - coicon’</td>
+<td>communication</td>
+</tr><tr><td>cois’</td>
+<td>commis</td>
+</tr><tr><td>cola’on - colaon’</td>
+<td>collation</td>
+</tr><tr><td>coll’</td>
+<td>collation</td>
+</tr><tr><td>coll<sup>le</sup></td>
+<td>collegiale</td>
+</tr><tr><td>coll<sup>on</sup> - coll’on - collon’</td>
+<td>collation</td>
+</tr><tr><td>com-</td>
+<td>[voir 9-]</td>
+</tr><tr><td>com’tt’</td>
+<td>commettons</td>
+</tr><tr><td>con-</td>
+<td>[voir 9-]</td>
+</tr><tr><td>cond<sup>on</sup> - cond’on</td>
+<td>condamnation</td>
+</tr><tr><td>cond<sup>ons</sup> - cond’ons</td>
+<td>condamnations - condamnons</td>
+</tr><tr><td>con<sup>er</sup></td>
+<td>conseiller</td>
+</tr><tr><td>con<sup>eur</sup></td>
+<td>controlleur</td>
+</tr><tr><td>cong<sup>ce</sup></td>
+<td>congnoissance</td>
+</tr><tr><td>cong<sup>tre</sup></td>
+<td>congnoistre</td>
+</tr><tr><td>cons<sup>er</sup></td>
+<td>conseiller</td>
+</tr><tr><td>cons’uaon’</td>
+<td>conservation</td>
+</tr><tr><td>conten’</td>
+<td>contenant</td>
+</tr><tr><td>cop’</td>
+<td>copie - coppie</td>
+</tr><tr><td>copp’</td>
+<td>coppie</td>
+</tr><tr><td>co<sup>2</sup>t</td>
+<td>court</td>
+</tr><tr><td>cour’</td>
+<td>courante [<i>monnaie</i>]</td>
+</tr><tr><td>coustem’s</td>
+<td>coustemens</td>
+</tr><tr><td>couu’t<sup>2</sup>e</td>
+<td>couverture</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><a id=""D"" name=""D""></a>cymet’e</td>
+<td>cymetiere</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 500px;""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>D</h3>
+</td>
+</tr><tr><td>d’</td>
+<td>de</td>
+</tr><tr><td>d’</td>
+<td>deniers [<i>transcrire</i> d.]</td>
+</tr><tr><td>d’</td>
+<td>di(c)t</td>
+</tr><tr><td>d’ b’</td>
+<td>d’un bout</td>
+</tr><tr><td>d’ c’</td>
+<td>d’un costé</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>da<sup>le</sup></td>
+<td>damoiselle</td>
+</tr><tr><td>da<sup>lle</sup></td>
+<td>damoiselle</td>
+</tr><tr><td>dam<sup>lle</sup></td>
+<td>damoiselle</td>
+</tr><tr><td>damoi<sup>le</sup></td>
+<td>damoiselle</td>
+</tr><tr><td>darn<sup>mt’</sup></td>
+<td>darnierement - darrenierement</td>
+</tr><tr><td>darr’</td>
+<td>d’arrerages</td>
+</tr><tr><td>dau’e - daue’</td>
+<td>d’autre - d’aultre</td>
+</tr><tr><td>dau’<u>p</u>t</td>
+<td>d’autre part</td>
+</tr><tr><td>dault’</td>
+<td>d’aultre</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>dce’</td>
+<td>dicte - dite</td>
+</tr><tr><td>dces’</td>
+<td>dictes - dites</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>decl’e - decle</td>
+<td>declare - declaire / declaré - déclairé - déclarié</td>
+</tr><tr><td>decl’on - declon’</td>
+<td>declaration</td>
+</tr><tr><td>dec’t</td>
+<td>decret</td>
+</tr><tr><td>ded’</td>
+<td>dedans</td>
+</tr><tr><td>ded’s</td>
+<td>dedans</td>
+</tr><tr><td>def’</td>
+<td>default - defaut</td>
+</tr><tr><td>defen’</td>
+<td>defenses</td>
+</tr><tr><td>deff’</td>
+<td>deffault</td>
+</tr><tr><td>deff’</td>
+<td>deffunt - deffunct</td>
+</tr><tr><td>deff<sup>ant</sup></td>
+<td>deffaillant</td>
+</tr><tr><td>deffen’</td>
+<td>deffenses</td>
+</tr><tr><td>deffend’</td>
+<td>deffendeur - deffendre</td>
+</tr><tr><td>deff<sup>r</sup></td>
+<td>deffendeur</td>
+</tr><tr><td>deh’</td>
+<td>dehu [= <i>dû</i>]</td>
+</tr><tr><td>dem’</td>
+<td>demandeur</td>
+</tr><tr><td>dem’</td>
+<td>demorant - demourant</td>
+</tr><tr><td>dem’d’r</td>
+<td>demandeur</td>
+</tr><tr><td>demour’</td>
+<td>demourant</td>
+</tr><tr><td>den’</td>
+<td>deniers</td>
+</tr><tr><td>depen’</td>
+<td>dependances</td>
+</tr><tr><td>deppen’</td>
+<td>deppendances</td>
+</tr><tr><td>deppend’</td>
+<td>deppendances</td>
+</tr><tr><td>depp<sup>on</sup> - deppon’</td>
+<td>depposition</td>
+</tr><tr><td>dep’s</td>
+<td>depens</td>
+</tr><tr><td>der’</td>
+<td>dernier</td>
+</tr><tr><td>der’e - dere’</td>
+<td>derniere</td>
+</tr><tr><td>der<sup>r</sup> - derr’</td>
+<td>dernier - derrenier</td>
+</tr><tr><td>derr’</td>
+<td>derriere</td>
+</tr><tr><td>desd’</td>
+<td>desdiz - desdicts [<i>transcrire</i> desd.]</td>
+</tr><tr><td>des’d’</td>
+<td>dessusdit - dessusdict - dessusdite - dessusdicte - dessusdictz - dessusdiz</td>
+</tr><tr><td>desm’</td>
+<td>des maintenant</td>
+</tr><tr><td>desm’t - desmt’</td>
+<td>des maintenant</td>
+</tr><tr><td>desor’</td>
+<td>desorendroit</td>
+</tr><tr><td>desp’</td>
+<td>despens</td>
+</tr><tr><td>desq’ll’</td>
+<td>desquelles</td>
+</tr><tr><td>desq’lz</td>
+<td>desquelz</td>
+</tr><tr><td>dess’</td>
+<td>dessus</td>
+</tr><tr><td>dessais’</td>
+<td>dessaisissant</td>
+</tr><tr><td>dess’d’</td>
+<td>dessusdi(c)t(e) -  dessusdi(c)(t)z</td>
+</tr><tr><td>des’uir</td>
+<td>desservir</td>
+</tr><tr><td>deuem’t - deuemt’</td>
+<td>deuement [= <i>dûment</i>]</td>
+</tr><tr><td>deu’</td>
+<td>devoir</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>dillig’</td>
+<td>dilligences</td>
+</tr><tr><td>disc’te</td>
+<td>discrete - discrette</td>
+</tr><tr><td>disc’tte</td>
+<td>discrette</td>
+</tr><tr><td>discut’</td>
+<td>discution</td>
+</tr><tr><td>disp<sup>on</sup> - disp’on</td>
+<td>disposition</td>
+</tr><tr><td>distr’</td>
+<td>distrent [= <i>dirent</i>]</td>
+</tr><tr><td>diu’</td>
+<td>[<i>Saint-Martin</i>] d’iver</td>
+</tr><tr><td>dix<sup>me</sup></td>
+<td>dixiesme</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>d’<sup>le</sup></td>
+<td>domicile</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>doct’</td>
+<td>d’octobre</td>
+</tr><tr><td>dom<sup>le</sup></td>
+<td>domicile</td>
+</tr><tr><td>doct’</td>
+<td>d’octobre</td>
+</tr><tr><td>dom<sup>le</sup></td>
+<td>domicile</td>
+</tr><tr><td>domm’</td>
+<td>dommaiges - dommages</td>
+</tr><tr><td>donn’</td>
+<td>donnees</td>
+</tr><tr><td>doresn’</td>
+<td>doresnavant</td>
+</tr><tr><td>doret’</td>
+<td>dorenavant</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>d<u>p</u>t</td>
+<td>d’une part</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>d<sup>r</sup></td>
+<td>demandeur</td>
+</tr><tr><td>drm’t - drmt’</td>
+<td>dernierement</td>
+</tr><tr><td>d<sup>rs</sup></td>
+<td>demandeurs</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>d’t</td>
+<td>devant</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>du’b’</td>
+<td>d’un bout</td>
+</tr><tr><td>dud’</td>
+<td>dudit - dudict [<i>transcrire</i> dud.]</td>
+</tr><tr><td><a id=""E"" name=""E""></a>duq’l</td>
+<td>duquel</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 500px;""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>E</h3>
+</td>
+</tr><tr><td>e’9t’</td>
+<td>encontre</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>e’f’</td>
+<td>enfans - enffans</td>
+</tr><tr><td>e’ff’</td>
+<td>enffans</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>egl’e - egle’</td>
+<td>eglise</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>en’</td>
+<td>environ</td>
+</tr><tr><td>end’ soy</td>
+<td>endroi(c)t soy</td>
+</tr><tr><td>en’e - ene’</td>
+<td>entre [<i>cf</i>. autre]</td>
+</tr><tr><td>enq<sup>te</sup></td>
+<td>enqueste - enquete</td>
+</tr><tr><td>ens’</td>
+<td>ensemble</td>
+</tr><tr><td>ens’</td>
+<td>ensuit - ensuivent - ensuivant</td>
+</tr><tr><td>ens’ble</td>
+<td>ensemble</td>
+</tr><tr><td>ensem’</td>
+<td>ensemble</td>
+</tr><tr><td>ent’</td>
+<td>entre</td>
+</tr><tr><td>ente’</td>
+<td>entre</td>
+</tr><tr><td>enu’</td>
+<td>environ</td>
+</tr><tr><td>enuir’</td>
+<td>environ</td>
+</tr><tr><td>enu’s</td>
+<td>envers</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ep’al - epal’</td>
+<td>episcopal</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>esch’</td>
+<td>eschoir - escheant</td>
+</tr><tr><td>esch’er</td>
+<td>eschequier</td>
+</tr><tr><td>esc’pre</td>
+<td>escripre</td>
+</tr><tr><td>escr’</td>
+<td>escuier - escuyer</td>
+</tr><tr><td>esd’</td>
+<td>esdits - esdiz - esdictz [<i>transcrire</i> esd.]</td>
+</tr><tr><td>esl’</td>
+<td>eslargi(e)(s)</td>
+</tr><tr><td>esp’al - espal’</td>
+<td>especial</td>
+</tr><tr><td>est’</td>
+<td>estant - estoit - estoient</td>
+</tr><tr><td>est’</td>
+<td>ester [<i>à droit, en justice</i>]</td>
+</tr><tr><td>est’</td>
+<td>estre</td>
+</tr><tr><td>est’</td>
+<td>estevenant [<i>monnaie</i>]</td>
+</tr><tr><td>este’</td>
+<td>Estienne</td>
+</tr><tr><td>estie’</td>
+<td>Estienne</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>e’t’ign’</td>
+<td>enterigner</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>eue’g<sup>les</sup></td>
+<td>Evengiles</td>
+</tr><tr><td>e’uir’</td>
+<td>environ</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>exa<sup>2</sup></td>
+<td>examinateur</td>
+</tr><tr><td>execu’on - execuon’</td>
+<td>execution</td>
+</tr><tr><td>exe’on - exeon’</td>
+<td>execution</td>
+</tr><tr><td>ex<sup>on</sup> - exon’</td>
+<td>execution</td>
+</tr><tr><td>ex’ord’</td>
+<td>extraordinaire</td>
+</tr><tr><td>expl’</td>
+<td>exploict - exploit</td>
+</tr><tr><td>expos<sup>t</sup></td>
+<td>exposant</td>
+</tr><tr><td>ex<sup>re</sup></td>
+<td>executoire</td>
+</tr><tr><td><a id=""F"" name=""F""></a>ex<sup>re</sup></td>
+<td>extraordinaire</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 500px;""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>F</h3>
+</td>
+</tr><tr><td>f’</td>
+<td>fai(c)t</td>
+</tr><tr><td>f’</td>
+<td>feu</td>
+</tr><tr><td>f’</td>
+<td>francs [<i>monnaie</i>]</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>fais’</td>
+<td>faisant</td>
+</tr><tr><td>fais’</td>
+<td>faisons</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>f b</td>
+<td>fai(c)t brevet [<i>en marge d’acte notarié</i>]</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>fce</td>
+<td>fe(c)te - fai(c)te</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>f’e - fe’</td>
+<td>fere - faire</td>
+</tr><tr><td>fe’</td>
+<td>femme</td>
+</tr><tr><td>feb’</td>
+<td>febvrier</td>
+</tr><tr><td>f’er</td>
+<td>fermier</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>f g</td>
+<td>fai(c)t grosse [<i>en marge d’acte notarié</i>]</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>fir’</td>
+<td>firent</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>f’me</td>
+<td>femme</td>
+</tr><tr><td>f’me</td>
+<td>ferme</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>f p b</td>
+<td>fai(c)t par brevet [<i>en marge d’acte notarié</i>]</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>f’r</td>
+<td>fermier</td>
+</tr><tr><td>fr’</td>
+<td>francs [<i>monnaie</i>]</td>
+</tr><tr><td>fran’</td>
+<td>François</td>
+</tr><tr><td>f’re</td>
+<td>faire</td>
+</tr><tr><td>fre’</td>
+<td>frere</td>
+</tr><tr><td>from’</td>
+<td>froment</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>f<sup>t</sup></td>
+<td>fai(c)t</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><a id=""G"" name=""G""></a>fur’</td>
+<td>furent</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 500px;""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>G</h3>
+</td>
+</tr><tr><td>g’</td>
+<td>gros [<i>monnaie</i>]</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>gaigneden’</td>
+<td>gaigne denier</td>
+</tr><tr><td>gar’</td>
+<td>garantir - garentir</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>g’d’</td>
+<td>garder</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>gen’aux</td>
+<td>generaux</td>
+</tr><tr><td>gen<sup>ue</sup></td>
+<td>Genevieve</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>g’ff’</td>
+<td>greffier  [<i>par abus :</i> greffe]</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>gn’al - gnal’</td>
+<td>general</td>
+</tr><tr><td>gnallem’</td>
+<td>generallement</td>
+</tr><tr><td>gnalt’</td>
+<td>generalment - generalement</td>
+</tr><tr><td>gn’aulx</td>
+<td>generaulx</td>
+</tr><tr><td>g’nche</td>
+<td>granche [= <i>grange</i>]</td>
+</tr><tr><td>g’nt</td>
+<td>grant</td>
+</tr><tr><td>g’ny</td>
+<td>garny</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>gouu’ne<sup>t</sup></td>
+<td>gouvernement</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>graigne<sup>2</sup></td>
+<td>graigneur [= <i>plus grand</i>]</td>
+</tr><tr><td>gre’</td>
+<td>grace</td>
+</tr><tr><td>grfmt’</td>
+<td>griefment</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>gss’</td>
+<td>grosses</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>guill’e - guille’</td>
+<td>Guillaume</td>
+</tr><tr><td>guill’in - guillin’</td>
+<td>Guillemin - Guillaumin</td>
+</tr><tr><td>guill’tte</td>
+<td>Guillemette</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><a id=""H"" name=""H""></a>g’yee</td>
+<td>grossoyee</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 500px;""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>H</h3>
+</td>
+</tr><tr><td>habi’aon</td>
+<td>habitation</td>
+</tr><tr><td>h’able</td>
+<td>heritable</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>her’</td>
+<td>heritier</td>
+</tr><tr><td>her<sup>r</sup></td>
+<td>heritier</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>h’it’</td>
+<td>habitans</td>
+</tr><tr><td>h’it’</td>
+<td>heritage</td>
+</tr><tr><td>h’it’</td>
+<td>heritier</td>
+</tr><tr><td>h’itans</td>
+<td>habitans</td>
+</tr><tr><td>hitaon’</td>
+<td>habitation</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>hoe’</td>
+<td>homme</td>
+</tr><tr><td>hon’</td>
+<td>honnorable [<i>homme</i>] - honneste [<i>femme</i>]</td>
+</tr><tr><td>honn’</td>
+<td>honnorable [<i>homme</i>] - honneste [<i>femme</i>]</td>
+</tr><tr><td>honn<sup>ble</sup></td>
+<td>honnorable</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>hrs’</td>
+<td>hoirs - heritiers</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>huict’</td>
+<td>huictiesme</td>
+</tr><tr><td><a id=""I"" name=""I""></a><a id=""J"" name=""J""></a>huict<sup>me</sup></td>
+<td>huictiesme</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 500px;""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>I = J</h3>
+</td>
+</tr><tr><td>jan’</td>
+<td>janvier</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>icell’</td>
+<td>icelles</td>
+</tr><tr><td>icell’</td>
+<td>icelluy</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ih’c</td>
+<td>jesus</td>
+</tr><tr><td>ih’s</td>
+<td>jesus</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ill<sup>me</sup></td>
+<td>illustrissime</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>imp’</td>
+<td>impetrant</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>inu<sup>re</sup></td>
+<td>inventoire - inventaire</td>
+</tr><tr><td>inuent’</td>
+<td>inventorié</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>it’</td>
+<td>item</td>
+</tr><tr><td>ite’</td>
+<td>item</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>jad’</td>
+<td>jadis</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>jeh’</td>
+<td>Jehan</td>
+</tr><tr><td>jeh’in</td>
+<td>Jehannin</td>
+</tr><tr><td>jeh’ot</td>
+<td>Jehannot</td>
+</tr><tr><td>jeh’tte</td>
+<td>Jehannette</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>inf<sup>on</sup></td>
+<td>information</td>
+</tr><tr><td>int’</td>
+<td>interrogé</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>jo<sup>2</sup></td>
+<td>jour</td>
+</tr><tr><td>joux’</td>
+<td>jouxte</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>jr’</td>
+<td>jour</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>jug’</td>
+<td>jugement</td>
+</tr><tr><td>ju’g</td>
+<td>juing</td>
+</tr><tr><td>jugem’</td>
+<td>jugement</td>
+</tr><tr><td>jugem’t - jugemt’</td>
+<td>jugement</td>
+</tr><tr><td>jur’</td>
+<td>jurerent</td>
+</tr><tr><td>jur’</td>
+<td>juridiction</td>
+</tr><tr><td>jur’d<sup>on</sup></td>
+<td>juridiction</td>
+</tr><tr><td><a id=""K"" name=""K""></a>jusq’s - jusqs’</td>
+<td>jusques</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>K</h3>
+</td>
+</tr><tr><td>ka<sup>ne</sup></td>
+<td>Katherine</td>
+</tr><tr><td>kath’ne</td>
+<td>Katherine</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>kl’</td>
+<td>kalendes</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><a id=""L"" name=""L""></a>k<sup>ne</sup></td>
+<td>Katherine</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 500px;""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>L</h3>
+</td>
+</tr><tr><td>l’</td>
+<td>livres</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>lab’</td>
+<td>laboureur</td>
+</tr><tr><td>lann’</td>
+<td>l’annee</td>
+</tr><tr><td>lass’</td>
+<td>l’assise</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>lb’ - ll’ - <s><sup>ll</sup></s></td>
+<td>livres</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>le<sup>2</sup></td>
+<td>leur</td>
+</tr><tr><td>led’</td>
+<td>ledit - ledict [<i>transcrire</i> led.]</td>
+</tr><tr><td>leq’l</td>
+<td>lequel</td>
+</tr><tr><td>le<sup>2</sup>s</td>
+<td>leurs</td>
+</tr><tr><td>lesd’</td>
+<td>lesdits - lesdiz - lesdictz [<i>transcrire</i> lesd.]</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>lic’</td>
+<td>licencié</td>
+</tr><tr><td>licen’</td>
+<td>licence</td>
+</tr><tr><td>licen’</td>
+<td>licencié</td>
+</tr><tr><td>lieud’</td>
+<td>lieu dit</td>
+</tr><tr><td>lieuten’</td>
+<td>lieutenant</td>
+</tr><tr><td>lieut<sup>t</sup></td>
+<td>lieutenant</td>
+</tr><tr><td>lieuxten’</td>
+<td>lieuxtenans</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>l’ p’</td>
+<td>livres parisis [<i>transcrire</i> l. p. ou £ p.]</td>
+</tr><tr><td>l’ par’</td>
+<td>livres parisis</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>l’res - lres’</td>
+<td>lettres</td>
+</tr><tr><td>l’rez</td>
+<td>lettrez</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>l’ t.</td>
+<td>livres tournois [<i>transcrire</i> l. t. ou £ t.]</td>
+</tr><tr><td><a id=""M"" name=""M""></a>l’ tourn’</td>
+<td>livres tournois</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 500px;""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>M</h3>
+</td>
+</tr><tr><td>M</td>
+<td>monsieur</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ma<sup>el</sup></td>
+<td>[<i>seing</i>] manuel</td>
+</tr><tr><td>magd’</td>
+<td>Magdelaine</td>
+</tr><tr><td>mainten’</td>
+<td>maintenant</td>
+</tr><tr><td>mais’</td>
+<td>maison</td>
+</tr><tr><td>mand’</td>
+<td>mandons</td>
+</tr><tr><td>mandem’</td>
+<td>mandement</td>
+</tr><tr><td>man’e - mane’</td>
+<td>maniere</td>
+</tr><tr><td>mar’</td>
+<td>mariage</td>
+</tr><tr><td>mar<sup>al</sup></td>
+<td>mareschal</td>
+</tr><tr><td>march’</td>
+<td>marchant - marchand</td>
+</tr><tr><td>ma<sup>te</sup></td>
+<td>majesté</td>
+</tr><tr><td>mat’es - mates’</td>
+<td>matieres</td>
+</tr><tr><td>math’</td>
+<td>Mathieu</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>m’c’di</td>
+<td>mercredi</td>
+</tr><tr><td>m’ch’</td>
+<td>marchant - marchand</td>
+</tr><tr><td>m’di</td>
+<td>mardi</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>m<sup>e</sup> - M<sup>e</sup> - m<sup>E</sup> - mE</td>
+<td>maistre</td>
+</tr><tr><td>m’e - me’</td>
+<td>mere</td>
+</tr><tr><td>m<sup>e</sup></td>
+<td>memoire</td>
+</tr><tr><td>mem<sup>re</sup></td>
+<td>memoire</td>
+</tr><tr><td>mesm’</td>
+<td>mesmement</td>
+</tr><tr><td>mess’</td>
+<td>messieurs - messeigneurs</td>
+</tr><tr><td>mess’</td>
+<td>messire</td>
+</tr><tr><td>mess<sup>e</sup></td>
+<td>messire</td>
+</tr><tr><td>mess<sup>rs</sup></td>
+<td>messieurs - messeigneurs</td>
+</tr><tr><td>mest’</td>
+<td>mestier</td>
+</tr><tr><td>mett’ - mect’</td>
+<td>mettre</td>
+</tr><tr><td>meub’</td>
+<td>meuble</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>m’lt - mlt’</td>
+<td>moult - molt - mout</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>moienn’</td>
+<td>moiennant</td>
+</tr><tr><td>moict’ - moitt’</td>
+<td>moictié - moittié</td>
+</tr><tr><td>mon’</td>
+<td>monnoie</td>
+</tr><tr><td>mond’</td>
+<td>mondit - mondict [<i>transcrire</i> mond.]</td>
+</tr><tr><td>monn’</td>
+<td>monnoie(s)</td>
+</tr><tr><td>mons’</td>
+<td>monseigneur - monsieur [<i>transcrire</i> mons<sup>r</sup>]</td>
+</tr><tr><td>mons<sup>r</sup></td>
+<td>monseigneur - monsieur [<i>transcrire</i> mons<sup>r</sup>]</td>
+</tr><tr><td>mo’s’</td>
+<td>monseigneur - monsieur [<i>transcrire</i> mons<sup>r</sup>]</td>
+</tr><tr><td>mo’st’</td>
+<td>monstier</td>
+</tr><tr><td>moyenn’</td>
+<td>moyennant</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>m’s</td>
+<td>maistres - maitres</td>
+</tr><tr><td>m’s</td>
+<td>mars</td>
+</tr><tr><td>m’s</td>
+<td>moins</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><a id=""N"" name=""N""></a>m’tin</td>
+<td>Martin</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody></tbody><tbody><tr><td colspan=""2"">
+<h3>N</h3>
+</td>
+</tr><tr><td>n’</td>
+<td>ne</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>n<sup>bre</sup></td>
+<td>novembre</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ncte’</td>
+<td>necessité</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>neantm’</td>
+<td>neantmoins</td>
+</tr><tr><td>necc’re - neccre’</td>
+<td>necessaire</td>
+</tr><tr><td>nec’tez</td>
+<td>necessitez</td>
+</tr><tr><td>neuf<sup>me</sup></td>
+<td>neufviesme</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>nicol’</td>
+<td>Nicolas - Nicollas</td>
+</tr><tr><td>nicoll’</td>
+<td>Nicollas</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>nl’</td>
+<td>nul</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>no<sup>9</sup></td>
+<td>nous</td>
+</tr><tr><td>nob’</td>
+<td>noble</td>
+</tr><tr><td>no<sup>bre</sup></td>
+<td>novembre</td>
+</tr><tr><td>nob<sup>re</sup></td>
+<td>novembre</td>
+</tr><tr><td>noe’</td>
+<td>nomme - nommé</td>
+</tr><tr><td>noez’</td>
+<td>nommez</td>
+</tr><tr><td>nonobst’</td>
+<td>nonobstant</td>
+</tr><tr><td>no<sup>re</sup></td>
+<td>notaire</td>
+</tr><tr><td>noss<sup>rs</sup></td>
+<td>nosseigneurs</td>
+</tr><tr><td>not’</td>
+<td>notere - notaire</td>
+</tr><tr><td>not’e - note’</td>
+<td>notere - notaire</td>
+</tr><tr><td>nott’es - nottes’</td>
+<td>nottaires</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>n’re - nre’</td>
+<td>nostre - notre</td>
+</tr><tr><td>n’red’</td>
+<td>nostredit - notredit [<i>transcrire</i> nostred. - notred.]</td>
+</tr><tr><td>nre’dae’</td>
+<td>Nostre Dame - Notre Dame</td>
+</tr><tr><td>nre’s’</td>
+<td>nostre sire - nostre seigneur</td>
+</tr><tr><td>nre’s<sup>e</sup></td>
+<td>nostre sire</td>
+</tr><tr><td><a id=""O"" name=""O""></a>nre’s<sup>r</sup></td>
+<td>nostre seigneur</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>O</h3>
+</td>
+</tr><tr><td>O’</td>
+<td>obligeant (clauses finales)</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ob’</td>
+<td>obligeans (id.)</td>
+</tr><tr><td>obeiss’</td>
+<td>obeissance</td>
+</tr><tr><td>obl’</td>
+<td>obligeans</td>
+</tr><tr><td>oblig’</td>
+<td>obligeant</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>oct’</td>
+<td>octave</td>
+</tr><tr><td>oct’</td>
+<td>octobre</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>off<sup>al</sup></td>
+<td>official</td>
+</tr><tr><td>offie’</td>
+<td>office</td>
+</tr><tr><td>offier’</td>
+<td>officier</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>op<sup>on</sup></td>
+<td>opposition</td>
+</tr><tr><td>opp<sup>on</sup> - oppon’</td>
+<td>opposition</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ord<sup>ce</sup></td>
+<td>ordonnance</td>
+</tr><tr><td>ord<sup>ne</sup></td>
+<td>ordonne - ordonné</td>
+</tr><tr><td>ordonn’</td>
+<td>ordonnance</td>
+</tr><tr><td>ordonn’</td>
+<td>ordonnant</td>
+</tr><tr><td>ord<sup>re</sup></td>
+<td>ordinaire</td>
+</tr><tr><td>orr’</td>
+<td>orront</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>oud’</td>
+<td>oudit [= <i>en ledit</i>] [<i>transcrire</i> oud.]</td>
+</tr><tr><td>ou’e - oue’</td>
+<td>outre [<i>cf.</i> autre]</td>
+</tr><tr><td>oult</td>
+<td>oultre</td>
+</tr><tr><td>out’</td>
+<td>outre</td>
+</tr><tr><td><a id=""P"" name=""P""></a>ouurs’</td>
+<td>ouvriers</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>P</h3>
+</td>
+</tr><tr><td><u>p</u></td>
+<td>par</td>
+</tr><tr><td>p’</td>
+<td>parisis</td>
+</tr><tr><td>p’</td>
+<td>payé [<i>en marge d’acte notarié</i>]</td>
+</tr><tr><td>p’</td>
+<td>premier</td>
+</tr><tr><td>p<sup>2</sup></td>
+<td>pour</td>
+</tr><tr><td>P’</td>
+<td>Promettant (clauses finales)</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>paiert’</td>
+<td>paieront</td>
+</tr><tr><td>pall’</td>
+<td>pallais</td>
+</tr><tr><td>papp’</td>
+<td>pappier</td>
+</tr><tr><td>parr’</td>
+<td>parroisse</td>
+</tr><tr><td>parroch<sup>ale</sup></td>
+<td>parrochiale</td>
+</tr><tr><td>payem’</td>
+<td>payement</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>pbre’</td>
+<td>prestre - prebstre</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><sub>c</sub>pc<sup>2</sup>          </td>
+<td>procureur</td>
+</tr><tr><td>p<sup>ce</sup></td>
+<td>piece</td>
+</tr><tr><td>p’ced’</td>
+<td>precedent</td>
+</tr><tr><td><sub>c</sub>pced’</td>
+<td>proceder</td>
+</tr><tr><td><sub>c</sub>pces</td>
+<td>procés</td>
+</tr><tr><td><sub>c</sub>pcess’</td>
+<td>procession</td>
+</tr><tr><td><sub>c</sub>pcess<sup>on</sup></td>
+<td>procession</td>
+</tr><tr><td><sub>c</sub>pch’ ven’</td>
+<td>prochain venant - prochainement venant</td>
+</tr><tr><td><sub>c</sub>pch’</td>
+<td>prochain</td>
+</tr><tr><td><u>p</u>ches</td>
+<td>perches</td>
+</tr><tr><td><u>p</u>chun’ <u>p</u>chun’</td>
+<td>par chascun - par chacun</td>
+</tr><tr><td><sub>c</sub>pcur<sup>2</sup> - <sub>c</sub>pcur’</td>
+<td>procureur</td>
+</tr><tr><td><sub>c</sub>pcurat’</td>
+<td>procuration</td>
+</tr><tr><td><u>p</u>cyd<sup>t</sup></td>
+<td>par cy devant²</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><u>p</u>derr’</td>
+<td>par derriere</td>
+</tr><tr><td><u>p</u>d<sup>t</sup></td>
+<td>par devant</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>pend’</td>
+<td>pendant</td>
+</tr><tr><td>p’er</td>
+<td>prier</td>
+</tr><tr><td><u>p</u>esp’al - <u>p</u>espal’</td>
+<td>par especial</td>
+</tr><tr><td>p’eur</td>
+<td>prieur</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>p’ffions’</td>
+<td>preffixions</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>phl’es - phles’</td>
+<td>Philippes</td>
+</tr><tr><td>phl’on - phlon’</td>
+<td>Philippon</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><u>p</u>is</td>
+<td>Paris</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>p’jud’</td>
+<td>prejudice</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><u>p</u>lem’</td>
+<td>parlement</td>
+</tr><tr><td><u>p</u>lem’t - <u>p</u>lemt’</td>
+<td>parlement</td>
+</tr><tr><td>plus’</td>
+<td>plusieurs</td>
+</tr><tr><td>plus’s</td>
+<td>plusieurs</td>
+</tr><tr><td>plusapl’</td>
+<td>plus a plein</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>p’m’</td>
+<td>premier</td>
+</tr><tr><td><sub>c</sub>pm’</td>
+<td>promect - promet</td>
+</tr><tr><td><sub>c</sub>pmaon’</td>
+<td>proclamation</td>
+</tr><tr><td><sub>c</sub>pmett’</td>
+<td>promectant - promettant</td>
+</tr><tr><td><u>p</u>miss’</td>
+<td>permission</td>
+</tr><tr><td><u>p</u>m’pt<sup>re</sup></td>
+<td>peremptoire</td>
+</tr><tr><td>p’m’s</td>
+<td>premiers</td>
+</tr><tr><td><u>p</u>my</td>
+<td>parmy [= <i>moyennant</i>]</td>
+</tr><tr><td>’</td>
+<td> </td>
+</tr><tr><td>pn’ce - pnce</td>
+<td>presence</td>
+</tr><tr><td>p’ndre</td>
+<td>prendre</td>
+</tr><tr><td>pn’du</td>
+<td>pretendu</td>
+</tr><tr><td>p’ne<sup>2</sup></td>
+<td>preneur</td>
+</tr><tr><td>pn’s - pns’</td>
+<td>presens</td>
+</tr><tr><td>p’ns</td>
+<td>prins [= <i>pris</i>]</td>
+</tr><tr><td>pn’t - pnt’</td>
+<td>present</td>
+</tr><tr><td>pn’t’</td>
+<td>presentes</td>
+</tr><tr><td>pntem’</td>
+<td>presentement</td>
+</tr><tr><td>pn’ter</td>
+<td>presenter</td>
+</tr><tr><td>pn’tes - pntes’</td>
+<td>presentes</td>
+</tr><tr><td>pn’tz</td>
+<td>presentz</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>po<sup>2</sup></td>
+<td>pour</td>
+</tr><tr><td><sub>c</sub>pon’</td>
+<td>procuration</td>
+</tr><tr><td>po<sup>on</sup> - poon’</td>
+<td>possession</td>
+</tr><tr><td>port’</td>
+<td>portion</td>
+</tr><tr><td>poss’</td>
+<td>possession</td>
+</tr><tr><td>poss’<sup>on</sup></td>
+<td>possession</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>p’pal - ppal’</td>
+<td>principal</td>
+</tr><tr><td><sub>c</sub>pp’ete</td>
+<td>proprieté</td>
+</tr><tr><td><sub>c</sub>pp’et’e</td>
+<td>proprietaire</td>
+</tr><tr><td><sub>c</sub>ppos’</td>
+<td>proposer</td>
+</tr><tr><td><sub>c</sub>pp’s</td>
+<td>propres</td>
+</tr><tr><td><u>p</u>puel’</td>
+<td>perpetuel</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><u>p</u>r’</td>
+<td>parroisse</td>
+</tr><tr><td><u>p</u>re</td>
+<td>Pierre</td>
+</tr><tr><td>preal’</td>
+<td>presidial</td>
+</tr><tr><td>premier’</td>
+<td>premierement</td>
+</tr><tr><td><u>p</u>ris</td>
+<td>Parris</td>
+</tr><tr><td>proc<sup>2</sup></td>
+<td>procureur</td>
+</tr><tr><td>prom’</td>
+<td>promettant</td>
+</tr><tr><td>pron’</td>
+<td>prononcé</td>
+</tr><tr><td>pr’onaige</td>
+<td>patronaige</td>
+</tr><tr><td>prouch’</td>
+<td>prouchain</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>p’s’</td>
+<td>prise - prisee - prisez - prisees [<i>inventaires</i>]</td>
+</tr><tr><td>p’sc’p<sup>on</sup></td>
+<td>prescription</td>
+</tr><tr><td>p’se</td>
+<td>prisé</td>
+</tr><tr><td>p’sid’</td>
+<td>president</td>
+</tr><tr><td><u>p</u>soe’        </td>
+<td>personne</td>
+</tr><tr><td><u>p</u>son’</td>
+<td>personne</td>
+</tr><tr><td>p’son</td>
+<td>prison</td>
+</tr><tr><td>p’sonn’</td>
+<td>prisonnier</td>
+</tr><tr><td><u>p</u>so’ne</td>
+<td>personne</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><u>p</u>t</td>
+<td>part</td>
+</tr><tr><td><u>p</u>t’</td>
+<td>partie - parties</td>
+</tr><tr><td><u>p</u>t’<sup>es</sup></td>
+<td>parties</td>
+</tr><tr><td><sub>c</sub>pth’</td>
+<td>prothomartyr [saint Etienne]</td>
+</tr><tr><td><u>p</u>tion</td>
+<td>portion</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><sub>c</sub>puch’</td>
+<td>prouchain</td>
+</tr><tr><td>puiss’</td>
+<td>puissant</td>
+</tr><tr><td>puissan’</td>
+<td>puissance</td>
+</tr><tr><td><sub>c</sub>puis’</td>
+<td>provision</td>
+</tr><tr><td><sub>c</sub>puu’</td>
+<td>prouver</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><a id=""Q"" name=""Q""></a>p’x</td>
+<td>prix</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>Q</h3>
+</td>
+</tr><tr><td>q’</td>
+<td>que</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>q<sup>i</sup> - q’</td>
+<td>qui</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>q’l</td>
+<td>quel</td>
+</tr><tr><td>q’l</td>
+<td>qu’il</td>
+</tr><tr><td>q’l9q’</td>
+<td>quelconque</td>
+</tr><tr><td>q’lconq’</td>
+<td>quelconque</td>
+</tr><tr><td>q’lle</td>
+<td>qu’elle</td>
+</tr><tr><td>q’lle</td>
+<td>quelle</td>
+</tr><tr><td>q’lles</td>
+<td>qu’elles</td>
+</tr><tr><td>q’lles</td>
+<td>qu’il les</td>
+</tr><tr><td>q’lq’</td>
+<td>quelque</td>
+</tr><tr><td>q’lxco’q’s</td>
+<td>quelxconques</td>
+</tr><tr><td>q’lz</td>
+<td>quelz</td>
+</tr><tr><td>q’lz</td>
+<td>qu’ilz</td>
+</tr><tr><td>q’lzco’q’s</td>
+<td>quelzconques</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>q’tt’</td>
+<td>quitté - quittié - quitte - quittent</td>
+</tr><tr><td>q’ttan’</td>
+<td>quittance</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>qua’t - quat’</td>
+<td>quant</td>
+</tr><tr><td><a id=""R"" name=""R""></a>quat’</td>
+<td>quatre</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><colgroup></colgroup><tbody><tr><td colspan=""2"">
+<h3>R</h3>
+</td>
+</tr><tr><td>R’</td>
+<td>receu - reçu</td>
+</tr><tr><td>R’</td>
+<td>renonçant (clauses finales)</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>rais’</td>
+<td>raison</td>
+</tr><tr><td>rais’</td>
+<td>raisonnable</td>
+</tr><tr><td>rais<sup>ble</sup></td>
+<td>raisonnable</td>
+</tr><tr><td>R’al</td>
+<td>royal</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>R’de</td>
+<td>recommandé</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>recla<sup>on</sup> - recla’on - reclaon’</td>
+<td>reclamation</td>
+</tr><tr><td>recl<sup>on</sup> - recl’on</td>
+<td>reclamation</td>
+</tr><tr><td>reco’<sup>ons</sup></td>
+<td>recommandations</td>
+</tr><tr><td>reg<sup>re</sup> - regre’</td>
+<td>registre</td>
+</tr><tr><td>rela’on - relaon’</td>
+<td>relation</td>
+</tr><tr><td>rell’</td>
+<td>rellation</td>
+</tr><tr><td>rell’on - rellon’</td>
+<td>rellation</td>
+</tr><tr><td>rem<sup>ces</sup></td>
+<td>remontrances</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ren’</td>
+<td>renonce - renonçans</td>
+</tr><tr><td>rend’</td>
+<td>rendre</td>
+</tr><tr><td>ren’on</td>
+<td>renonciation</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>re<u>p</u>a<sup>on</sup></td>
+<td>reparation</td>
+</tr><tr><td>repn’tans - repntans’</td>
+<td>representans</td>
+</tr><tr><td>repn’te - repnte’</td>
+<td>represente</td>
+</tr><tr><td>repn’ter - repnter’</td>
+<td>representer</td>
+</tr><tr><td>req<sup>te</sup></td>
+<td>requeste - requete</td>
+</tr><tr><td>resp’</td>
+<td>respectivement</td>
+</tr><tr><td>respon’</td>
+<td>response - responce</td>
+</tr><tr><td>respond’</td>
+<td>respondre</td>
+</tr><tr><td>res’ue</td>
+<td>reserve - reservé</td>
+</tr><tr><td>reu’en’</td>
+<td>reverence</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>riu’e - riue’</td>
+<td>riviere</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>R<sup>me</sup></td>
+<td>royaume</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>Rn<sup>ce</sup> - R’nce</td>
+<td>responce</td>
+</tr><tr><td>R’nd’</td>
+<td>respondre</td>
+</tr><tr><td>Rn<sup>se</sup> - Rn’se</td>
+<td>response - reponse</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>R<sup>r</sup></td>
+<td>receveur</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>R’<sup>te</sup></td>
+<td>requeste - requete</td>
+</tr><tr><td><a id=""S"" name=""S""></a>R’<sup>te</sup></td>
+<td>rapporté</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>S</h3>
+</td>
+</tr><tr><td>S’</td>
+<td>saint</td>
+</tr><tr><td>s’</td>
+<td>sire - seigneur</td>
+</tr><tr><td>s’ - s</td>
+<td>solz - sols - sous [<i>transcrire</i> s.]</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>s’a</td>
+<td>sera</td>
+</tr><tr><td>s’<sup>a</sup></td>
+<td>servira</td>
+</tr><tr><td>sab<sup>di</sup></td>
+<td>sabmedi</td>
+</tr><tr><td>sach’</td>
+<td>sachent</td>
+</tr><tr><td>sac’m’t</td>
+<td>sacrement</td>
+</tr><tr><td>s’<sup>alle</sup></td>
+<td>seigneurialle - sieurialle</td>
+</tr><tr><td>salt’</td>
+<td>salut</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>s’blera</td>
+<td>semblera</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>scau’</td>
+<td>sçavoir</td>
+</tr><tr><td>s’<sup>ce</sup></td>
+<td>service</td>
+</tr><tr><td>s’ce</td>
+<td>sur ce</td>
+</tr><tr><td>s’ct</td>
+<td>sainct</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>s’dce’</td>
+<td>susdicte</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>s’<sup>e</sup></td>
+<td>sire</td>
+</tr><tr><td>sec’</td>
+<td>secrettaire - secretaire</td>
+</tr><tr><td>seign<sup>r</sup></td>
+<td>seigneur</td>
+</tr><tr><td>sel’</td>
+<td>selon</td>
+</tr><tr><td>sembl’</td>
+<td>semblable - semblablement</td>
+</tr><tr><td>sembl’e - semble’</td>
+<td>semblable</td>
+</tr><tr><td>s’em’t</td>
+<td>serement [= <i>serment</i>]</td>
+</tr><tr><td>sen’</td>
+<td>sentence</td>
+</tr><tr><td>sens’</td>
+<td>s’ensuit</td>
+</tr><tr><td>senten’</td>
+<td>sentence</td>
+</tr><tr><td>sep<sup>bre</sup></td>
+<td>septembre</td>
+</tr><tr><td>sep<sup>nes</sup></td>
+<td>sepmaines</td>
+</tr><tr><td>sept<sup>bre</sup></td>
+<td>septembre</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>s’g’</td>
+<td>sergent</td>
+</tr><tr><td>s’g<sup>t</sup></td>
+<td>sergent</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>sign’</td>
+<td>signer - signet</td>
+</tr><tr><td>signiff’</td>
+<td>signiffié</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>slt</td>
+<td>salut</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>s’m’t - s’mt’</td>
+<td>serment</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>s’ne</td>
+<td>signé</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>soe’</td>
+<td>somme</td>
+</tr><tr><td>sol’</td>
+<td>(escus) soleil</td>
+</tr><tr><td>soub<sup>e</sup></td>
+<td>soubzsigné</td>
+</tr><tr><td>soubz<sup>ne</sup></td>
+<td>soubzsigné</td>
+</tr><tr><td>souff’</td>
+<td>souffisant</td>
+</tr><tr><td>soue’teff’</td>
+<td>soventesfoiz</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>sp’al - spal’</td>
+<td>special</td>
+</tr><tr><td>spallem’</td>
+<td>speciallement</td>
+</tr><tr><td>sp’aulx</td>
+<td>speciaux</td>
+</tr><tr><td>spe’al - speal’</td>
+<td>special</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>s<sup>r</sup></td>
+<td>seigneur - sieur</td>
+</tr><tr><td>s’rial</td>
+<td>seigneurial - sieurial</td>
+</tr><tr><td>s’<sup>rie</sup></td>
+<td>seigneurie - sieurie</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>s’ t’ - s t</td>
+<td>solz - sols tournois [<i>transcrire</i> s. t.]</td>
+</tr><tr><td>st’</td>
+<td>sont</td>
+</tr><tr><td>s’<sup>t</sup></td>
+<td>sainct - saint</td>
+</tr><tr><td>s’<sup>t</sup></td>
+<td>suivant</td>
+</tr><tr><td>s’t jeh’ bapte’</td>
+<td>Saint Jehan Baptiste</td>
+</tr><tr><td>s’t m’tin diu’</td>
+<td>Saint Martin d’iver</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>subg’</td>
+<td>subgiet - subgiez [= <i>sujet - sujets</i>]</td>
+</tr><tr><td>succ’</td>
+<td>successeurs</td>
+</tr><tr><td>supp<sup>ant</sup></td>
+<td>suppliant</td>
+</tr><tr><td><a id=""T"" name=""T""></a>suppl<sup>s</sup></td>
+<td>supplians</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>T</h3>
+</td>
+</tr><tr><td>t’</td>
+<td>tournois [<i>monnaie</i>]</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>ta’</td>
+<td>tabellion</td>
+</tr><tr><td>tab’</td>
+<td>tabellion</td>
+</tr><tr><td>tabell’</td>
+<td>tabellion</td>
+</tr><tr><td>taux<sup>on</sup></td>
+<td>tauxation</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>t’ce</td>
+<td>tierce</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>tem’</td>
+<td>temoins</td>
+</tr><tr><td>ten’</td>
+<td>tenant</td>
+</tr><tr><td>tend’</td>
+<td>tendant</td>
+</tr><tr><td>terr’</td>
+<td>terrouer - terroir</td>
+</tr><tr><td>tesm’</td>
+<td>tesmoin - tesmoing - tesmoins - tesmoings</td>
+</tr><tr><td>tesm’s</td>
+<td>tesmoins - tesmoings</td>
+</tr><tr><td>test’</td>
+<td>testament</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>th’le - thle’</td>
+<td>Thoulouse</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>tilt’</td>
+<td>tiltre</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>t’me</td>
+<td>terme</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>t<sup>2</sup>nois</td>
+<td>tournois [<i>monnaie</i>]</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>to<sup>al</sup></td>
+<td>total</td>
+</tr><tr><td>tonnell’r - tonnelr’</td>
+<td>tonnel(l)ier</td>
+</tr><tr><td>touch’</td>
+<td>touchent - touchant</td>
+</tr><tr><td>tourn’</td>
+<td>tournois [<i>monnaie</i>]</td>
+</tr><tr><td>touss’</td>
+<td>Toussains</td>
+</tr><tr><td>tout’</td>
+<td>toutes</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>t’re - tre’</td>
+<td>terre</td>
+</tr><tr><td>t’rouer</td>
+<td>terrouer</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>t’sg’nt - t’sgnt’</td>
+<td>tres grant</td>
+</tr><tr><td><a id=""V"" name=""V""></a>t’spa<sup>er</sup></td>
+<td>trespasser</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>V</h3>
+</td>
+</tr><tr><td>vall’</td>
+<td>vallant - valloir</td>
+</tr><tr><td>vall<sup>r</sup></td>
+<td>valloir</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>v’balem’</td>
+<td>verbalement</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>V<sup>e</sup></td>
+<td>vefve - vesve - veufve</td>
+</tr><tr><td>ve’de<sup>2</sup>s</td>
+<td>vendeurs</td>
+</tr><tr><td>vef’</td>
+<td>vefve</td>
+</tr><tr><td>ven’</td>
+<td>venant</td>
+</tr><tr><td>ven’</td>
+<td>venerable</td>
+</tr><tr><td>vend’</td>
+<td>vendra [= <i>viendra</i>]</td>
+</tr><tr><td>vend’on</td>
+<td>vendition</td>
+</tr><tr><td>ve’redi</td>
+<td>venredi [= <i>vendredi</i>]</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>v’ge</td>
+<td>verge</td>
+</tr><tr><td>v’gees</td>
+<td>vergees</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>vic’</td>
+<td>vicomte - vicomté</td>
+</tr><tr><td>viend’</td>
+<td>viendra</td>
+</tr><tr><td>vig’</td>
+<td>vigne</td>
+</tr><tr><td>vign’</td>
+<td>vigneron</td>
+</tr><tr><td>viii<sup>e</sup></td>
+<td>huictaine - huitaine - huitiesme</td>
+</tr><tr><td>vill<sup>ue</sup></td>
+<td>Villeneufve - Villeneuve</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>vo<sup>9</sup></td>
+<td>vous</td>
+</tr><tr><td>voict’</td>
+<td>voicturier</td>
+</tr><tr><td>vo<sup>te</sup></td>
+<td>volonté</td>
+</tr><tr><td>voull’</td>
+<td>voullant</td>
+</tr><tr><td>vou<sup>te</sup></td>
+<td>voulonté</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>v’r’</td>
+<td>verront</td>
+</tr><tr><td>v’re - vre’</td>
+<td>vostre - votre</td>
+</tr><tr><td>v’tu</td>
+<td>vertu</td>
+</tr><tr><td><a id=""X"" name=""X""></a>v’ue</td>
+<td>veuve</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>X</h3>
+</td>
+</tr><tr><td>xv<sup>e</sup></td>
+<td>quinzaine - quinziesme</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>xp’he</td>
+<td>Christophe</td>
+</tr><tr><td>xp’ienne</td>
+<td>chrestienne</td>
+</tr><tr><td>xp’iente</td>
+<td>chrestienté</td>
+</tr><tr><td><a id=""9"" name=""9""></a>xp’ofle</td>
+<td>Christofle</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>9</h3>
+</td>
+</tr><tr><td>9bn’</td>
+<td>combien</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>9’ctee</td>
+<td>contractee</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>9d’</td>
+<td>condempne - condempné - condamne - condamné</td>
+</tr><tr><td>9d’</td>
+<td>condempnons - condamnons</td>
+</tr><tr><td>9de’p<sup>on</sup></td>
+<td>condempnation</td>
+</tr><tr><td>9d’<sup>on</sup></td>
+<td>condempnation - condamnation</td>
+</tr><tr><td>9d’<sup>ons</sup></td>
+<td>condempnons - condamnons - condempnations - condamnations</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>9e</td>
+<td>comme</td>
+</tr><tr><td>9<sup>e</sup></td>
+<td>contre</td>
+</tr><tr><td>9clus’s</td>
+<td>conclusions</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>9ement</td>
+<td>communement</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>9mand’</td>
+<td>commandons</td>
+</tr><tr><td>9mand’<sup>t</sup></td>
+<td>commandemen</td>
+</tr><tr><td>9m’c’</td>
+<td>commençant</td>
+</tr><tr><td>9m’dem’t - 9m’demt’</td>
+<td>commandement</td>
+</tr><tr><td>9me</td>
+<td>comme</td>
+</tr><tr><td>9me’c’</td>
+<td>commençant</td>
+</tr><tr><td>9miss’<sup>es</sup></td>
+<td>commissaires</td>
+</tr><tr><td>9misses’</td>
+<td>commissaires</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>9<u>p</u>oir</td>
+<td>comparoir</td>
+</tr><tr><td>9pt’</td>
+<td>compte</td>
+</tr><tr><td>9p<sup>te</sup></td>
+<td>complaincte - complainte</td>
+</tr><tr><td>9<u>p</u>uz</td>
+<td>comparuz</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>9’re</td>
+<td>contraire</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>9sen’</td>
+<td>consentement</td>
+</tr><tr><td>9st’</td>
+<td>constituant - constitution</td>
+</tr><tr><td>9ston’</td>
+<td>constitution</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>9t’</td>
+<td>contre</td>
+</tr><tr><td>9<sup>te</sup></td>
+<td>communaulté - communauté</td>
+</tr><tr><td>9t’e - 9te’</td>
+<td>contre - contraire</td>
+</tr><tr><td><a id=""special"" name=""special""></a>9ten’</td>
+<td>contenant</td>
+</tr></tbody></table><table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup><col width=""170"" /><br /><col width=""330"" /><br /></colgroup><tbody><tr><td colspan=""2"">
+<h3>Signes spéciaux : monnaies</h3>
+</td>
+</tr><tr><td><s><sup>ll</sup></s> [<i>voir</i> lb]</td>
+<td>livre - livres</td>
+</tr><tr><td>[<i>un triangle</i>]</td>
+<td>escu - escus</td>
+</tr><tr><td>[<i>deux triangles</i>]</td>
+<td>escus</td>
+</tr><tr><td>T / +</td>
+<td>Tête/croix (face/pile)</td>
+</tr></tbody></table>","Thursday, October 9, 2014 - 10:33","Thursday, February 25, 2016 - 13:28","Yes","/content/abbreviations"
+"24","Selected French Dictionaries","100","<h3><strong>Middle French</strong></h3>
+<p><a href=""http://www.atilf.fr/dmf/""><em>Dictionnaire du moyen français, 1300-1500</em></a> (ATILF, CNRS, Université de Lorraine, 2012)</p>
+<p>Frédéric Godefroy, <a href=""http://www.micmap.org/dicfro/introduction/dictionnaire-godefroy""><em>Dictionnaire de l’ancienne langue françoise et de tous ses dialectes du IX<sup>e</sup> au XV<sup>e</sup> siècle</em></a>, Paris, 1895-1900, 10 volumes</p>
+<ul><li><a href=""http://www.micmap.org/dicfro/introduction/complement-godefroy"">Supplement</a> (3 volumes)</li>
+<li><a href=""http://www.micmap.org/dicfro/introduction/lexique-godefroy"">Lexicon</a></li>
+<li><a href=""http://gallica.bnf.fr/Search?adva=1&t_relation=%22cb35311525r%22&adv=1&tri=&lang=en"">Gallica</a> (image mode only)</li>
+</ul><h3><strong>Middle and modern French </strong></h3>
+<p><a href=""https://artfl-project.uchicago.edu/content/dictionnaires-dautrefois"">Dictionnaires d'autrefois</a> (The ARTFL project, University of Chicago) includes:</p>
+<ul><li>Jean Nicot,<em> Thresor de la langue françoyse, tant ancienne que moderne</em>, Paris, 1606</li>
+<li>Jean-François Féraud, <em>Dictionaire critique de la langue française</em>, Paris, 1787-1788</li>
+<li>First edition of the <em><em>Dictionnaire de l’Académie</em>, </em>Paris, 1694</li>
+<li>Émile Littré<em>, <em>Dictionnaire de la langue française</em></em>, Paris, 1872-1877</li>
+</ul><h3><strong>Other resources for the history of the French language</strong></h3>
+<p>Abel Boyer, <a href=""http://books.google.fr/books?id=s51aAAAAcAAJ""><em>Le dictionnaire royal: première partie, qui contient le françois devant l’anglois</em></a>, London, 1729</p>
+<p>Randle Cotgrave, <a href=""http://www.micmap.org/dicfro/introduction/cotgrave""><em>A Dictionarie of the French and English Tongues</em></a>, London, 1611</p>
+<p>Antoine Furetière, <a href=""http://www.lexilogos.com/francais_classique.htm""><em>Dictionnaire universel contenant generalement tous les mots françois, tant vieux que modernes, et les termes de toutes les sciences et des arts</em></a>, Paris, 1690</p>
+<p>Jean-Baptiste de La Curne de Sainte-Palaye, <a href=""http://www.micmap.org/dicfro/introduction/dictionnaire-lacurne""><em>Dictionnaire historique de l’ancien langage françois ou glossaire de la langue françoise depuis son origine jusqu’au siècle de Louis XIV</em></a>, ed. Léopold Favre & Léon Pajot, Paris, 1875-1882, 10 volumes</p>
+<p>TLFi -- <a href=""http://atilf.atilf.fr/""><em>Trésor de la langue française informatisé</em></a> (ATILF, CNRS, Université de Lorraine)</p>
+<p><a href=""http://www.micmap.org/dicfro/dictionaries"">DicFro</a> (English, French, Old French, Latin)</p>
+<p><a href=""http://www.lexilogos.com/francais_langue_dictionnaires.htm"">Lexilogos</a> (image mode only):</p>
+<ul><li>Resources for French language and grammar, by time period (Old French, sixteenth century, seventeenth century) and by French dialects</li>
+<li>Other manuals about the history of the French language, and grammar books</li>
+</ul>","Thursday, October 9, 2014 - 10:34","Friday, July 21, 2017 - 12:26","Yes","/content/selected-french-dictionaries"
+"25","Glossary of terms useful for this website","100","<table border=""0"" cellpadding=""0"" cellspacing=""0""><tbody><tr><td colspan=""2"" style=""width:638px"">
+<h3>Paleographical terms</h3>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Autograph</p>
+</td>
+<td style=""width:481px"">
+<p>A text handwritten by its author.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Hand</p>
+</td>
+<td style=""width:481px"">
+<p>The writing of an individual scribe, with individual characteristics.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p><a href=""/content/scripts"">Script</a></p>
+</td>
+<td style=""width:481px"">
+<p>The type of writing a scribe is trying to emulate.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p><a href=""/content/abbreviations"">Abbreviations</a></p>
+</td>
+<td style=""width:481px"">
+<p>Used by scribes to save time and space while writing, abbreviations often take the form of contractions, with missing letters indicated by a mark or symbol; sometimes symbols replace entire words.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Book hands</p>
+</td>
+<td style=""width:481px"">
+<p>Clear and regular scripts used in book production.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Documentary hands</p>
+</td>
+<td style=""width:481px"">
+<p>Scripts used for business and legal documents, letters, and other more ephemeral works; generally written rapidly and with less concern for clarity and regularity.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Majuscule</p>
+</td>
+<td style=""width:481px"">
+<p>Upper case or capital letters, all the same height.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Minuscule</p>
+</td>
+<td style=""width:481px"">
+<p>Lower case letters; they vary in their use of ascenders or descenders.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Paleography</p>
+</td>
+<td style=""width:481px"">
+<p>The study of historical forms of writing.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<h2><strong>Strokes</strong></h2>
+</td>
+<td style=""width:481px"">
+<p>Single strokes of the pen; including the following:</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Arm</p>
+</td>
+<td style=""width:481px"">
+<p>A horizontal stroke that extends but does not cross the stem of letters such as E, F, and L.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Ascender</p>
+</td>
+<td style=""width:481px"">
+<p>A stroke that ascends above the body of a minuscule letter.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Bar</p>
+</td>
+<td style=""width:481px"">
+<p>A horizontal stroke that attaches two other strokes, in letters such as A and H.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Biting</p>
+</td>
+<td style=""width:481px"">
+<p>A stroke that is shared by two adjoining contrary curves, such as a b followed by an o; common in Gothic and Humanistic scripts.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Body</p>
+</td>
+<td style=""width:481px"">
+<p>The part of a minuscule letter form that does not include an ascender or descender.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Bow (or lobe)</p>
+</td>
+<td style=""width:481px"">
+<p>A circle or partial circle attached to a stem, in letters such as p, b, q, and d.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Descender</p>
+</td>
+<td style=""width:481px"">
+<p>A stroke that descends below the body of a minuscule letter.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Ligature</p>
+</td>
+<td style=""width:481px"">
+<p>Two or more letters joined into a single glyph.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Lobe</p>
+</td>
+<td style=""width:481px"">
+<p>See Bow</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Minim</p>
+</td>
+<td style=""width:481px"">
+<p>A simple vertical stroke with no ascender or descender.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Otiose stroke</p>
+</td>
+<td style=""width:481px"">
+<p>A random stroke on the page, not intended as punctuation or an abbreviation indicator.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Serif</p>
+</td>
+<td style=""width:481px"">
+<p>A small decorative line attached to the end of a stroke in some scripts.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Shading</p>
+</td>
+<td style=""width:481px"">
+<p>Variation in the thickness of strokes of a script.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Slant</p>
+</td>
+<td style=""width:481px"">
+<p>Variation of a stroke from complete vertical.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>     Stem</p>
+</td>
+<td style=""width:481px"">
+<p>A minim with any ascender or descender that supports the rest of the letter.</p>
+</td>
+</tr><tr><td colspan=""2"" style=""width:638px"">
+<h3>Manuscript terms</h3>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Catchword</p>
+</td>
+<td style=""width:481px"">
+<p>A word (or phrase) written on the last page of a quire that matches the first word of the next quire, to assist the binder in assembling the quires in the correct order.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Codex</p>
+</td>
+<td style=""width:481px"">
+<p>A book made of folded sheets of paper or parchment stacked together, usually bound on one edge and enclosed within covers.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Colophon</p>
+</td>
+<td style=""width:481px"">
+<p>An inscription made by the scribe, usually at the end of a book, recording information about the scribe and/or about how the book was produced.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Diplomatics</p>
+</td>
+<td style=""width:481px"">
+<p>Critical analysis of the conventions, protocols, and formulaic wording of types of historical documents.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Foliation</p>
+</td>
+<td style=""width:481px"">
+<p>Numbering of folios within a manuscript.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Folio</p>
+</td>
+<td style=""width:481px"">
+<p>A leaf of a codex.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Gathering</p>
+</td>
+<td style=""width:481px"">
+<p>See Quire</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Gloss</p>
+</td>
+<td style=""width:481px"">
+<p>Commentary on or explanation of the main text, often written between the lines or in the margins.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Illumination</p>
+</td>
+<td style=""width:481px"">
+<p>Color illustrations or decorations in a manuscript, sometimes including gold or silver.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Line fillers</p>
+</td>
+<td style=""width:481px"">
+<p>Lines, symbols, or decoration used to complete a line of text not filled by script, essentially creating fully justified margins.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Manuscript</p>
+</td>
+<td style=""width:481px"">
+<p>Literally “written by hand.” Abbreviated as MS (singular) or MSS (plural).</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Marginalia</p>
+</td>
+<td style=""width:481px"">
+<p>Decoration or writing in the margins of a manuscript, either part of the original program or added by a later reader.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Miniature</p>
+</td>
+<td style=""width:481px"">
+<p>A stand-alone illustration in a manuscript.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Mise-en-page</p>
+</td>
+<td style=""width:481px"">
+<p>The layout of text, columns, rubrication, decoration, images, and so forth on a page.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Page</p>
+</td>
+<td style=""width:481px"">
+<p>One side of a folio within a codex.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Pagination</p>
+</td>
+<td style=""width:481px"">
+<p>Numbering of pages within a manuscript.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Paper</p>
+</td>
+<td style=""width:481px"">
+<p>A writing support usually made during the early modern period from chopped and soaked cotton or linen rags pressed in a frame.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Parchment</p>
+</td>
+<td style=""width:481px"">
+<p>A writing support made from processed, stretched, and dried animal skins, usually sheep, calf, or goat; originally “vellum” was reserved for calfskin, but the word is now used interchangeably with “parchment.”</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Pen flourishes</p>
+</td>
+<td style=""width:481px"">
+<p>Decorative fine lines made with a pen, emanating from initial or other letters, often in colored ink.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Quire</p>
+</td>
+<td style=""width:481px"">
+<p>The sets of folded paper or parchment of which a codex is formed; also called a “gathering.”</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Quire signature</p>
+</td>
+<td style=""width:481px"">
+<p>Identifying letters or numbers written within a quire, to assist the binder in assembling the folios in the correct order.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Recto</p>
+</td>
+<td style=""width:481px"">
+<p>The front side of a folio within a codex.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Roll</p>
+</td>
+<td style=""width:481px"">
+<p>A book made of sheets of paper pasted or sewn together to form one long sheet, then rolled up for storage.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Rubric</p>
+</td>
+<td style=""width:481px"">
+<p>A heading or initial capitals written in a different color from the main text, in order to help distinguish the various textual components.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Running title</p>
+</td>
+<td style=""width:481px"">
+<p>A line of text written at the top edge of a folio to identify a work’s title or a subsection of it.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Scribe</p>
+</td>
+<td style=""width:481px"">
+<p>The individual who physically wrote a given document or book.</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Vellum</p>
+</td>
+<td style=""width:481px"">
+<p>See Parchment</p>
+</td>
+</tr><tr><td style=""width:157px"">
+<p>Verso</p>
+</td>
+<td style=""width:481px"">
+<p>The back side of a folio within a codex.</p>
+</td>
+</tr></tbody></table><p> </p>
+<p>For more comprehensive lists of related terms, see:</p>
+<p>- The Glossaries page of the <a href=""http://www.bl.uk/catalogues/illuminatedmanuscripts/glossary.asp"">British Library Catalogue of Illuminated Manuscripts</a> (based on Michelle P. Brown, <em>Understanding Illuminated Manuscripts: A Guide to Technical Terms</em> (J. Paul Getty Museum: Malibu and British Library: London, 1994).</p>
+<p><em>- <a href=""http://codicologia.irht.cnrs.fr/"">Codicologia</a> </em>(Institut de Recherche et d'Histoire des Textes, Comité International de Paléographie Latine, includes Denis Muzerelle, <em>Vocabulaire Codicologique: Répertoire méthodique des termes français relatifs aux manuscrits avec leurs équivalents en anglais, italien, espagnol</em>, 2002-3).</p>","Thursday, October 9, 2014 - 10:34","Thursday, January 28, 2016 - 11:14","Yes","/content/glossary-of-terms"
+"26","French Institutions","100","<p>These four charts representing the structures of the French institutions were prepared by Bernard Barbiche, emeritus professor at the École nationale des chartes (National School of Palaeography and Archival Studies), Paris. You may want to increase the display size on your screen, for better viewing of the charts.</p>
+<p> </p>
+<p><img alt="""" src=""/sites/default/files/chart1.jpg"" style=""width: 100%;"" /></p>
+<p><img alt="""" src=""https://paleography.library.utoronto.ca/sites/paleography.library.utoronto.ca/files/chart2.jpg"" style=""width:100%"" /></p>
+<p><img alt="""" src=""/sites/default/files/chart3.jpg"" style=""width: 100%;"" /></p>
+<p><img alt="""" src=""/sites/default/files/chart4.jpg"" style=""width: 100%;"" /></p>","Thursday, October 9, 2014 - 10:35","Thursday, January 28, 2016 - 11:16","Yes","/content/french-institutions"
+"27","Other Reference Resources","100","<p>To understand late medieval and Renaissance French documents requires a wide range of historical knowledge, some of which is quite specialized. Below are a few starting points.</p>
+<h3><strong>Book hands </strong></h3>
+<p>An excellent source for information about book hands -- that is, the handwritings used in manuscript books, as different from manuscript documents -- is Albert Derolez, <em>The Palaeography of Gothic Manuscript Books From the Twelfth to the Early Sixteenth Century</em> (Cambridge, UK: Cambridge University Press, 2003). Here are a few samples:</p>
+<p><img alt="""" src=""/sites/default/files/derolez_0.jpg"" style=""width: 500px; height: 583px;"" /></p>
+<h3><strong>Chronologies</strong></h3>
+<p><strong>France</strong></p>
+<p>The Metropolitan Museum of Art's Heilbrunn Timeline of Art History covers the following year ranges for France:</p>
+<p><a href=""http://www.metmuseum.org/toah/ht/07/euwf.html"">- 1000-1400</a><br /><a href=""http://www.metmuseum.org/toah/ht/08/euwf.html"">- 1400-1600</a><br /><a href=""http://www.metmuseum.org/toah/ht/09/euwf.html"">- 1600-1800</a></p>
+<p><strong>New France</strong></p>
+<p>For a brief history of the colony of New France, see Arnaud Balvay's presentation of ""Colonies and Empires: French Colonial Expansion and Franco-Amerindian Alliances,"" in the <em>Virtual Museum of New France</em>, a project of the <a href=""http://www.historymuseum.ca/virtual-museum-of-new-france/colonies-and-empires/colonial-expansion-and-alliances/"">Canadian Museum of History</a>.</p>
+<p><strong>Europe</strong></p>
+<p>Penn State University's project on <em>Building Community: Medieval Technology and American History</em> has a useful ""Medieval & Early Modern Europe Timeline,"" covering major events from <a href=""http://www.engr.psu.edu/mtah/timelines/timeline1.htm"">1300-1800</a>.</p>
+<h3><strong>Currency</strong></h3>
+<p>On how money worked in Renaissance France, see Jotham Parsons, <em>Making Money in Sixteenth-Century France: Currency, Culture, and the State</em> (Ithaca: Cornell University Press, 2014).</p>
+<h3><strong>Dates</strong></h3>
+<p>For financial documents, it's helpful to know that in the late Middle Ages and Renaissance the most common due dates for payments of various kinds were Easter (<em>Pâques</em><b>, </b>variable), the Feast of Saint Remegius (<em>Saint-Rémi</em>, 1 October), All Saints' Day (<em>La Toussaint</em>, 1 November), the Feast of Saint Andrew (<em>Saint-André</em>, 30 November), and Christmas Day (<em>Noël</em>, 25 December).</p>
+<h3><strong>Legal terms</strong></h3>
+<p>For information on European legal history, especially medieval law, visit Fordham University's <a href=""http://legacy.fordham.edu/halsall/sbook-law.asp""> <em>Internet Medieval Sourcebook</em></a>.</p>
+<h3><strong>Weights and measures</strong></h3>
+<p>See Ronald Edward Zupko, <i>French Weights and Measures before the Revolution: A Dictionary of Provincial and Local Units (</i>Bloomington: Indiana University Press, 1978).</p>
+<p>There also is a very thorough list of terminology for weights and measures, with precise definitions for them, on the website of the <a href=""http://paleographie.le64.fr/index.php?option=com_content&view=article&id=71&Itemid=200#ancre-21"">Archives départementales de la Loire-Atlantique</a> (you'll need to scroll far down the page to get to the weights and measures).</p>
+<h3><strong>More about paleography</strong></h3>
+<p>Medieval paleography: <a href=""http://www.menestrel.fr/spip.php?rubrique434&lang=fr"">Ménestrel</a></p>
+<p>French paleography, medieval to modern: <a href=""http://theleme.enc.sorbonne.fr/"">Theleme. Techniques pour l'historien en ligne: études, manuels, exercices, bibliographies</a></p>
+<p>Mini-paleography courses from French departmental archives: <a href=""http://www.archives-numerisees.ain.fr/n/la-paleographie-dechiffrez-les-textes/n:53"">Ain</a>; <a href=""https://www.departement06.fr/paleographie-et-langues-regionales/paleographie-2811.html"">Alpes-Maritimes (XVIe-XVIIIe siècles)</a>; <a href=""http://audealaculture.fr/archives/exercices-paleographie"">Aude (XIIIe-XVIe siècles)</a>;  <a href=""http://archives.cotesdarmor.fr/index.php?page=cours-de-paleographie"">Côte d'Armor (XIVe-XVIIe siècles)</a>; <a href=""http://archives.haute-saone.fr/n/paleographie/n:113"">Haute-Saône (Moyen -Âge-XVIIe siècle)</a>; <a href=""http://archives.haute-vienne.fr/r/19/paleographie/"">Haute-Vienne (XVe-XVIe siècles)</a>; <a href=""http://archives.cg37.fr/Apprendre/INITIATION_A_LA_PALEOGRAPHIE-ACC.html"">Indre-et-Loire (Moyen Âge-XIXe siècle)</a>; <a href=""http://archives.loire-atlantique.fr/jcms/chercher/aide-a-la-recherche/exercices-de-paleographie-fr-c_5558""> Loire-Atlantique (XVIIe siècle)</a>; <a href=""http://archives.valdemarne.fr/content/pal%C3%A9ographie"">Val-de-Marne (XIIIe-XVIIIe siècles)</a></p>
+<p>English paleography: <a href=""http://www.nationalarchives.gov.uk/palaeography/default.htm"">The National Archives, UK. Palaeography: reading old handwriting 1500--1800, a practical online tutorial</a></p>
+<p><a href=""http://www.library.yale.edu/cataloging/rarebookteam/paleography.htm"">European paleography, 17th and 18th century, Yale University Library</a></p>
+<p>Italian paleography: <a href=""http://www.medici.org/"">The Medici Archive Project</a></p>
+<div> </div>","Thursday, October 9, 2014 - 10:35","Thursday, January 28, 2016 - 11:25","Yes","/content/other-reference-resources"
+"120","Group Work","1","<p><iframe title=""Google Groups for Paleography"" frameborder=""0"" height=""700"" id=""forum_embed"" scrolling=""no"" src=""javascript:void(0)"" width=""900""></iframe><script type=""text/javascript"">
+<!--//--><![CDATA[// ><!--
+
+ document.getElementById(""forum_embed"").src =
+  ""https://groups.google.com/forum/embed/?place=forum/french-renaissance-paleography"" +
+  ""&showsearch=true&showpopout=true&parenturl="" +
+  encodeURIComponent(window.location.href);
+
+//--><!]]>
+</script></p>
+<h2>Group work with the T-PEN transcription tool</h2>
+<p>Note that users are strongly encouraged to use Chrome when transcribing in the T-PEN application.</p>
+<p>Users can practice transcribing any of the manuscript documents in this site and save their transcriptions to return to another day. You also can share your transcriptions with other individuals or a group. To do so, use the ""Collaboration"" button in the T-PEN transcription tool.</p>
+<p>All of the manuscript documents have been pre-parsed for use with the T-PEN transcription tool, but sometimes small adjustments are needed. Users can make those adjustments for themselves, using the “Correct parsing” button. However, if a teacher wishes to correct parsing in any of the documents, globally, for all future users, he or she can request special administrative privileges. A user who has been granted administrative privileges will see an “Edit Master Documents” button (not accessible to regular users), which allows him/her to correct the parsing in the master document, not just in an individual project.</p>","Friday, June 19, 2015 - 10:38","Wednesday, April 10, 2019 - 11:44","Yes","/content/group-work"
+"128","About the Team","1","<p>French Renaissance Paleography extends into the digital realm the Newberry Library's nearly four decades of experience offering intensive classroom-based instruction in late medieval and Renaissance vernacular paleography. Drawing on the library's expertise with that face-to-face educational format, this digital resource aims to bring the study of early French manuscript culture to an even larger audience than can be accommodated in a classroom. This site provides a set of self-help tools to assist students, researchers, librarians, calligraphers, and designers with reading French manuscripts dating from 1300 to 1700 and understanding their contexts. It aims to foster collaborations across disciplines and generate new knowledge through the intersection of individual and group work.</p>
+<p><em>The French Renaissance Paleography project is a collaborative project supported by a grant from The Andrew W. Mellon Foundation</em>.</p>
+<table border=""1"" cellpadding=""0"" cellspacing=""0""><tbody><tr><td style=""width:319px"">
+<h4><strong>Lead Project Staff</strong></h4>
+</td>
+<td style=""width:319px"">
+<h4><strong>Developers</strong></h4>
+</td>
+</tr><tr><td style=""width:319px"">
+<p>Carla Zecher, Project Director, Newberry Center for Renaissance Studies and Renaissance Society of America</p>
+<p>[administration, site structure, metadata, background essays]</p>
+</td>
+<td style=""width:319px"">
+<p>Kelli Babcock, Digitial Initiatives Librarian</p>
+<p>Lisa Gayhart, User Experience Librarian</p>
+<p><span style=""line-height: 20.8px;"">Information Technology Services, University of Toronto Libraries</span></p>
+</td>
+</tr><tr><td style=""width:319px"">
+<p>Caroline Prud’Homme, Postdoctoral Scholar in French Paleography, Newberry Center for Renaissance Studies</p>
+<p>[manuscript selection, metadata, transcriptions, background essays]</p>
+</td>
+<td style=""width:319px"">
+<p>Gordon Belray, Information Architect, Information Technology Services, University of Toronto Libraries</p>
+</td>
+</tr><tr><td style=""width:319px"">
+<p>Marc H. Smith, Project Paleographer, Professeur de paléographie, École nationale des chartes, and Directeur d’études, École pratique des hautes études</p>
+<p>[transcriptions]</p>
+</td>
+<td style=""width:319px"">
+<p>Chul Hee Yoon, Project Application Programmer Analyst</p>
+<p>Bilal Khalid, Senior Applications Programmer Analyst</p>
+<p>Sunny Lee, Digital Initiatives Programmer Analyst</p>
+<p>Andy Wagner, Project Application Programmer Analyst</p>
+<p>Xiao (Sean) Zhao, Project Application Programmer Analyst</p>
+<p>Information Technology Services, University of Toronto Libraries</p>
+</td>
+</tr><tr><td style=""width:319px"">
+<p>William R. Bowen, Director, ITER, University of Toronto</p>
+</td>
+<td style=""width:319px"">
+<p>Patrick Cuba, Lead Developer, Center for Digital Humanities, Saint Louis University</p>
+</td>
+</tr><tr><td style=""width:319px"">
+<p>James R. Ginther, Director, Center for Digital Humanities, Saint Louis University</p>
+</td>
+<td style=""width:319px"">
+<p>Bryan Haberberger, Developer, Center for Digital Humanities, Saint Louis University</p>
+</td>
+</tr><tr><td style=""width:319px"">
+<p>Sian Meikle, Director of Library Information Technology Services, University of Toronto Libraries</p>
+</td>
+<td style=""width:319px"">
+<p>Han Yan, Developer, Center for Digital Humanities, Saint Louis University</p>
+</td>
+</tr><tr><td style=""width:319px"">
+<h4><strong>Assisting Staff</strong></h4>
+</td>
+<td style=""width:319px""> </td>
+</tr><tr><td style=""width:319px"">
+<p>Karen Christianson, Center for Renaissance Studies. Newberry Library</p>
+</td>
+<td style=""width:319px"">
+<p>Lesa Dowd, Conservation, Newberry Library</p>
+<p>Catherine Gass, Photographer, Newberry Library</p>
+</td>
+</tr><tr><td style=""width:319px"">
+<p>Margaret English-Haskin, ITER, University of Toronto</p>
+</td>
+<td style=""width:319px"">
+<p>Emily R. Kelley, Digital Map Creator, Northwestern University</p>
+</td>
+</tr><tr><td style=""width:319px"">
+<p>Donal Hagerty, Center for Digital Humanities, Saint Louis University</p>
+</td>
+<td style=""width:319px"">
+<p>Ellen Hargis, Vocal Recordings, The Newberry Consort</p>
+</td>
+</tr></tbody></table><p>Thank you to many additional Newberry Library staff, including David Spadafora (President); Jennifer Thom and John Powell (Digitial Initiatives); Danny Greene and Brad Hunt (Research & Academic Programs); Hjordis Halvorson (Library Services); Jim Akerman (Maps & Modern Manuscripts); Alan Leopold, Linda Ballinger, and Jessica Grzegorski (Collection Services); and Andrew Belongea (Center for Renaissance Studies). </p>
+<p>Thank you also to Ken Yang, Rachelann Pisani, Emily Dix, Stephanie Pegg, Christopher Benitez, Owen Chi-Fei Ma, David Sprague, Ellie Tamura, and Althea Tsang (Information Technology Services, University of Toronto Libraries); and Debra Cashion and Meg Smith (Center for Digital Humanities, Saint Louis University).</p>
+<p>We also want to thank our advisory board members: Bernard Barbiche, Bill Bowen, Konrad Eisenbichler, Rich Freedman, John Gagné, Jim Ginther, Elizabeth Goldsmith, Drin Gyuk, Alan Leopold, Sian Meikle, Carla Rahn Phillips, Guy Poirier, Brian Sandberg, Ray Siemens, Marc Smith, Jennifer Thom.</p>","Monday, June 22, 2015 - 10:12","Friday, January 29, 2016 - 14:45","Yes","/content/about-team"
+"416","About Calligraphy Books","1","<p>Writing manuals offer essential information for the history of handwriting in the early modern period: cultural and ideological settings; teaching methods; technical parameters such as quill-cutting, ink-making, and the many subtleties of handling the pen; the typology of scripts; and questions of style, from general trends and changes to stylistic affinities or influences between single masters. These manuals are a hybrid product, part book and part set of prints, reproducing documents usually dealt out to students of handwriting in manuscript form. The Newberry Library houses the world's most extensive (several hundred) and well-balanced collection of early copybooks from European countries, and we have incuded a dozen extraordinary French examples in this site.</p>
+<p>The printed manuals were the product of collaboration between writing masters and engravers, and marketed almost exclusively via printsellers. Many titles went through several editions and printings with differences ranging from inconspicuous alterations to an entirely different set of plates under a similar title; conversely, different printings of identical plates might be found under different titles. Book collectors of the eighteenth, nineteenth, and twentieth centuries later reconstructed or reshuffled the contents of many copies. The overall survival rate is extremely low, with many editions known from a single copy, or a handful.</p>
+<p>Of the many European writing manuals engraved and printed from the sixteenth to the early nineteenth century, those published in France are the least well known. There are close to 100 known French authors, 500 titles, and 2,100 copies in existence, scattered in libraries across Europe and North America. It has become increasingly clear that the French masters need to be considered in a wider context. They imitated foreign calligraphers and in turn were imitated abroad. There is even evidence that one or two of the most important eighteenth-century Italian copybooks were ""ghost-written"" in Paris.</p>
+<p>Marc H. Smith</p>
+<p>Professor of Paleography</p>
+<p>Ecole Nationale des Chartes, Paris</p>
+<p> </p>
+<p>Here are a few publications that discuss the context in which the corporation of ""maîtres écrivains"" in Paris was created, as well as the significance of calligraphy manuals in the teaching of handwriting:</p>
+<p>- Hébrard, Jean. ""Des écritures exemplaires: l'art du maître écrivain en France du XVIe au XVIIIe siècle."" <a href=""http://www.persee.fr/doc/mefr_1123-9891_1995_num_107_2_4394""><em>Mélanges de l'École française de Rome. Italie et Méditerranée</em></a> 107 no. 2 (1995): 473-523.</p>
+<p>- Métayer, Christine. ""De l'école au palais de justice: l'itinéraire singulier des maîtres écrivains de Paris (XVIe-XVIIIe siècles)."" <em><a href=""http://www.persee.fr/doc/ahess_0395-2649_1990_num_45_5_278899"">Annales. Économies. Sociétés. Civilisations</a> </em>45 no. 5 (1990): 1217-37.</p>
+<p>- Métayer, Christine. ""Normes graphiques et pratiques de l'écriture. Maîtres écrivains et écrivains publics à Paris aux XVIIe et XVIIIe siècles."" <a href=""http://www.persee.fr/doc/ahess_0395-2649_2001_num_56_4_279992""><em>Annales. Histoire. Sciences Sociales</em></a> 56 no. 4 (2001): 881-901.</p>
+<p>- Wells, James M. ""The Bureau Académique d'Écriture: A Footnote to the History of French Calligraphy."" <em>The Papers of the Bibliographical Society of America </em>51, no. 3 (1957): 203-16 (available on <a href=""http://www.jstor.org/"">JSTOR</a>).</p>
+<p> </p>
+<p>See also:</p>
+<p>- Claude Mediavilla. <em>Histoire de la calligraphie française</em>. Paris: Albin Michel, 2006.</p>
+<p>- Françoise Gaspari. ""Enseignements et techniques de l'écriture du Moyen Âge à la fin du XVIe siècle."" <em>Scrittura e civiltà </em>7 (1983): 201-22.</p>","Thursday, November 19, 2015 - 15:13","Monday, April 11, 2016 - 10:41","Yes","/content/about-calligraphy-books"
+"417","About Historical Maps","1","<p>Here are some resources about the history of cartography in France:</p>
+<p>- The University of Chicago Press/University of Wisconsin-Madison's <a href=""http://www.press.uchicago.edu/books/HOC/index.html"">History of Cartography Project</a>:<br /><a href=""http://www.press.uchicago.edu/books/HOC/HOC_V3_Pt1/Volume3_Part1.html"">Volume 1 Cartography in Prehistoric, Ancient and Medieval Europe and the Mediterranean</a>;<br /><a href=""http://www.press.uchicago.edu/books/HOC/HOC_V3_Pt1/Volume3_Part1.html"">Volume 3 Cartography in the European Renaissance (part 1)</a>;<br /><a href=""http://www.press.uchicago.edu/books/HOC/HOC_V3_Pt2/Volume3_Part2.html"">Volume 3 Cartography in the European Renaissance (part 2)</a>.</p>
+<p>- Konvitz, Joseph. <em>Cartography in France, 1660-1848. Science, Engineering and Statescraft</em>. Chicago: University of Chicago Press, 1987.</p>
+<p>- Petto, Christine Marie. <em>When France was King of Cartography. The Patronage and Production of Maps in Early Modern France</em>. Lanham, MD: Lexington Books, 2007.</p>
+<p> </p>
+<p>For the cartography of North America:</p>
+<p><a href=""http://publications.newberry.org/smith/exhibits/fe/fe.html"">Mapping the French Empire in North America</a></p>","Thursday, November 19, 2015 - 15:15","Friday, January 22, 2016 - 17:04","Yes","/content/about-historical-maps"
+"424","Contributing Institutions","1","<p>The following libraries and museums have generously provided digital images of manuscripts in their collections:</p>
+<p><a href=""http://www.newberry.org/"">The Newberry Library</a></p>
+<p><a href=""http://library.columbia.edu/locations/rbml.html"">Columbia University Rare Book & Manuscript Library</a></p>
+<p><a href=""https://library.depaul.edu/special-collections/Pages/default.aspx"">DePaul University Library Special Collections & Archives</a></p>
+<p><a href=""http://www.folger.edu/"">Folger Shakespeare Library</a></p>
+<p><a href=""http://hcl.harvard.edu/libraries/houghton/"">Houghton Library, Harvard University</a></p>
+<p><a href=""http://www.huntington.org/"">The Huntington Library</a></p>
+<p><a href=""http://www.getty.edu/museum/"">The J. Paul Getty Museum</a></p>
+<p><a href=""http://www.themorgan.org/"">The Morgan Library & Museum</a></p>
+<p><a href=""http://www.lib.uchicago.edu/e/scrc/"">Special Collections Research Center, University of Chicago Library</a></p>
+<p><a href=""http://fisher.library.utoronto.ca/"">Thomas Fisher Rare Book Library, University of Toronto</a></p>
+<p> </p>","Tuesday, November 24, 2015 - 18:06","Tuesday, December 15, 2015 - 15:18","Yes","/content/contributing-institutions"
+"557","Get Started","780","<h3><strong>About the <em>French Renaissance Paleography</em> website</strong></h3>
+<p>Paleography is the history and study of handwriting. Old scripts can be very beautiful, but sometimes difficult to read. The <em>French Renaissance Paleography</em> site presents over 100 carefully selected French manuscripts written between 1300 and 1700, with tools for deciphering them and learning about their social, cultural, and institutional settings.</p>
+<p>The site is a <a href=""about-team"">collaborative</a> project supported by a grant from The Andrew W. Mellon Foundation. </p>
+<h3><strong>Get Started</strong></h3>
+<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width: 500px;""><tbody><tr><td>
+<h4>Finding Manuscripts</h4>
+<h5><a href=""#Search"">Search</a> <br /><a href=""#Browse"" style=""line-height: 1.6;"">Browse</a></h5>
+</td>
+</tr><tr><td>
+<h4>Browsing References and Resources</h4>
+<h5><a href=""#References and Resource"">Browse</a> </h5>
+</td>
+</tr><tr><td>
+<h4>Transcription</h4>
+<h5><a href=""#Quick Start"">Quick Start</a><br /><a href=""#Using the Tools and the Transcription Tool Bar"">Using the Tools and the Transcription Tool Bar</a><br /><a href=""#Text Transcription Box, Previous Line, & Column/Line Boxes"">Text Transcription Box, Previous Line, & Column/Line Boxes</a><br /><a href=""#Characters"">Characters</a><br /><a href=""#XML Tags"">XML Tags</a><br /><a href=""#Split Page Tools"">Split Page Tools</a> <a href=""#Split Page Tools Available"">Split Page Tools Available</a></h5>
+</td>
+</tr><tr><td>
+<h4>Transcribe in T-PEN</h4>
+<h5><a href=""#About T-Pen"">About T-PEN</a><br /><a href=""#How to Transcribe"">How to Transcribe</a></h5>
+</td>
+</tr><tr><td>
+<h4>Image Manipulation in T-PEN</h4>
+<h5><a href=""#Image Tools"">Image Tools</a><br /><a href=""#Magnify"">Magnify</a><br /><a href=""#Move Image"">Move Image</a><br /><a href=""#Move Transcription Tool Bar"">Move Transcription Tool Bar</a></h5>
+</td>
+</tr><tr><td>
+<h4>Navigation in T-PEN</h4>
+<h5><a href=""#Line to Line"">Line to Line</a><br /><a href=""#Page to Page"">Page to Page</a><br /><a href=""#Manuscript Image Boxes"">Manuscript Image Boxes</a><br /><a href=""#The Manuscript Image"">The Manuscript Image</a></h5>
+</td>
+</tr><tr><td>
+<h4>Discussion Forum</h4>
+<h5><a href=""#Forum"">Group Work Discussion Forum</a></h5>
+</td>
+</tr><tr><td>
+<h4>Provide Feedback</h4>
+<h5><a href=""#Feedback"">Feedback</a></h5>
+</td>
+</tr></tbody></table><p> </p>
+<h4><u>Finding Manuscripts</u></h4>
+<h5><a id=""Search"" name=""Search""></a>Search</h5>
+<p>Searches can be refined through the use of the drop-down tab or by adding search fields:</p>
+<p><img alt="""" src=""/sites/default/files/search1.jpg"" style=""width: 654px; height: 368px;"" /></p>
+<p> </p>
+<p> </p>
+<p>Filters can be added or removed by clicking on the ""plus"" and ""minus"" icons:</p>
+<p><img alt="""" src=""/sites/default/files/search2.jpg"" style=""width: 654px; height: 368px;"" /></p>
+<p> </p>
+<p> </p>
+<p>Removing the ""node"" filter underneath the Drupal web pages will display only the digital collections that are available for viewing online (and results can then be sorted by date or title):</p>
+<p><img alt="""" src=""/sites/default/files/search3.jpg"" style=""width: 654px; height: 368px;"" /></p>
+<p> </p>
+<p> </p>
+<p>Search Help provides clarification on the use of special characters in search fields:</p>
+<p><img alt="""" src=""/sites/default/files/search45_0.jpg"" style=""width: 654px; height: 368px;"" /></p>
+<p> </p>
+<p> </p>
+<p>The magnifying glass in the upper right corner is a quick link to the website's Search function, but does not allow for Advanced Searches:</p>
+<p><img alt="""" src=""/sites/default/files/search6.jpg"" style=""width: 654px; height: 368px;"" /></p>
+<p> </p>
+<h5><a id=""Browse"" name=""Browse""></a>Browse</h5>
+<p>Users can browse the website by Digital Collections, Topic, Time Period, or Region.</p>
+<p>Clicking on Topic, Time Period, or Region will bring you to the Search page, whereas clicking on Digital Collections will direct you to the Resources page.</p>
+<p>Users can click on either the Title or the Image; this will provide more information (metadata) for the item and in the case of the Digital Collections will allow users to navigate through the digital copy as well as manipulate it.</p>
+<p>Manuscripts and Calligraphy Books can be further manipulated by clicking on the image icon in the lower right hand corner:</p>
+<p><img alt="""" src=""/sites/default/files/browse4a.jpg"" style=""width: 654px; height: 368px;"" /></p>
+<p> </p>
+<p>This tool allows the user to do things such as grayscale or rotate the image, adjust brightness and or invert it:</p>
+<p><img alt="""" src=""/sites/default/files/browse4b.jpg"" style=""width: 654px; height: 368px;"" /></p>
+<p> </p>
+<p>The icon in the upper left hand corner allows users to add other items to the same page, so as to compare multiple items at the same time:</p>
+<p><img alt="""" src=""/sites/default/files/browse4c.jpg"" style=""width: 654px; height: 368px;"" /></p>
+<p> </p>
+<p>Users can choose to create a new slot on any side of the existing slot:</p>
+<p><img alt="""" src=""/sites/default/files/browse4d.jpg"" style=""width: 654px; height: 368px;"" /></p>
+<p> </p>
+<p>In the following screenshot, the new slot was created to the right of the existing slot:</p>
+<p><img alt="""" src=""/sites/default/files/browse4e.jpg"" style=""width: 654px; height: 368px;"" /></p>
+<p> </p>
+<p>By clicking on the newly created slot, users can choose what item they want added to the new slot:</p>
+<p><img alt="""" src=""/sites/default/files/browse4f.jpg"" style=""width: 654px; height: 368px;"" /></p>
+<p> </p>
+<p>This is how the page will look once an item is added to the slot:</p>
+<p><img alt="""" src=""/sites/default/files/browse4g.jpg"" style=""width: 654px; height: 368px;"" /></p>
+<p> </p>
+<h4><a id=""References and Resource"" name=""References and Resource""></a><u>Browsing References and Resources</u></h4>
+<p>The Newberry Library has provided partial transcriptions of many documents in the site, so that users can check their work. However, full transcriptions have not been provided, so that teachers can assign untranscribed sections for student practice.</p>
+<p>Also, the Newberry Library has included background essays for some of the documents. Classes are invited to ""adopt"" a document that does not have an essay and submit a draft background essay to the site's Google group for review, editing, and possible inclusion in the site.</p>
+<p>Not sure where to start? or who to ask? There are several options for anyone looking for more information. The <a href=""/resources"">Resources</a> and <a href=""/reference"">Reference</a> pages provide excellent backgound information for many of the manuscripts and for the subject of paleography, more broadly:</p>
+<p><img alt="""" src=""/sites/default/files/pictures/paleography_resources_page.png"" style=""width: 600px; height: 368px;"" /></p>
+<p> </p>
+<p> </p>
+<h4><u>Transcribe in T-PEN</u></h4>
+<p><strong><u>Users are strongly encouraged to use Chrome when transcribing in the T-PEN application.</u></strong></p>
+<h5><a id=""About T-Pen"" name=""About T-Pen""></a>About T-PEN </h5>
+<p>Users can practice transcribing any of the manuscript documents in this site and save their transcriptions to return to another day. You also can share your transcriptions with other individuals or a group. To do so, use the Collaboration button in the T-PEN transcription tool.</p>
+<h5><a id=""How to Transcribe"" name=""How to Transcribe""></a>How to Transcribe</h5>
+<p>All of the manuscript documents have been pre-parsed for use with the T-PEN transcription tool, but sometimes small adjustments are needed. Users can make those adjustments for themselves, using the Correct Parsing button.</p>
+<p>If a teacher wishes to correct parsing in any of the documents, globally, for all future users, he or she can request special administrative privileges. A user who has been granted administrative privileges will see an Edit Master Documents button (not accessible to regular users), which allows him/her to correct the parsing in the master document, not just in an individual project.</p>
+<h4><u>Transcription </u></h4>
+<h5><a id=""Quick Start"" name=""Quick Start""></a>Quick Start </h5>
+<p>To start a transcription go to the Manuscript tab in the main navigation menu, select the desired manuscript and click on the Transcribe with T-PEN button next to that manuscript.<br />
+This will open the manuscript in a transcription window.<br />
+Click on the text transcription box (if no transcription is present the ""Enter a line transcription"" prompt will appear).<br />
+Delete the ""Enter a line transcription"" prompt and then type the transcription of the text in the box highlighted (surrounded by a glow) on the manuscript image.<br />
+Hit the Return key to save the line of transcription.<br />
+When the end of a page is reached, click on the <em>next</em> button in the Page box on the Transcription Tool Bar and repeat the process.</p>
+<h5><a id=""Using the Tools and the Transcription Tool Bar"" name=""Using the Tools and the Transcription Tool Bar""></a>Using the Tools and the Transcription Tool Bar</h5>
+<p>The Transcription Tool Bar has a number of tools to facilitate the transcription.</p>
+<h5><a id=""Text Transcription Box, Previous Line, & Column/Line Boxes"" name=""Text Transcription Box, Previous Line, & Column/Line Boxes""></a>Text Transcription Box, Previous Line, & Column/Line Boxes </h5>
+<p>The white box in the center of the Transcription Tool Bar is the Text Transcription box. It corresponds to the highlighted box on the manuscript image. Once the line of text has been transcribed, press Return to save the text and move to the next line.<br />
+The image will automatically adjust to present the next line highlighted and directly above the Transcription Tool Bar, ready for transcription.<br />
+Directly above the Text Transcription box, the previous line of transcription will be presented in the Previous Line box to help in transcription. This line is not editable. To correct or change the previous line, click on the <em>prev </em>button in the Line box on the right of the Text Transcription box. On the right side of both these boxes, the Column letter and line number will be presented together in their respective Column/Line boxes. These correspond to the Letter/Number labels on the boxes on the manuscript image:</p>
+<p> </p>
+<p><img alt="""" src=""/sites/default/files/slide1_1.jpg"" style=""width: 600px; height: 338px;"" /></p>
+<h5><a id=""Characters"" name=""Characters""></a>Characters </h5>
+<p>Manuscripts often have characters that are no longer used in the modern English alphabet. Sometimes they are short hand or abbreviations for common works as well as performing other functions. The Characters<em> </em>pull-down contains some of these characters as appropriate to the text.<br />
+To use the Characters<em> </em>pull down click on the pull-down and select the desired character from the list, then continue transcribing.</p>
+<h5><a id=""XML Tags"" name=""XML Tags""></a>XML Tags</h5>
+<p>XML Tags allow the transcriber to add additional information about the text as it is transcribed. The XML Tags pull-down contains a list of these tags.  XML tags have an opening and a closing tag. When a tag is added to the transcription a small icon of the matching closing tab appears on the bottom right of the Text Transcription box, as a reminder that the XML tag closing tag needs to added to the transcription.<br />
+To open an XML tag click on the XML Tags<em> </em>pull down and select the desired XML Tag from the list then continue transcribing.<br />
+To close, click on the small icon of the matching closing tab.</p>
+<h5><a id=""Split Page Tools"" name=""Split Page Tools""></a>Split Page Tools </h5>
+<p>The Split Page Tools are a selection for supporting materials that can be called up as needed during the transcription process . The careen will be divided into two halves with the transcription page on the left and the split page content on the right.<br />
+To use the Split Screen<em> </em>pull down, click on the pull down and select the desired screen view from the list provided:</p>
+<p> </p>
+<p><img alt="""" src=""/sites/default/files/split.jpg"" style=""width: 600px; height: 338px;"" /></p>
+<p> </p>
+<p>To close or to change split screen click on the Full Page Transcription button on the upper right of the screen. To adjust the split between the two sides of the screen, mouse over the dividing line between the two sides until a drag icon appears, then click and drag to suit:</p>
+<p> </p>
+<p><img alt="""" src=""/sites/default/files/slide2_1.jpg"" style=""width: 600px; height: 338px;"" /></p>
+<h5><a id=""Split Page Tools Available"" name=""Split Page Tools Available""></a>Split Page Tools Available </h5>
+<ul><li>Get Started</li>
+<li>Background Essays</li>
+<li>Partial Transcriptions</li>
+<li>Group Work</li>
+<li>Calligraphy Books</li>
+<li>French Scripts and Hands</li>
+<li>About French Documents</li>
+<li>Manuscript Preservation</li>
+<li>Transcribing & Editing Conventions</li>
+<li>Teaching</li>
+<li>Dictionaries</li>
+<li>Glossary</li>
+<li>French Institutions</li>
+<li>Other Reference Resources</li>
+<li>Abbreviations</li>
+<li>Historical Maps</li>
+<li>Text Preview</li>
+<li>View Full Page</li>
+<li>Compare Page</li>
+</ul><h4><u>Image Manipulation in T-PEN</u></h4>
+<h5><a id=""Image Tools"" name=""Image Tools""></a>Image Tools </h5>
+<p>Sometimes the image or condition of the original manuscript makes reading the text very difficult. To help with this the image Tools Box provides four basic image adjustment tools:</p>
+<ol><li>Grayscale button</li>
+<li>Invert button</li>
+<li>Brightness adjustment slider</li>
+<li>Contrast adjustment slider</li>
+</ol><p>To use, click on the Image Tools tab. The Grayscale and Invert buttons can be clicked on and off as desired, and you can click and drag the sliders as desired.<br />
+Please note that these adjustments do not carry over to other pages within the manuscript and will disappear once you leave the page:</p>
+<p> </p>
+<p><img alt="""" src=""/sites/default/files/slide2_1_0.jpg"" style=""width: 600px; height: 338px;"" /></p>
+<h5><a id=""Magnify"" name=""Magnify""></a>Magnify</h5>
+<p>The Magnify button allows a controlled magnification of the image.<br />
+To use, click on the Magnify button. The Transcription Tool Bar will disappear and a selective magnifying ""Loop"" will appear. Run the ""Loop"" over the areas of interest on the manuscript as desired. Type + [plus] to enlarge the image in the  ""Loop."" Type – [minus] to reduce the image in the ""Loop."" Hit ESC to return to the Transcription Tool Bar.   </p>
+<h5><a id=""Move Image"" name=""Move Image""></a>Move Image </h5>
+<p>Move image allows the image to be moved to see other parts of the manuscript image as needed.<br />
+To use, click the Move Img button. Click and drag the manuscript images as desired. The move image function will remain active until another tool is selected or the Move Img button is clicked again. </p>
+<h5><a id=""Move Transcription Tool Bar"" name=""Move Transcription Tool Bar""></a>Move Transcription Tool Bar </h5>
+<p>On the top left and right of the Transcription Tool Bar there are grab bars that if clicked and dragged will move the Transcription Tool Bar up and down as desired:</p>
+<p> </p>
+<p><img alt="""" src=""/sites/default/files/slide3_1.jpg"" style=""width: 600px; height: 338px;"" /></p>
+<h4><u>Navigation in T-PEN</u></h4>
+<h5><a id=""Line to Line"" name=""Line to Line""></a>Line to Line </h5>
+<p>There are three ways to navigate from line to line:</p>
+<ol><li>To navigate from line to line click the <em>next</em> or <em>prev b</em>uttons in the Line box on the right of the Text Transcription box</li>
+<li> If the Text Preview Split Page Tool is selected, click on the desired line on the right side of the screen and the appropriate line will be called up in the transcription area on the left</li>
+<li>To move to the next line at the end of a line of transcription press Return.</li>
+</ol><h5><a id=""Page to Page"" name=""Page to Page""></a>Page to Page</h5>
+<p>There are three ways to navigate between pages:</p>
+<ol><li>Click on the <em>next</em> or <em>prev</em> buttons in the Page Box on the left of the Text Transcription Box</li>
+<li>Click on the <em>jump to page</em> pull down in the middle of the top bar of the page to select a specific page anywhere in the manuscript.</li>
+<li>On the left and right of the <em>jump to page</em> pull-down there are icons.</li>
+</ol><p style=""margin-left: 40px"">On the left side:<br />
+Click on the single arrow and line pointing left to go to the first page in the manuscript.<br />
+Click on the double arrow pointing left to go to the previous page.</p>
+<p style=""margin-left: 40px"">On the right side:<br />
+Click on the single arrow and line pointing right to go to the last page in the manuscript.<br />
+Click on the double arrow pointing left to go to the next page. </p>
+<h5><a id=""Manuscript Image Boxes"" name=""Manuscript Image Boxes""></a>Manuscript Image Boxes </h5>
+<p>Each line of text on the manuscript image is bounded by a colored line. Each bounding line has the column letter and line number visible on the right side.<br />
+Theses lines can be edited in a number of ways. This is done via the Line Control box on the right side on the Transcription Tool Bar.<br />
+All lines except the line being transcribed can be hidden or revealed by clicking on the lines checkbox. Clicking on the Line #s checkbox hides or reveals all the column letters and line numbers on the manuscript image. The color of the lines can be changed by repeated clicking on the Line Color button until a preferred color is shown. </p>
+<h5><a id=""The Manuscript Image"" name=""The Manuscript Image""></a>The Manuscript Image </h5>
+<p>The image of the manuscript will have a series of boxes overlaid over it. Each box will have a letter and number:</p>
+<p style=""margin-left: 40px"">a. The letter indicates the column<br />
+b. The number indicates the row.</p>
+<p>The color and presentation of the boxes can be edited via the line control box on the Transcription Tool Bar.<br />
+The Transcription window presents the image of the first page of the manuscript with the Transcription Tool Bar splitting the image, to allow the entire image to be visible at all times:</p>
+<p> </p>
+<p><img alt="""" src=""/sites/default/files/slide4_1.jpg"" style=""width: 600px; height: 338px;"" /></p>
+<p> </p>
+<h4><u>Discussion Forum</u></h4>
+<h5><a id=""Forum"" name=""Forum""></a>Group Work Discussion Forum </h5>
+<p>Looking to collaborate with the wider paleographic community, get your students more involved, or maybe you just have questions about your transcriptions? Then take a look at the <a href=""/content/group-work"">Group Work</a> section:</p>
+<p><img alt="""" src=""/sites/default/files/pictures/group_work_link.png"" style=""width: 500px; height: 498px;"" /></p>
+<p> </p>
+<p>Here you will be able to collaborate and communicate with the community in general, by starting a new topic of discussion for all who are interested in it to comment on:</p>
+<p><img alt="""" src=""/sites/default/files/pictures/group_work_new_topic_page.png"" style=""width: 600px; height: 283px;"" /></p>
+<p> </p>
+<h4><a id=""Feedback"" name=""Feedback""></a>Provide Feedback</h4>
+<p>To make the site as user-friendly as possible, feedback is appreciated.</p>
+<p>Kindly contact us with any suggestions for improvement, or with any of your concerns by clicking on the <strong><em>Share your feedback</em></strong> button at the bottom right corner:</p>
+<p><img alt=""Share your feedback can be found on the bottom right corner of the page"" src=""/sites/default/files/pictures/share_your_feedback_location.png"" style=""width: 600px; height: 328px; float: left;"" /></p>
+<p> </p>","Wednesday, January 6, 2016 - 16:17","Wednesday, April 10, 2019 - 15:54","Yes","/content/get-started"
+"629","Abrev. Work Page [Delete after use]","2492","<p>Only for development. Delete after January 14.</p>
+<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:500px""><colgroup></colgroup><tbody><tr><td><b>P</b></td>
+<td> </td>
+</tr><tr><td><u>p</u></td>
+<td>par</td>
+</tr><tr><td>p’</td>
+<td>parisis</td>
+</tr><tr><td>p’</td>
+<td>payé [<i>en marge d’acte notarié</i>]</td>
+</tr><tr><td>p’</td>
+<td>premier</td>
+</tr><tr><td>p<sup>2</sup></td>
+<td>pour</td>
+</tr><tr><td>P’</td>
+<td>Promettant (clauses finales)</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>paiert’</td>
+<td>paieront</td>
+</tr><tr><td>pall’</td>
+<td>pallais</td>
+</tr><tr><td>papp’</td>
+<td>pappier</td>
+</tr><tr><td>parr’</td>
+<td>parroisse</td>
+</tr><tr><td>parroch<sup>ale</sup></td>
+<td>parrochiale</td>
+</tr><tr><td>payem’</td>
+<td>payement</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>pbre’</td>
+<td>prestre - prebstre</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>pbre’</td>
+<td>prestre - prebstre</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>pbre’</td>
+<td>prestre - prebstre</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><sub>c</sub>pc<sup>2</sup>          </td>
+<td>procureur</td>
+</tr><tr><td>p<sup>ce</sup></td>
+<td>piece</td>
+</tr><tr><td>p’ced’</td>
+<td>precedent</td>
+</tr><tr><td><sub>c</sub>pced’</td>
+<td>proceder</td>
+</tr><tr><td><sub>c</sub>pces</td>
+<td>procés</td>
+</tr><tr><td><sub>c</sub>pcess’</td>
+<td>procession</td>
+</tr><tr><td><sub>c</sub>pcess<sup>on</sup></td>
+<td>procession</td>
+</tr><tr><td><sub>c</sub>pch’ ven’</td>
+<td>prochain venant - prochainement venant</td>
+</tr><tr><td><sub>c</sub>pch’</td>
+<td>prochain</td>
+</tr><tr><td><u>p</u>ches</td>
+<td>perches</td>
+</tr><tr><td><u>p</u>chun’ <u>p</u>chun’</td>
+<td>par chascun - par chacun</td>
+</tr><tr><td><sub>c</sub>pcur<sup>2</sup> - <sub>c</sub>pcur’</td>
+<td>procureur</td>
+</tr><tr><td><sub>c</sub>pcurat’</td>
+<td>procuration</td>
+</tr><tr><td><u>p</u>cyd<sup>t</sup></td>
+<td>par cy devant²</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><u>p</u>derr’</td>
+<td>par derriere</td>
+</tr><tr><td><u>p</u>d<sup>t</sup></td>
+<td>par devant</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>pend’</td>
+<td>pendant</td>
+</tr><tr><td>p’er</td>
+<td>prier</td>
+</tr><tr><td><u>p</u>esp’al - <u>p</u>espal’</td>
+<td>par especial</td>
+</tr><tr><td>p’eur</td>
+<td>prieur</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>p’ffions’</td>
+<td>preffixions</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>phl’es - phles’</td>
+<td>Philippes</td>
+</tr><tr><td>phl’on - phlon’</td>
+<td>Philippon</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><u>p</u>is</td>
+<td>Paris</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>p’jud’</td>
+<td>prejudice</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><u>p</u>lem’</td>
+<td>parlement</td>
+</tr><tr><td><u>p</u>lem’t - <u>p</u>lemt’</td>
+<td>parlement</td>
+</tr><tr><td>plus’</td>
+<td>plusieurs</td>
+</tr><tr><td>plus’s</td>
+<td>plusieurs</td>
+</tr><tr><td>plusapl’</td>
+<td>plus a plein</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>p’m’</td>
+<td>premier</td>
+</tr><tr><td><sub>c</sub>pm’</td>
+<td>promect - promet</td>
+</tr><tr><td><sub>c</sub>pmaon’</td>
+<td>proclamation</td>
+</tr><tr><td><sub>c</sub>pmett’</td>
+<td>promectant - promettant</td>
+</tr><tr><td><u>p</u>miss’</td>
+<td>permission</td>
+</tr><tr><td><u>p</u>m’pt<sup>re</sup></td>
+<td>peremptoire</td>
+</tr><tr><td>p’m’s</td>
+<td>premiers</td>
+</tr><tr><td><u>p</u>my</td>
+<td>parmy [= <i>moyennant</i>]</td>
+</tr><tr><td>’</td>
+<td> </td>
+</tr><tr><td>pn’ce - pnce</td>
+<td>presence</td>
+</tr><tr><td>p’ndre</td>
+<td>prendre</td>
+</tr><tr><td>pn’du</td>
+<td>pretendu</td>
+</tr><tr><td>p’ne<sup>2</sup></td>
+<td>preneur</td>
+</tr><tr><td>pn’s - pns’</td>
+<td>presens</td>
+</tr><tr><td>p’ns</td>
+<td>prins [= <i>pris</i>]</td>
+</tr><tr><td>pn’t - pnt’</td>
+<td>present</td>
+</tr><tr><td>pn’t’</td>
+<td>presentes</td>
+</tr><tr><td>pntem’</td>
+<td>presentement</td>
+</tr><tr><td>pn’ter</td>
+<td>presenter</td>
+</tr><tr><td>pn’tes - pntes’</td>
+<td>presentes</td>
+</tr><tr><td>pn’tz</td>
+<td>presentz</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>po<sup>2</sup></td>
+<td>pour</td>
+</tr><tr><td><sub>c</sub>pon’</td>
+<td>procuration</td>
+</tr><tr><td>po<sup>on</sup> - poon’</td>
+<td>possession</td>
+</tr><tr><td>port’</td>
+<td>portion</td>
+</tr><tr><td>poss’</td>
+<td>possession</td>
+</tr><tr><td>poss’<sup>on</sup></td>
+<td>possession</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>p’pal - ppal’</td>
+<td>principal</td>
+</tr><tr><td><sub>c</sub>pp’ete</td>
+<td>proprieté</td>
+</tr><tr><td><sub>c</sub>pp’et’e</td>
+<td>proprietaire</td>
+</tr><tr><td><sub>c</sub>ppos’</td>
+<td>proposer</td>
+</tr><tr><td><sub>c</sub>pp’s</td>
+<td>propres</td>
+</tr><tr><td><u>p</u>puel’</td>
+<td>perpetuel</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><u>p</u>r’</td>
+<td>parroisse</td>
+</tr><tr><td><u>p</u>re</td>
+<td>Pierre</td>
+</tr><tr><td>preal’</td>
+<td>presidial</td>
+</tr><tr><td>premier’</td>
+<td>premierement</td>
+</tr><tr><td><u>p</u>ris</td>
+<td>Parris</td>
+</tr><tr><td>proc<sup>2</sup></td>
+<td>procureur</td>
+</tr><tr><td>prom’</td>
+<td>promettant</td>
+</tr><tr><td>pron’</td>
+<td>prononcé</td>
+</tr><tr><td>pr’onaige</td>
+<td>patronaige</td>
+</tr><tr><td>prouch’</td>
+<td>prouchain</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>p’s’</td>
+<td>prise - prisee - prisez - prisees [<i>inventaires</i>]</td>
+</tr><tr><td>p’sc’p<sup>on</sup></td>
+<td>prescription</td>
+</tr><tr><td>p’se</td>
+<td>prisé</td>
+</tr><tr><td>p’sid’</td>
+<td>president</td>
+</tr><tr><td><u>p</u>soe’        </td>
+<td>personne</td>
+</tr><tr><td><u>p</u>son’</td>
+<td>personne</td>
+</tr><tr><td>p’son</td>
+<td>prison</td>
+</tr><tr><td>p’sonn’</td>
+<td>prisonnier</td>
+</tr><tr><td><u>p</u>so’ne</td>
+<td>personne</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><u>p</u>t</td>
+<td>part</td>
+</tr><tr><td><u>p</u>t’</td>
+<td>partie - parties</td>
+</tr><tr><td><u>p</u>t’<sup>es</sup></td>
+<td>parties</td>
+</tr><tr><td><sub>c</sub>pth’</td>
+<td>prothomartyr [saint Etienne]</td>
+</tr><tr><td><u>p</u>tion</td>
+<td>portion</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td><sub>c</sub>puch’</td>
+<td>prouchain</td>
+</tr><tr><td>puiss’</td>
+<td>puissant</td>
+</tr><tr><td>puissan’</td>
+<td>puissance</td>
+</tr><tr><td><sub>c</sub>puis’</td>
+<td>provision</td>
+</tr><tr><td><sub>c</sub>puu’</td>
+<td>prouver</td>
+</tr><tr><td> </td>
+<td> </td>
+</tr><tr><td>p’x</td>
+<td>prix</td>
+</tr></tbody></table>","Thursday, January 14, 2016 - 09:36","Thursday, January 14, 2016 - 12:06","No","/content/abrev-work-page-delete-after-use"
+"1075","In Development","781","<p>This page is in development and is not currently accessible. Please contact <a href=""mailto:collections@library.utoronto.ca"">collections@library.utoronto.ca</a> if you have any feedback or questions.</p>","Tuesday, January 26, 2016 - 11:28","Tuesday, January 26, 2016 - 11:33","Yes","/in-development"

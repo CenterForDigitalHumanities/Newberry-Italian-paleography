@@ -9,4 +9,4 @@ collections:
     permalink: /:slug
   transcriptions:
     output: true
-    permalink: /:collection/:name
+    permalink: /transcription/:name

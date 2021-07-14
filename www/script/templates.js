@@ -33,7 +33,7 @@ footer.innerHTML = `
         <h2 class="pane-title"> Contact </h2>
         <p><a href="/contact">Contact</a><br><a href="/content/about-team">About the Team</a><br><a href="/contact">Terms of Use</a></p>
         <p>Supported by a grant from The Andrew W. Mellon Foundation</p>
-        <p><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" style="border-width:0"></a><br><a href="http://paleography.library.utoronto.ca/">http://paleography.library.utoronto.ca/</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
+        <p><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" style="border-width:0"></a><br><a href="https://www.newberry.org/paleography">Italian Rennaisance Paleography</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
     </div>
 </div> `
 

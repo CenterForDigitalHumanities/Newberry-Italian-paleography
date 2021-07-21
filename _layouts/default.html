@@ -1,37 +1,179 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="{{ site.lang | default: " en-US" }}">
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      {% if page.title %}
-      <h1>{{ page.title }}</h1>
-      {% endif %}
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  {% seo %}
+  <link rel="stylesheet" href="{{site.baseurl}}/www/css/style.css?v={{site.github.build_revision}}">
+  {% if page.replacements=='dates' %}
+  <script defer>
+    fetch('{{ site.baseurl}}/iiif-cache/manuscripts.json')
+      .then(status => { if (!status.ok) { throw Error(status) } return status })
+      .then(response => response.json())
+      .catch(err => { throw Error(err) })
+      .then(collection => {
+        document.querySelectorAll("date").forEach(el => {
+          const id_match = `https://iiif.library.utoronto.ca/presentation/v2/paleography:${el.getAttribute("data-id")}/manifest`
+          for (const m of collection.manifests) {
+            if (m['@id'] === id_match) {
+              el.innerHTML = m.date
+              return
+            }
+          }
+        })
+      })
+  </script>
+  {% endif %}
+</head>
 
-      {{ content }}
+<body>
+  <header class="header clearfix no-embed">
+    <div id="branding" class="branding-elements clearfix">
+      <div style="margin: 0px auto;">
+        <div class="newberry-header hiddem-sm hidden-xs">
+          <a href="http://www.newberry.org/">
+            <img alt="Newberry" src="{{site.baseurl}}/www/images/NewberryLogo_with_tag.png">
+          </a>
+        </div>
 
-      {% if site.github.private != true and site.github.license %}
-      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        <h1 id="site-name"><a href="/">French Renaissance
+            <div id="logo" style="display: inline;">
+              <img aria-hidden="true" role="presentation" alt="" src="{{site.baseurl}}/www/images/rp-logo.png">
+            </div>
+            <span class="red">Paleography</span>
+          </a>
+        </h1>
       </div>
-      {% endif %}
+
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
+    <div class="search-icon" id="search-btn"><button title="Search" aria-label="Search"
+        class="icon icon-search"></button></div>
+    <div class="hamburger-icon">
+      <div class="icon icon-menu">&nbsp;</div>
+    </div>
+  </header>
+  <nav class="container no-embed">
+    <ul class="nav nav-bar">
+      <li class="first leaf"><a href="{{ site.baseurl }}">Home</a></li>
+      <li class="leaf active-trail active"><a href="{{ site.baseurl }}/www/manuscripts.html" title=""
+          class="active-trail active">Manuscripts</a></li>
+      <li class="leaf"><a href="{{site.baseurl}}/search" title="">Search</a></li>
+      <li class="expanded dropdown"><a href="{{site.baseurl}}/resources" title="" data-target="#"
+          class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+          aria-expanded="false">Resources <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li class="first leaf"><a href="{{site.baseurl}}/essays" title="">Background Essays</a></li>
+          <li class="leaf"><a href="{{site.baseurl}}/transcriptions" title="">Partial Transcriptions</a></li>
+          <li class="leaf"><a href="{{ site.baseurl}}/www/calligraphy.html" title="">Calligraphy Books</a></li>
+          <li class="leaf"><a href="{{ site.baseurl}}/www/maps.html" title="">Historical Maps</a></li>
+          <li class="leaf"><a href="{{ site.baseurl}}/interactive-map">Interactive Map</a></li>
+          <li class="leaf"><a href="{{ site.baseurl}}/scripts">French Scripts and Hands</a></li>
+          <li class="leaf"><a href="{{ site.baseurl}}/about-french-documents">About French Documents</a></li>
+          <li class="leaf"><a href="{{ site.baseurl}}/manuscript-preservation">Manuscript Preservation</a></li>
+          <li class="leaf"><a href="{{ site.baseurl}}/transcribing-editing-conventions">Transcribing &amp; Editing
+              Conventions</a></li>
+          <li class="leaf"><a href="{{ site.baseurl}}/teaching">Teaching</a></li>
+          <li class="leaf"><a href="{{ site.baseurl}}/group-work">Group Work</a></li>
+          <li class="last leaf"><a href="{{ site.baseurl}}/get-started">Get Started</a></li>
+        </ul>
+      </li>
+      <li class="expanded dropdown"><a href="{{ site.baseurl}}/reference" data-target="#" class="dropdown-toggle"
+          data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reference <span
+            class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li class="first leaf"><a href="{{ site.baseurl}}/abbreviations">Abbreviations</a></li>
+          <li class="leaf"><a href="{{ site.baseurl}}/selected-french-dictionaries">Dictionaries</a></li>
+          <li class="leaf"><a href="{{ site.baseurl}}/glossary-of-terms">Glossary</a></li>
+          <li class="leaf"><a href="{{ site.baseurl}}/french-institutions">French Institutions</a></li>
+          <li class="last leaf"><a href="{{ site.baseurl}}/other-reference-resources">Other Reference Resources</a></li>
+        </ul>
+      </li>
+      <li class="expanded dropdown"><a href="{{ site.baseurl}}/contact" title="" data-target="#" class="dropdown-toggle"
+          data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span
+            class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li class="first leaf"><a href="{{ site.baseurl}}/about-team" title="">About the Team</a></li>
+          <li class="last leaf"><a href="{{ site.baseurl}}/contributing-institutions" title="">Contributing
+              Institutions</a></li>
+        </ul>
+      </li>
+      <li class="expanded dropdown"><a title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown"
+          role="button" aria-haspopup="true" aria-expanded="false">My Transcriptions <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li class="first leaf"><a href="http://paleo.rerum.io/TPEN-NL/my_transcriptions.html" title="">My
+              Transcriptions</a></li>
+          <li class="last leaf"><a href="{{ site.baseurl}}/master-transcriptions" title="">Master Transcriptions</a>
+          </li>
+        </ul>
+      </li>
+      <li class="last leaf"><a href="http://paleo.rerum.io/TPEN-NL/logout.html" title="">Logout</a></li>
+    </ul>
+  </nav>
+  <div class="container markdown-body">
+
+    {{ content }}
+
+    {% if site.github.private != true and site.github.license %}
+    <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+    </div>
     {% endif %}
-  </body>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+    integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+  <script>anchors.add();</script>
+  {% if site.google_analytics %}
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+
+  <footer class="row container">
+    <div class="col" style="flex-grow: 2;">
+      <h2> Partners </h2>
+      <div class="row">
+        <a class="col" href="http://www.newberry.org/" target="_blank"><img alt="Newberry"
+            src="{{site.baseurl}}/www/images/NewberryLogo_with_tag.png"></a>
+        <a class="col" href="http://onesearch.library.utoronto.ca" target="_blank"><img
+            alt="University of Toronto Libraries" src="{{site.baseurl}}/www/images/UTL-logo.png"></a>
+      </div>
+      <div class="row">
+        <a class="col" href="http://lib.slu.edu/" style="line-height: 23.1111px;" target="_blank"><img
+            alt="St. Louis University" src="{{site.baseurl}}/www/images/slu.gif" style="width: 346px;"></a>
+        <a class="col" href="http://www.itergateway.org/" target="_blank"><img alt="Iter"
+            src="{{site.baseurl}}/www/images/iter-logo-new.png"></a>
+      </div>
+    </div>
+    <div class="col">
+      <div class="pane-content">
+        <p>Header image: Newberry Library, VAULT folio Case MS 214, f.1r</p>
+        <p>Supported by a grant from <a href="http://mellon.org" target="_blank">The Andrew W. Mellon Foundation</a></p>
+        <p><a href="https://italian-paleography.library.utoronto.ca">Italian Paleography</a> is licensed under a <a
+            href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons
+            Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
+        <p>Follow us on Twitter:<br><iframe id="twitter-widget-0" 
+            allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered"
+            style="position: static; visibility: visible; width: 152px; height: 20px;" title="Twitter Follow Button"
+            src="https://platform.twitter.com/widgets/follow_button.06c6ee58c3810956b7509218508c7b56.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=italpaleography&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1626898782476"
+            data-screen-name="italpaleography"></iframe></p>
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+  </footer>
+  <script>
+    if (window.top != window.self) {
+      document.querySelectorAll('.no-embed').forEach(el => el.style.display = 'none')
+    }
+  </script>
+</body>
+
 </html>

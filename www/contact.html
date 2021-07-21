@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us—Italian Renaissance Paleography</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/utils.js" defer></script>
+</head>
+
+<body>
+    <header>header</header>
+
+    <form class="container markdown-body" action="http://paleo.rerum.io/TPEN-NL/about.jsp" method="POST" onsubmit="return Message.isValid();">
+        <script type="text/javascript">
+            var Message = {
+                isValid:    function(){
+                    var contact = $("#contact");
+                    var msgLength = contact.val().length
+                    var maxLength = 10000;
+                    if (msgLength > maxLength) {
+                        contact.addClass("ui-state-error-text")
+                        .change(function(){
+                            var maxLength = 10000;
+                            var msgLength = $("#contact").val().length
+                            if (msgLength < maxLength) contact.removeClass("ui-state-error-text");
+                        });
+                        alert ("Please limit your message to "+maxLength+" characters.");
+                        return false;
+                    }
+                    if (msgLength === 0) {
+                        alert ("No message to send");
+                        return false;
+                    }
+                    return true;
+                }
+            };
+        </script>
+        <input type="hidden" value="3" name="selecTab">
+        <textarea id="contact" name="contact" placeholder="User information will be included automatically with this message"></textarea>
+        <input type="submit" name="contactTPEN" value="Send Message" class="ui-state-default ui-corner-all ui-button">
+    </form>
+
+    <footer>footer</footer>
+</body>
+
+</html>

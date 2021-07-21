@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Getting more data cached</title>
+</head>
+
+<body>
+    <div id=results>
+        broop
+    </div>
+    <script>
+        const COLLECTION = "https://iiif.library.utoronto.ca/presentation/v2/collections/italianpaleography:manuscripts"
+        let MANIFESTS = []
+        const mss = fetch(COLLECTION)
+            .then(res => res.ok ? res.json() : Promise.reject(res.message))
+            .catch(err => { })
+            .then(collection => populateCollection(collection))
+            .then(result => results.innerHTML = JSON.stringify(result, null, 2))
+
+        async function populateCollection(collection) {
+            let all = []
+            collection.manifests.forEach((manifest, index) => {
+                all.push(fetch(manifest['@id'])
+                    .then(res => res.ok ? res.json() : Promise.reject(res.message))
+                    .catch(err => { })
+                    .then(m => {
+                        return Object.assign(manifest, {
+                            date: getValueAsNumber(getValueOfMetadataKey(m.metadata, "Date Issued") ?? getValueOfMetadataKey(m.metadata, "Date")),
+                            difficulty: getValueOfMetadataKey(m.metadata, "Reading Difficulty")
+                        })
+                    }))
+            })
+            collection.manifests = await Promise.all(all)
+            return await collection
+        }
+
+        function getValueAsNumber(val) {
+            try {
+                return parseInt(val.substring(val.match(/\b\d/).index))
+            } catch(err){
+                return undefined
+            }
+        }
+
+        function getValueOfMetadataKey(arr, key) {
+            for (const k of arr) {
+                if (k?.label === key) { return k.value }
+            }
+        }
+    </script>
+</body>
+
+</html>

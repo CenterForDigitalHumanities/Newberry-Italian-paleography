@@ -303,7 +303,6 @@ footer img, nl-footer img {
     margin     : 0;
     font-size  : 220%;
     font-weight: normal !important;
-    font-family: 'EB Garamond', serif !important;
     text-align : center;
 }
 
@@ -506,8 +505,6 @@ input[type="submit"] {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'EB Garamond','Times New Roman',serif;
-    font-family: 'Carrois Gothic',sans-serif;
     margin: 0;
     padding: 0;
     font-weight: normal !important;
@@ -515,8 +512,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4 {
-    font-weight: 200 !important;
-    font-family: 'EB Garamond','Times New Roman',serif !important;
     color: black;
 }
 

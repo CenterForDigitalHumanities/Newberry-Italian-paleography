@@ -349,6 +349,9 @@ footer img, nl-footer img {
     z-index: 100 !important;
     opacity: 1;
 }
+header {
+    height: 100px !important;
+}
 
 .clearfix:before,
 .clearfix:after,

@@ -425,7 +425,6 @@ li.leaf {
 
 .nav>li>a {
     color          : black;
-    font-size      : .8em;
     text-decoration: none;
     position       : relative;
 }
@@ -570,7 +569,6 @@ h3[id] {
 
 @media (min-width: 981px) {
     .nav>li>a {
-        border-bottom: 2px solid #b43d2e;
         padding      : 5px 15px;
     }
 

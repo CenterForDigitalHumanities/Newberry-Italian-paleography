@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }}</title>
   {% seo %}
-  <link rel="stylesheet" href="{{site.baseurl}}/www/css/style.css?v={{site.github.build_revision}}">
+  <link rel="stylesheet" href="{{site.baseurl }}/www/css/style.css?v={{site.github.build_revision}}">
   {% if page.replacements=='dates' %}
   <script defer>
-    fetch('{{ site.baseurl}}/iiif-cache/manuscripts.json')
+    fetch('{{ site.baseurl }}/iiif-cache/manuscripts.json')
       .then(status => { if (!status.ok) { throw Error(status) } return status })
       .then(response => response.json())
       .catch(err => { throw Error(err) })
@@ -35,16 +35,12 @@
       <div style="margin: 0px auto;">
         <div class="newberry-header hiddem-sm hidden-xs">
           <a href="http://www.newberry.org/">
-            <img alt="Newberry" src="{{site.baseurl}}/www/images/NewberryLogo_with_tag.png">
+            <img alt="Newberry" src="{{site.baseurl }}/www/images/NewberryLogo_with_tag.png">
           </a>
         </div>
 
-        <h1 id="site-name"><a href="/">French Renaissance
-            <div id="logo" style="display: inline;">
-              <img aria-hidden="true" role="presentation" alt="" src="{{site.baseurl}}/www/images/rp-logo.png">
-            </div>
-            <span class="red">Paleography</span>
-          </a>
+        <h1 id="site-name">
+          <a href="/">Italian Paleography</a>
         </h1>
       </div>
 
@@ -60,44 +56,38 @@
       <li class="first leaf"><a href="{{ site.baseurl }}">Home</a></li>
       <li class="leaf active-trail active"><a href="{{ site.baseurl }}/www/manuscripts.html" title=""
           class="active-trail active">Manuscripts</a></li>
-      <li class="leaf"><a href="{{site.baseurl}}/search" title="">Search</a></li>
-      <li class="expanded dropdown"><a href="{{site.baseurl}}/resources" title="" data-target="#"
+      <li class="leaf active-trail active"><a href="{{ site.baseurl }}/www/handbook.html" title=""
+          class="active-trail active">Handbook</a></li>
+      <li class="leaf"><a href="{{site.baseurl }}/search" title="">Search</a></li>
+      <li class="expanded dropdown"><a href="{{site.baseurl }}/resources" title="" data-target="#"
+          class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+          aria-expanded="false">Appendix<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li class="first leaf"><a href="https://italian-paleography.library.utoronto.ca/islandora/object/italianpaleography%3Acalligraphybooks" title="">Calligraphy Books</a></li>
+          <li class="last leaf"><a href="https://italian-paleography.library.utoronto.ca/islandora/object/italianpaleography%3Ahistoricalmaps" title="">Historical Maps</a></li>
+        </ul>
+      </li>
+      <li class="expanded dropdown"><a href="{{site.baseurl }}/resources" title="" data-target="#"
           class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
           aria-expanded="false">Resources <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li class="first leaf"><a href="{{site.baseurl}}/essays" title="">Background Essays</a></li>
-          <li class="leaf"><a href="{{site.baseurl}}/transcriptions" title="">Partial Transcriptions</a></li>
-          <li class="leaf"><a href="{{ site.baseurl}}/www/calligraphy.html" title="">Calligraphy Books</a></li>
-          <li class="leaf"><a href="{{ site.baseurl}}/www/maps.html" title="">Historical Maps</a></li>
-          <li class="leaf"><a href="{{ site.baseurl}}/interactive-map">Interactive Map</a></li>
-          <li class="leaf"><a href="{{ site.baseurl}}/scripts">French Scripts and Hands</a></li>
-          <li class="leaf"><a href="{{ site.baseurl}}/about-french-documents">About French Documents</a></li>
-          <li class="leaf"><a href="{{ site.baseurl}}/manuscript-preservation">Manuscript Preservation</a></li>
-          <li class="leaf"><a href="{{ site.baseurl}}/transcribing-editing-conventions">Transcribing &amp; Editing
-              Conventions</a></li>
-          <li class="leaf"><a href="{{ site.baseurl}}/teaching">Teaching</a></li>
-          <li class="leaf"><a href="{{ site.baseurl}}/group-work">Group Work</a></li>
-          <li class="last leaf"><a href="{{ site.baseurl}}/get-started">Get Started</a></li>
-        </ul>
+        <ul class="dropdown-menu"><li class="first leaf"><a href="{{ site.baseurl }}/new-paleography">New to Paleography</a></li>
+          <li class="leaf"><a href="{{ site.baseurl }}/transcriptions" title="">Transcriptions</a></li>
+          <li class="leaf"><a href="{{ site.baseurl }}/background-essays" title="">Background Essays</a></li>
+          <li class="leaf"><a href="{{ site.baseurl }}/abbreviations-symbols">Abbreviations &amp; Symbols</a></li>
+          <li class="leaf"><a href="{{ site.baseurl }}/glossary-of-terms">Glossary</a></li>
+          <li class="leaf"><a href="{{ site.baseurl }}/dictionaries">Dictionaries</a></li>
+          <li class="leaf"><a href="{{ site.baseurl }}/bibliography-references">Bibliography &amp; References</a></li>
+          <li class="leaf"><a href="{{ site.baseurl }}/teaching">Teaching Materials</a></li>
+          <li class="leaf"><a href="{{ site.baseurl }}/transcription-and-metadata-standards">Transcription and Metadata Standards</a></li>
+          <li class="last leaf active-trail active"><a href="{{ site.baseurl }}/history-project" class="active-trail active">History of the Project</a></li>
+          </ul>
       </li>
-      <li class="expanded dropdown"><a href="{{ site.baseurl}}/reference" data-target="#" class="dropdown-toggle"
-          data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reference <span
-            class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li class="first leaf"><a href="{{ site.baseurl}}/abbreviations">Abbreviations</a></li>
-          <li class="leaf"><a href="{{ site.baseurl}}/selected-french-dictionaries">Dictionaries</a></li>
-          <li class="leaf"><a href="{{ site.baseurl}}/glossary-of-terms">Glossary</a></li>
-          <li class="leaf"><a href="{{ site.baseurl}}/french-institutions">French Institutions</a></li>
-          <li class="last leaf"><a href="{{ site.baseurl}}/other-reference-resources">Other Reference Resources</a></li>
-        </ul>
-      </li>
-      <li class="expanded dropdown"><a href="{{ site.baseurl}}/contact" title="" data-target="#" class="dropdown-toggle"
+      <li class="expanded dropdown"><a href="{{ site.baseurl }}/contact" title="" data-target="#" class="dropdown-toggle"
           data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span
             class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li class="first leaf"><a href="{{ site.baseurl}}/about-team" title="">About the Team</a></li>
-          <li class="last leaf"><a href="{{ site.baseurl}}/contributing-institutions" title="">Contributing
-              Institutions</a></li>
+          <li class="first leaf"><a href="{{ site.baseurl }}/contact" title="">Contact Us</a></li>
+          <li class="last leaf"><a href="{{ site.baseurl }}/about-team" title="">About the Team</a></li>
         </ul>
       </li>
       <li class="expanded dropdown"><a title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown"
@@ -105,7 +95,7 @@
         <ul class="dropdown-menu">
           <li class="first leaf"><a href="http://paleo.rerum.io/TPEN-NL/my_transcriptions.html" title="">My
               Transcriptions</a></li>
-          <li class="last leaf"><a href="{{ site.baseurl}}/master-transcriptions" title="">Master Transcriptions</a>
+          <li class="last leaf"><a href="{{ site.baseurl }}/master-transcriptions" title="">Master Transcriptions</a>
           </li>
         </ul>
       </li>
@@ -142,11 +132,11 @@
       <h2> Partners </h2>
       <div class="row">
         <a class="col" href="http://www.newberry.org/" target="_blank"><img alt="Newberry"
-            src="{{site.baseurl}}/www/images/NewberryLogo_with_tag.png"></a>
+            src="{{ site.baseurl }}/www/images/NewberryLogo_with_tag.png"></a>
         <a class="col" href="http://onesearch.library.utoronto.ca" target="_blank"><img
-            alt="University of Toronto Libraries" src="{{site.baseurl}}/www/images/UTL-logo.png"></a>
+            alt="University of Toronto Libraries" src="{{ site.baseurl }}/www/images/UTL-logo.png"></a>
         <a class="col" href="http://lib.slu.edu/" style="line-height: 23.1111px;" target="_blank"><img
-            alt="St. Louis University" src="{{site.baseurl}}/www/images/slu.gif" style="width: 346px;"></a>
+            alt="St. Louis University" src="{{ site.baseurl }}/www/images/slu.gif" style="width: 346px;"></a>
       </div>
     </div>
     <div class="pane-content">

@@ -1,5 +1,5 @@
 # Newberry-Italian-paleography
-Static pages for the Newberry French Renaissance Paleography project
+Static pages for the Newberry Italian Paleography project
 [./background-essay](/background-essay)
 
 ## Essays

@@ -595,7 +595,7 @@ h3[id] {
 
     .nav>li.dropdown ul.dropdown-menu {
         min-width    : 250px;
-        border-bottom: 3px solid #e65855;
+        border-bottom: 3px solid #7f9be0;
     }
 
     .nav>li.dropdown ul.dropdown-menu>li {
@@ -627,7 +627,7 @@ h3[id] {
 
     .nav > li > a:hover {
         background: none;
-        border-bottom: 2px solid orange;
+        border-bottom: 2px solid #264aa0;
     }
 
 }

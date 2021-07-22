@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Transcriptions
+title: Transcriptions of Manuscripts
 slug: transcriptions
 replacements: dates
 ---
 
-## Transcriptions
+### Transcriptions
 
 See below for a list of partial transcriptions for selected manuscript documents in this repository. Please feel free to post your own transcriptions to our Google group, for correction and possible uploading to the site later on.
 

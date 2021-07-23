@@ -6,36 +6,108 @@ let header = document.createElement('template')
 let footer = document.createElement('template')
 header.innerHTML = `
     <link rel="stylesheet" href="./css/style.css">
-    <slot></slot>
-    <nav class="container">
-        <a href="../"> 🏠 </a> 
-        <a href="manuscripts.html"> manuscripts </a> 
-        <a href="maps.html"> maps </a> 
-        <a href="calligraphy.html"> calligraphy books </a>
-    </nav>`
+    <header class="header clearfix no-embed">
+    <div id="branding" class="branding-elements clearfix">
+      <div style="margin: 0px auto;">
+        <div class="newberry-header hiddem-sm hidden-xs">
+          <a href="http://www.newberry.org/">
+            <img alt="Newberry" src="/Newberry-Italian-paleography/www/images/NewberryLogo_with_tag.png">
+          </a>
+        </div>
+
+        <h1 id="site-name">
+          <a href="/">Italian Paleography</a>
+        </h1>
+      </div>
+
+    </div>
+    <div class="search-icon" id="search-btn"><button title="Search" aria-label="Search"
+        class="icon icon-search"></button></div>
+    <div class="hamburger-icon">
+      <div class="icon icon-menu">&nbsp;</div>
+    </div>
+  </header>
+  <nav class="container no-embed">
+    <ul class="nav nav-bar">
+      <li class="first leaf"><a href="/Newberry-Italian-paleography">Home</a></li>
+      <li class="leaf active-trail active"><a href="/Newberry-Italian-paleography/www/manuscripts.html" title=""
+          class="active-trail active">Manuscripts</a></li>
+      <li class="leaf active-trail active"><a href="/Newberry-Italian-paleography/handbook" title=""
+          class="active-trail active">Handbook</a></li>
+      <li class="expanded dropdown"><a href="/Newberry-Italian-paleography/resources" title="" data-target="#"
+          class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+          aria-expanded="false">Appendix<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li class="first leaf"><a href="/Newberry-Italian-paleography/www/calligraphy.html" title="">Calligraphy Books</a></li>
+          <li class="last leaf"><a href="/Newberry-Italian-paleography/www/maps.html" title="">Historical Maps</a></li>
+        </ul>
+      </li>
+      <li class="expanded dropdown"><a href="/Newberry-Italian-paleography/resources" title="" data-target="#"
+          class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+          aria-expanded="false">Resources <span class="caret"></span></a>
+        <ul class="dropdown-menu"><li class="first leaf"><a href="/Newberry-Italian-paleography/new-paleography">New to Paleography</a></li>
+          <li class="leaf"><a href="/Newberry-Italian-paleography/transcriptions" title="">Transcriptions</a></li>
+          <li class="leaf"><a href="/Newberry-Italian-paleography/essays" title="">Background Essays</a></li>
+          <li class="leaf"><a href="/Newberry-Italian-paleography/abbreviations-symbols">Abbreviations &amp; Symbols</a></li>
+          <li class="leaf"><a href="/Newberry-Italian-paleography/glossary">Glossary</a></li>
+          <li class="leaf"><a href="/Newberry-Italian-paleography/dictionaries">Dictionaries</a></li>
+          <li class="leaf"><a href="/Newberry-Italian-paleography/bibliography-references">Bibliography &amp; References</a></li>
+          <li class="leaf"><a href="/Newberry-Italian-paleography/teaching">Teaching Materials</a></li>
+          <li class="leaf"><a href="/Newberry-Italian-paleography/transcription-and-metadata-standards">Transcription and Metadata Standards</a></li>
+          <li class="last leaf active-trail active"><a href="/Newberry-Italian-paleography/history-project" class="active-trail active">History of the Project</a></li>
+          </ul>
+      </li>
+      <li class="expanded dropdown"><a title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown"
+        role="button" aria-haspopup="true" aria-expanded="false">My Transcriptions <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li class="first leaf"><a href="http://paleo.rerum.io/TPEN-NL/my_transcriptions.html" title="">My
+            Transcriptions</a></li>
+            <li class="last leaf"><a href="/Newberry-Italian-paleography/transcriptions" title="">Master Transcriptions</a>
+            </li>
+          </ul>
+        </li>
+        <li class="expanded dropdown"><a href="/Newberry-Italian-paleography/contact" title="" data-target="#" class="dropdown-toggle"
+            data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="first leaf"><a href="/Newberry-Italian-paleography/contact" title="">Contact Us</a></li>
+            <li class="last leaf"><a href="/Newberry-Italian-paleography/about-team" title="">About the Team</a></li>
+          </ul>
+        </li>
+      <li class="last leaf"><a href="http://paleo.rerum.io/TPEN-NL/logout.html" title="">Logout</a></li>
+    </ul>
+  </nav>
+`
 
 footer.innerHTML = `
 <link rel="stylesheet" href="./css/style.css">
-<div class="row container">
-    <div class="col-8">
-        <h2> Partners </h2>
-            <div class="row">
-                <a class="col" href="http://www.newberry.org/" target="_blank"><img alt="Newberry" src="//content.library.utoronto.ca/common/dh-images/paleography/NewberryLogo_with_tag.png"></a>
-                <a class="col" href="http://onesearch.library.utoronto.ca" target="_blank"><img alt="University of Toronto Libraries" src="//content.library.utoronto.ca/common/dh-images/paleography/UTL-logo.png"></a>
-            </div>
-            <div class="row">
-                <a class="col" href="http://lib.slu.edu/" style="line-height: 23.1111px;" target="_blank"><img alt="St. Louis University" src="//content.library.utoronto.ca/common/dh-images/paleography/slu.gif" style="width: 346px;"></a>
-                <a class="col" href="http://www.itergateway.org/" target="_blank"><img alt="Iter" src="//content.library.utoronto.ca/common/dh-images/paleography/iter-logo-new.png"></a>
-            </div>
-    </div>
-    <div class="col">
-    <slot></slot>
-        <h2 class="pane-title"> Contact </h2>
-        <p><a href="/contact">Contact</a><br><a href="/content/about-team">About the Team</a><br><a href="/contact">Terms of Use</a></p>
-        <p>Supported by a grant from The Andrew W. Mellon Foundation</p>
-        <p><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" style="border-width:0"></a><br><a href="https://www.newberry.org/paleography">Italian Rennaisance Paleography</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
-    </div>
-</div> `
+<footer class="row container">
+<div style="flex-grow: 2;">
+  <h2> Partners </h2>
+  <div class="row">
+    <a class="col" href="http://www.newberry.org/" target="_blank"><img alt="Newberry"
+        src="/Newberry-Italian-paleography/www/images/NewberryLogo_with_tag.png"></a>
+    <a class="col" href="http://onesearch.library.utoronto.ca" target="_blank"><img
+        alt="University of Toronto Libraries" src="/Newberry-Italian-paleography/www/images/UTL-logo.png"></a>
+    <a class="col" href="http://lib.slu.edu/" style="line-height: 23.1111px;" target="_blank"><img
+        alt="St. Louis University" src="/Newberry-Italian-paleography/www/images/slu.gif" style="width: 346px;"></a>
+  </div>
+</div>
+<div class="pane-content">
+  <p>Header image: Newberry Library, VAULT folio Case MS 214, f.1r</p>
+  <p>Supported by a grant from <a href="http://mellon.org" target="_blank">The Andrew W. Mellon Foundation</a></p>
+  <p><a href="https://italian-paleography.library.utoronto.ca">Italian Paleography</a> is licensed under a <a
+      href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons
+      Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
+  <p>Follow us on Twitter:<br><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true"
+      allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered"
+      style="position: static; visibility: visible; width: 152px; height: 20px;" title="Twitter Follow Button"
+      src="https://platform.twitter.com/widgets/follow_button.06c6ee58c3810956b7509218508c7b56.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=italpaleography&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1626898782476"
+      data-screen-name="italpaleography"></iframe></p>
+  <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</footer>
+`
 
 NL.set("HEADER_TEMPLATE", header)
 NL.set("FOOTER_TEMPLATE", footer)

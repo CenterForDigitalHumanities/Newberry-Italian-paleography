@@ -7,7 +7,7 @@ replacements: dates
 
 ### Transcriptions
 
-See below for a list of partial transcriptions for selected manuscript documents in this repository. Please feel free to post your own transcriptions to our Google group, for correction and possible uploading to the site later on.
+Below you can find the list of transcriptions for all of the manuscripts. You can find the transcription standards [here]({{ site.baseurl }}/standards)</a>. In Resources you can find a list of the most common [Letter Forms and Abbreviations]({{ site.baseurl }}/abbreviations).
 
 <listing></listing>
 {% for transcription in site.transcriptions | sort: 'title' %}

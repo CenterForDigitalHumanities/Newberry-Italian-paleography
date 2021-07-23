@@ -16,7 +16,7 @@
       .catch(err => { throw Error(err) })
       .then(collection => {
         document.querySelectorAll("date").forEach(el => {
-          const id_match = `https://iiif.library.utoronto.ca/presentation/v2/paleography:${el.getAttribute("data-id")}/manifest`
+          const id_match = `https://iiif.library.utoronto.ca/presentation/v2/italianpaleography:IP_${el.getAttribute("data-id")}/manifest`
           for (const m of collection.manifests) {
             if (m['@id'] === id_match) {
               el.innerHTML = m.date

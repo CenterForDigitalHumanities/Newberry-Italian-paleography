@@ -19,14 +19,11 @@ function renderManuscripts(elem, manuscripts, noTranscribe) {
 
     let list = manuscripts.reduce((a, b) => a += `
     <div class="record" data-id="${b['@id']}">
-        <h4>${b.label}</h4>
+        <h4><a href="./record.html?id=${b['@id']}">${b.label}</a></h4>
         <div class="row">
             <img class="thumbnail" >
             <dl>
             </dl>
-        </div>
-        <div class="btn-group">
-            <a href="./record.html?id=${b['@id']}">View</a> ${(!noTranscribe) ? `` : `<a href="${TPEN_BASE}?projectID=${b.tpenProject}">Transcribe</a>`}
         </div>
     </div>`, ``)
 

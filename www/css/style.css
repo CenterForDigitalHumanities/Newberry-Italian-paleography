@@ -87,6 +87,20 @@ a.col img {
     border-left   : var(--color-primary) solid thick;
 }
 
+a {
+    text-decoration: none;
+    font-weight: 550;
+    color: #264aa0;
+    transition: color 0.5s ease;
+}
+
+a:hover, a:focus {
+    color: #557bd7;
+    text-decoration: none !important;
+    cursor: pointer;
+    outline: 1px solid #557bd7;
+    outline-offset: -1px;
+}
 
 facet {
     display     : block;
@@ -172,6 +186,7 @@ facet[class*='hide-'] {
     display: none !important;
 }
 
+
 dt,
 dd {
     border-top    : 1px solid #e5e5e5;
@@ -204,15 +219,8 @@ dd p {
 
 .record h4 {
     margin: 0 auto;
-}
-
-.record a {
-    background : white;
-    color      : #be3c2b;
-    border     : 1px solid #be3c2b;
-    padding    : 3px 6px;
-    text-align : center;
-    font-weight: bold;
+    font-size: 1.3em;
+    padding: 0.5em 0em;
 }
 
 #Documents {

@@ -21,7 +21,7 @@
             if (m['@id'] === id_match) {
               el.innerHTML = m.date
               const difficulty = document.createElement("span")
-              difficulty.classList.add(String(m.difficulty).toLowerCase)
+              difficulty.classList.add(String(m.difficulty).toLowerCase())
               difficulty.innerHTML = String(m.difficulty)[0]
               difficulty.setAttribute("title",`${m.difficulty} Reading Difficulty`)
               el.after(difficulty)

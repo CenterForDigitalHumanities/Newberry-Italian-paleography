@@ -278,9 +278,10 @@ listing+ul li:hover {
     border-width: 0.1em;
     border-style: solid;
     border-color: #000;
-    width: 1em;
+    width: 1rem;
     text-align: center;
     font-weight: 700;
+    cursor:default;
 }
 
 .advanced {

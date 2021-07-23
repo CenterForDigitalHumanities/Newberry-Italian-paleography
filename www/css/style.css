@@ -98,8 +98,6 @@ a:hover, a:focus {
     color: #557bd7;
     text-decoration: none !important;
     cursor: pointer;
-    outline: 1px solid #557bd7;
-    outline-offset: 3px;
 }
 
 facet {

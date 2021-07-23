@@ -272,7 +272,7 @@ listing+ul li:hover {
     background-color: #ddd !important;
 }
 
-.Advanced,.Intermediate,.Elementary,.Introductory {
+.advanced,.intermediate,.elementary,.introductory {
     font-size: .8em;
     outline-offset: 2px;
     border-radius: 4px;
@@ -281,15 +281,15 @@ listing+ul li:hover {
     outline-color: #000;
 }
 
-.Advanced {
+.advanced {
     color: #4f2e5e;
     outline-color: #4f2e5e;
 }
-.Intermediate {
+.intermediate {
     color: #a15b00;
     outline-color: #a15b00;
 }
-.Elementary,.Introductory {
+.elementary,.introductory {
     color: #195723;
     outline-color: #195723;
 }

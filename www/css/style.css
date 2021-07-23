@@ -272,6 +272,29 @@ listing+ul li:hover {
     background-color: #ddd !important;
 }
 
+.Advanced,.Intermediate,.Elementary,.Introductory {
+    font-size: .8em;
+    outline-offset: 2px;
+    border-radius: 4px;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: #000;
+}
+
+.Advanced {
+    color: #4f2e5e;
+    outline-color: #4f2e5e;
+}
+.Intermediate {
+    color: #a15b00;
+    outline-color: #a15b00;
+}
+.Elementary,.Introductory {
+    color: #195723;
+    outline-color: #195723;
+}
+
+
 /** Imported CSS */
 
 body {

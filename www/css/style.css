@@ -459,6 +459,7 @@ li.leaf {
     color          : black;
     text-decoration: none;
     position       : relative;
+    font-weight    : normal;
 }
 
 li:hover .dropdown-menu {

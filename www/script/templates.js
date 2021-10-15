@@ -5,7 +5,7 @@ NL.set("LOGIN", "http://paleo.rerum.io/TPEN-NL/geti")
 let header = document.createElement('template')
 let footer = document.createElement('template')
 header.innerHTML = `
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/css/style.css">
     <header class="header clearfix no-embed">
     <div id="branding" class="branding-elements clearfix">
       <div style="margin: 0px auto;">
@@ -80,7 +80,7 @@ header.innerHTML = `
 `
 
 footer.innerHTML = `
-<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/css/style.css">
 <footer class="row container">
 <div style="flex-grow: 2;">
   <h2> Partners </h2>

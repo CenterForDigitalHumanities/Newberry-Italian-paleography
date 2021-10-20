@@ -157,7 +157,7 @@ function populateSidebar(facets, FILTERS) {
     for (const f in FILTERS) {
         if (!facets[FILTERS[f]]) continue
         side += `<li>${f}</li>`
-        side += Array.from(facets[FILTERS[f]]).reduce((a, b) => a += `<facet data-facet="${FILTERS[f]}">${b}</facet>`, ``)
+        side += Array.from(facets[FILTERS[f]]).reduce((a, b) => a += `<facet data-facet="${FILTERS[f]}" data-label="${b}">${b}</facet>`, ``)
     }
     side += `</ul>`
     facetFilter.innerHTML = side

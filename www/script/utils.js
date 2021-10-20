@@ -164,8 +164,21 @@ function populateSidebar(facets, FILTERS) {
     let facetsElements = document.querySelectorAll("[data-facet]")
     Array.from(facetsElements).forEach(el => el.addEventListener("click", filterFacets))
     updateCount()
+    loadQuery()
 }
 
+const loadQuery = () => {
+    const params = new URLSearchParams(location.search)
+    params.forEach((v,k)=>{
+        document.querySelectorAll(`[data-facet="${k}"][data-label="${v}"]`)
+         .forEach(el=>el.click())
+    })
+    const queryString = params.get("q")
+    if(queryString){
+        query.value = queryString
+        query.dispatchEvent(new Event('input'))
+    }
+}
 let templates = document.createElement("script")
 templates.src = "script/templates.js"
 document.body.append(templates)

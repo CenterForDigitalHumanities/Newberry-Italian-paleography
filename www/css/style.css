@@ -63,6 +63,10 @@ a.col img {
     max-width      : 100%;
 }
 
+p img {
+    width: 100%;
+}
+
 .sidebar {
     max-width : 30em;
     min-width : 200px;

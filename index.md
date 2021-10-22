@@ -1,12 +1,26 @@
 ![](https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/italian-banner.jpg)
 
+<div style="float:right; width:clamp(12em,12vw,30em);border-left:thin solid #ddd; padding:1em;">
+<h2>Get Started</h2>
+<ul class="no-bullets"><li><a href="/content/new-paleography">New to paleography?</a></li>
+<li><a href="/content/how-navigate-site">How to navigate the site (video)</a></li>
+<li><a href="/content/how-use-t-pen">How to use T-Pen (video)</a></li>
+</ul><p style="padding-top:0; padding-left:1.5em; padding-bottom: 1em;"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 173px; height: 20px;" title="Twitter Follow Button" src="https://platform.twitter.com/widgets/follow_button.a53eecb4584348a2ad32ec2ae21f6eae.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=italpaleography&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1634941545633" data-screen-name="italpaleography"></iframe></p>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><h2>Overview</h2>
+<p>The Italian Paleography website presents 102&nbsp;Italian documents and manuscripts written between 1300 and 1700, with tools for deciphering them and learning about their social, cultural, and institutional settings. The site includes:</p>
+<ul><li>digitized images of 102&nbsp;manuscripts and documents;</li>
+<li>T-Pen, a digital tool to actively transcribe manuscripts and documents;</li>
+<li>transcriptions and background essays for each item;</li>
+<li>a selection of calligraphy books and historical manuscript maps;</li>
+<li>a handbook of Italian vernacular scripts;</li>
+<li>additional resources, including a glossary, list of abbreviations and symbols, dictionaries, and teaching materials.</li>
+</ul>  
+</div>
+
 
 ## What is Italian Paleography?
 
-
-
 Paleography is the study of the history of handwriting and scripts in books, manuscripts, and all sorts of documents, including drawings, printed material, epigraphs, inscriptions, and writings appearing on any object (coins, vases, frames, or even walls). Paleography also examines the physical construction of different textual sources and their functions, analyzing the relationship between these containers, their scripts, and their contents.
-
 
 According to Jean Mallon (Mallon [1952](https://i-share.carli.illinois.edu/vf-nby/Record/NBYdb.525484)), a famed 20th-century French paleographer, paleography is the study of written cultures, that is the production, formal graphic characteristics, and social uses of scripts and textual witnesses. The goal of the discipline is therefore to investigate and to understand the socio-cultural instances that led to the production and transmission of written traces: each particular writing is the product of a specific culture and a specific time-space.
 

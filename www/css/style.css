@@ -340,6 +340,7 @@ footer img, nl-footer img {
 
 #site-name a:link,
 #site-name a:visited {
+    font-weight: normal !important;
     color             : #264aa0;
     text-decoration   : none;
     -moz-transition   : all .5s ease;

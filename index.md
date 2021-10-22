@@ -26,16 +26,22 @@ According to Jean Mallon (Mallon [1952](https://i-share.carli.illinois.edu/vf-nb
 
 
 ### Why study Paleography
+
 <details> 
+
 <summary>
 expand
 </summary>
+
 The act of writing establishes hierarchies and social disparities: there was and still is no society in which everyone is able to write. The issue of literacy is strictly linked to the distribution of power and wealth. Literacy and access to reading and writing has been a powerful source of political control throughout human history. Confining a percentage of the population outside the basic literacy parameters prevents them from having access to documents and memory. Written texts of any sort, in fact, enable communication through time and space, leaving concrete memory of a given society. Writings from a certain time and place also influence the way posterity reads, transmits, and interprets the history of the society that produced the specific writing. When we study history, we often study “sources” or a particular written story that was transcribed at a particular time and transmitted through different material witnesses. A paleographer is also, therefore, a historian of written cultures: through paleographical and codicological investigations, s/he can study the index of literacy, its geographic, social, and political values in ancient civilizations up until today. (Ref. Petrucci [2002](https://books.google.ca/books?id=kAiODAAAQBAJ&amp;lpg=PP1&amp;pg=PP1&amp;redir_esc=y#v=onepage&amp;q&amp;f=false), vi-vii)
+
 </details>
 
 
 ### How to analyze a script
+
 <details>
+
 <summary>
 expand
 </summary>
@@ -50,11 +56,13 @@ When we approach a handwritten text, through an examination of its materiality, 
 </ol>
 
 These questions help us to identify, describe, and understand the social and cultural context in which a specific text and its script were produced. For a list of the main terms associated with paleography and manuscript studies in general, see&nbsp;[Glossary](https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/glossary).
+
 </details>
 
 
 ### Tips and Tricks
 <details>
+
 <summary>
 expand
 </summary>
@@ -76,13 +84,17 @@ expand
 </ul>
 
 #### After transcribing:
+
 <ul><li>Closely re-read and edit your transcription: you might recognize letters and/or words you were not able to the first time.</li>
 </ul>
+
 </details>
 
 
 ### Brief History of Paleography
+
 <details>
+
 <summary>
 expand
 </summary>
@@ -92,6 +104,7 @@ expand
 <li>19th century: In the 1800s, paleography established itself as an independent scientific discipline. The growing production of facsimile photographs allowed for paleographic investigations and comparisons between different texts (often in different physical places).</li>
 <li>20th century: Paleography now investigated not only how to classify different scripts, but also how to date and localize them. Ludwig Traube in Germany and Léopold-Victorin Delisle in France were among the pioneers of this time, including paleography in the history of cultures and civilizations and developing it as an essential discipline, part of broader philological studies. In Italy, during the second half of the 20th century, <a href="https://webvoyage.carli.illinois.edu/nby/cgi-bin/Pwebrecon.cgi?DB=local&amp;v1=1&amp;BBRecID=286881" target="_blank">Giorgio Cencetti</a> published a first comprehensive history of Latin scripts. His works and methods would influence Emanuele Casamassima, Armando Petrucci, Guglielmo Cavallo, and Alessandro Pratesi.</li>
 </ul>
+
 </details>
 
 For a detailed overview of Italian scripts, refer to the [Handbook](https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/handbook) for Italian paleography available here.

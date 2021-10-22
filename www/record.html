@@ -18,7 +18,7 @@
 
     <div role="main">
         <h3 id="pageHeader">Title</h3>
-        <a href="#transcribe">Transcribe with TPEN</a>
+        <a href="http://newberry.rerum.io/paleography/transcribe/" id="transcribeLink">Transcribe with TPEN</a>
         <div id="view">
             <div id="book-viewer" class="container">
                 <div id="mirador-bookreader" class="islandora-mirador-bookreader mirador-reader"></div>
@@ -101,6 +101,7 @@
             .then(status => { if (!status.ok) { throw Error(status) } return status })
             .then(response => response.json())
             .then(manifest => {
+                transcribeLink.href+=manifest.label
                 Mirador.viewer({
                     id: "mirador-bookreader",
                     windows: [{

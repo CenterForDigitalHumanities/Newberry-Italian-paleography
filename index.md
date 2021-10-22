@@ -24,19 +24,20 @@ Paleography is the study of the history of handwriting and scripts in books, man
 
 According to Jean Mallon (Mallon [1952](https://i-share.carli.illinois.edu/vf-nby/Record/NBYdb.525484)), a famed 20th-century French paleographer, paleography is the study of written cultures, that is the production, formal graphic characteristics, and social uses of scripts and textual witnesses. The goal of the discipline is therefore to investigate and to understand the socio-cultural instances that led to the production and transmission of written traces: each particular writing is the product of a specific culture and a specific time-space.
 
-<details> 
-<summary>
 
 ### Why study Paleography
-
+<details> 
+<summary>
+expand
 </summary>
 The act of writing establishes hierarchies and social disparities: there was and still is no society in which everyone is able to write. The issue of literacy is strictly linked to the distribution of power and wealth. Literacy and access to reading and writing has been a powerful source of political control throughout human history. Confining a percentage of the population outside the basic literacy parameters prevents them from having access to documents and memory. Written texts of any sort, in fact, enable communication through time and space, leaving concrete memory of a given society. Writings from a certain time and place also influence the way posterity reads, transmits, and interprets the history of the society that produced the specific writing. When we study history, we often study “sources” or a particular written story that was transcribed at a particular time and transmitted through different material witnesses. A paleographer is also, therefore, a historian of written cultures: through paleographical and codicological investigations, s/he can study the index of literacy, its geographic, social, and political values in ancient civilizations up until today. (Ref. Petrucci [2002](https://books.google.ca/books?id=kAiODAAAQBAJ&amp;lpg=PP1&amp;pg=PP1&amp;redir_esc=y#v=onepage&amp;q&amp;f=false), vi-vii)
 </details>
 
-<details>
-<summary>
 
 ### How to analyze a script
+<details>
+<summary>
+expand
 </summary>
 
 When we approach a handwritten text, through an examination of its materiality, graphic appearance, and cultural context, six main questions, both technical (1-4) and interpretative (5-6), can be answered (Petrucci [2002](https://books.google.ca/books?id=kAiODAAAQBAJ&amp;lpg=PP1&amp;pg=PP1&amp;redir_esc=y#v=onepage&amp;q&amp;f=false)):
@@ -51,10 +52,11 @@ When we approach a handwritten text, through an examination of its materiality, 
 These questions help us to identify, describe, and understand the social and cultural context in which a specific text and its script were produced. For a list of the main terms associated with paleography and manuscript studies in general, see&nbsp;[Glossary](https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/glossary).
 </details>
 
-<details>
-<summary>
 
 ### Tips and Tricks
+<details>
+<summary>
+expand
 </summary>
 
 #### Before transcribing:
@@ -78,10 +80,11 @@ These questions help us to identify, describe, and understand the social and cul
 </ul>
 </details>
 
-<details>
-<summary>
 
 ### Brief History of Paleography
+<details>
+<summary>
+expand
 </summary>
 
 <ul style="padding-top: 1em"><li>17th century: The first concrete but still partial paleography studies were conducted. A crucial moment was the publication of Jean Mabillon’s <a href="https://webvoyage.carli.illinois.edu/nby/cgi-bin/Pwebrecon.cgi?DB=local&amp;v1=1&amp;BBRecID=534668" target="_blank">De Re Diplomatica</a> in 1681, an essay on Medieval Latin paleography and diplomacy. For the first time, Mabillon attempted a classification and description of different kinds of scripts.</li>

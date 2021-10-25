@@ -574,6 +574,7 @@ summary {
     color: #002a5c;
     font-size: 2em;
     transition: all 500ms;
+    cursor: pointer;
 }
 
 summary:hover {

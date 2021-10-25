@@ -573,6 +573,11 @@ summary {
     top: calc(-2em - 20px);
     color: #002a5c;
     font-size: 2em;
+    transition: all 500ms;
+}
+
+summmary::marker:hover {
+    transform: rotate(90deg);
 }
 
 /** end Imported CSS */

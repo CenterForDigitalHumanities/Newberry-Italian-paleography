@@ -578,7 +578,7 @@ summary {
     transform-origin: center left;
 }
 
-summary:hover {
+summary:hover:not(details[open]>summary:first-of-type) {
     transform: rotate(90deg);
 }
 

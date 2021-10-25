@@ -1,6 +1,9 @@
 ![](https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/italian-banner.jpg)
 
-<div class="sass" style="float:right; width:clamp(12em,12vw,30em);border-left:thin solid #ddd; padding:1em;">
+<div class="row reverse">
+
+<div class="col-12 col-3-md" style="border-left:thin solid #ddd;">
+
 <h2>Get Started</h2>
 <ul class="no-bullets"><li><a href="/content/new-paleography">New to paleography?</a></li>
 <li><a href="/content/how-navigate-site">How to navigate the site (video)</a></li>
@@ -15,16 +18,18 @@
 <li>a handbook of Italian vernacular scripts;</li>
 <li>additional resources, including a glossary, list of abbreviations and symbols, dictionaries, and teaching materials.</li>
 </ul>  
+
 </div>
 
-## What is Italian Paleography?
+<div class="col">
+
+<h2> What is Italian Paleography?</h2>
 
 Paleography is the study of the history of handwriting and scripts in books, manuscripts, and all sorts of documents, including drawings, printed material, epigraphs, inscriptions, and writings appearing on any object (coins, vases, frames, or even walls). Paleography also examines the physical construction of different textual sources and their functions, analyzing the relationship between these containers, their scripts, and their contents.
 
-According to Jean Mallon (Mallon [1952](https://i-share.carli.illinois.edu/vf-nby/Record/NBYdb.525484)), a famed 20th-century French paleographer, paleography is the study of written cultures, that is the production, formal graphic characteristics, and social uses of scripts and textual witnesses. The goal of the discipline is therefore to investigate and to understand the socio-cultural instances that led to the production and transmission of written traces: each particular writing is the product of a specific culture and a specific time-space.
+According to Jean Mallon (Mallon <a href="https://i-share.carli.illinois.edu/vf-nby/Record/NBYdb.525484">1952</a>), a famed 20th-century French paleographer, paleography is the study of written cultures, that is the production, formal graphic characteristics, and social uses of scripts and textual witnesses. The goal of the discipline is therefore to investigate and to understand the socio-cultural instances that led to the production and transmission of written traces: each particular writing is the product of a specific culture and a specific time-space.
 
-
-### Why study Paleography
+<h3> Why study Paleography</h3>
 
 <details> 
 
@@ -34,8 +39,7 @@ The act of writing establishes hierarchies and social disparities: there was and
 
 </details>
 
-
-### How to analyze a script
+<h3> How to analyze a script</h3>
 
 <details>
 
@@ -54,8 +58,7 @@ These questions help us to identify, describe, and understand the social and cul
 
 </details>
 
-
-### Tips and Tricks
+<h3> Tips and Tricks</h3>
 
 <details>
 
@@ -84,8 +87,7 @@ These questions help us to identify, describe, and understand the social and cul
 
 </details>
 
-
-### Brief History of Paleography
+<h3> Brief History of Paleography</h3>
 
 <details>
 
@@ -98,6 +100,10 @@ These questions help us to identify, describe, and understand the social and cul
 </ul>
 
 </details>
+
+</div>
+
+</div>
 
 For a detailed overview of Italian scripts, refer to the [Handbook](https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/handbook) for Italian paleography available here.
 

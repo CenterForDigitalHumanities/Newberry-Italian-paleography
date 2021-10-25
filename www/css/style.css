@@ -576,7 +576,7 @@ summary {
     transition: all 500ms;
 }
 
-summmary:hover {
+summary:hover {
     transform: rotate(90deg);
 }
 

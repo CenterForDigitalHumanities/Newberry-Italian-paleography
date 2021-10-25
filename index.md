@@ -1,7 +1,6 @@
 ![](https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/italian-banner.jpg)
 
 <div class="sass" style="float:right; width:clamp(12em,12vw,30em);border-left:thin solid #ddd; padding:1em;">
-<div style="width:50vw;">
 <h2>Get Started</h2>
 <ul class="no-bullets"><li><a href="/content/new-paleography">New to paleography?</a></li>
 <li><a href="/content/how-navigate-site">How to navigate the site (video)</a></li>
@@ -18,6 +17,7 @@
 </ul>  
 </div>
 
+<div style="width:50vw;">
 
 ## What is Italian Paleography?
 

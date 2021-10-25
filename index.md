@@ -1,6 +1,7 @@
 ![](https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/italian-banner.jpg)
 
 <div style="float:right; width:clamp(12em,12vw,30em);border-left:thin solid #ddd; padding:1em;">
+<div>
 <h2>Get Started</h2>
 <ul class="no-bullets"><li><a href="/content/new-paleography">New to paleography?</a></li>
 <li><a href="/content/how-navigate-site">How to navigate the site (video)</a></li>
@@ -99,6 +100,6 @@ These questions help us to identify, describe, and understand the social and cul
 </ul>
 
 </details>
-
+</div>
 For a detailed overview of Italian scripts, refer to the [Handbook](https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/handbook) for Italian paleography available here.
 

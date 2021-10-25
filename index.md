@@ -2,7 +2,7 @@
 
 <div class="row reverse">
 
-<div class="col-12 col-3-md" style="border-left:thin solid #ddd;">
+<div class="col-12 col-3-sm" style="border-left:thin solid #ddd;">
 
 <h2>Get Started</h2>
 <ul class="no-bullets"><li><a href="/content/new-paleography">New to paleography?</a></li>

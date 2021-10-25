@@ -17,8 +17,6 @@
 </ul>  
 </div>
 
-<div>
-
 ## What is Italian Paleography?
 
 Paleography is the study of the history of handwriting and scripts in books, manuscripts, and all sorts of documents, including drawings, printed material, epigraphs, inscriptions, and writings appearing on any object (coins, vases, frames, or even walls). Paleography also examines the physical construction of different textual sources and their functions, analyzing the relationship between these containers, their scripts, and their contents.
@@ -100,6 +98,6 @@ These questions help us to identify, describe, and understand the social and cul
 </ul>
 
 </details>
-</div>
+
 For a detailed overview of Italian scripts, refer to the [Handbook](https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/handbook) for Italian paleography available here.
 

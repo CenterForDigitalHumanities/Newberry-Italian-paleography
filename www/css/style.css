@@ -563,6 +563,18 @@ h3[id] {
     font-size: 2em;
 }
 
+details {
+    position: relative;
+}
+
+summary::marker {
+    position: absolute;
+    left: 0;
+    top: calc(-2em - 20px);
+    color: #002a5c;
+    font-size: 2em;
+}
+
 /** end Imported CSS */
 
 @media screen and (max-width: 599px) {

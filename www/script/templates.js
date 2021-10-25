@@ -16,7 +16,7 @@ header.innerHTML = `
         </div>
 
         <h1 id="site-name">
-          <a href="/">Italian Paleography</a>
+          <a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/">Italian Paleography</a>
         </h1>
       </div>
 

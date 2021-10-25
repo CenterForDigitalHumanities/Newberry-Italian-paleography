@@ -29,9 +29,7 @@ According to Jean Mallon (Mallon [1952](https://i-share.carli.illinois.edu/vf-nb
 
 <details> 
 
-<summary>
-expand
-</summary>
+<summary></summary>
 
 The act of writing establishes hierarchies and social disparities: there was and still is no society in which everyone is able to write. The issue of literacy is strictly linked to the distribution of power and wealth. Literacy and access to reading and writing has been a powerful source of political control throughout human history. Confining a percentage of the population outside the basic literacy parameters prevents them from having access to documents and memory. Written texts of any sort, in fact, enable communication through time and space, leaving concrete memory of a given society. Writings from a certain time and place also influence the way posterity reads, transmits, and interprets the history of the society that produced the specific writing. When we study history, we often study “sources” or a particular written story that was transcribed at a particular time and transmitted through different material witnesses. A paleographer is also, therefore, a historian of written cultures: through paleographical and codicological investigations, s/he can study the index of literacy, its geographic, social, and political values in ancient civilizations up until today. (Ref. Petrucci [2002](https://books.google.ca/books?id=kAiODAAAQBAJ&amp;lpg=PP1&amp;pg=PP1&amp;redir_esc=y#v=onepage&amp;q&amp;f=false), vi-vii)
 
@@ -42,9 +40,7 @@ The act of writing establishes hierarchies and social disparities: there was and
 
 <details>
 
-<summary>
-expand
-</summary>
+<summary></summary>
 
 When we approach a handwritten text, through an examination of its materiality, graphic appearance, and cultural context, six main questions, both technical (1-4) and interpretative (5-6), can be answered (Petrucci [2002](https://books.google.ca/books?id=kAiODAAAQBAJ&amp;lpg=PP1&amp;pg=PP1&amp;redir_esc=y#v=onepage&amp;q&amp;f=false)):
 <ol><li><strong><em>What</em></strong>&nbsp;is this written text?</li>
@@ -61,11 +57,10 @@ These questions help us to identify, describe, and understand the social and cul
 
 
 ### Tips and Tricks
+
 <details>
 
-<summary>
-expand
-</summary>
+<summary></summary>
 
 #### Before transcribing:
 
@@ -95,9 +90,7 @@ expand
 
 <details>
 
-<summary>
-expand
-</summary>
+<summary></summary>
 
 <ul style="padding-top: 1em"><li>17th century: The first concrete but still partial paleography studies were conducted. A crucial moment was the publication of Jean Mabillon’s <a href="https://webvoyage.carli.illinois.edu/nby/cgi-bin/Pwebrecon.cgi?DB=local&amp;v1=1&amp;BBRecID=534668" target="_blank">De Re Diplomatica</a> in 1681, an essay on Medieval Latin paleography and diplomacy. For the first time, Mabillon attempted a classification and description of different kinds of scripts.</li>
 <li>18th century: The first paleographic publications were disseminated. Paleography was at this stage still dependent on other disciplines, especially diplomatic. Important publication: Bernard de Montfaucon’s <a href="https://webvoyage.carli.illinois.edu/nby/cgi-bin/Pwebrecon.cgi?DB=local&amp;v1=1&amp;BBRecID=59644" target="_blank">Paleographia graeca</a> in 1708. Moreover, in Italy in 1727, Scipione Maffei published his <a href="https://webvoyage.carli.illinois.edu/nby/cgi-bin/Pwebrecon.cgi?DB=local&amp;v1=1&amp;BBRecID=528274" target="_blank">Istoria diplomatica</a>. While in France, mid century, Benedictine monk Charles Toustain published his <a href="https://webvoyage.carli.illinois.edu/nby/cgi-bin/Pwebrecon.cgi?DB=local&amp;v1=1&amp;BBRecID=724466" target="_blank">Nouveau traité de diplomatique</a>.</li>

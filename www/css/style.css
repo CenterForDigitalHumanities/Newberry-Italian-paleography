@@ -567,7 +567,7 @@ details {
     position: relative;
 }
 
-summary::marker {
+summary {
     position: absolute;
     left: 0;
     top: calc(-2em - 20px);

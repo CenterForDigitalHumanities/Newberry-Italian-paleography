@@ -570,13 +570,13 @@ details {
 summary {
     position: absolute;
     left: 0;
-    top: calc(-2em - 20px);
+    top: calc(-2em - 20px -2%);
     color: #002a5c;
     font-size: 2em;
     transition: all 500ms;
 }
 
-summmary::marker:hover {
+summmary:hover {
     transform: rotate(90deg);
 }
 

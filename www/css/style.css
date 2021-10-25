@@ -575,6 +575,7 @@ summary {
     font-size: 2em;
     transition: all 500ms;
     cursor: pointer;
+    transform-origin: center left;
 }
 
 summary:hover {

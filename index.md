@@ -17,7 +17,7 @@
 </ul>  
 </div>
 
-<div style="width:50vw;">
+<div>
 
 ## What is Italian Paleography?
 

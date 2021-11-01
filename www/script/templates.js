@@ -60,7 +60,7 @@ header.innerHTML = `
       <li class="expanded dropdown"><a title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown"
         role="button" aria-haspopup="true" aria-expanded="false">My Transcriptions <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li class="first leaf"><a href="http://newberry.rerum.io/paleography/my-transcriptions.html" title="">My
+          <li class="first leaf"><a href="http://newberry.rerum.io/paleography/my-transcriptions.html?language=Italian" title="">My
             Transcriptions</a></li>
             <li class="last leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/transcriptions" title="">Master Transcriptions</a>
             </li>
@@ -74,7 +74,7 @@ header.innerHTML = `
             <li class="last leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/about-team" title="">About the Team</a></li>
           </ul>
         </li>
-      <li class="last leaf"><a href="http://newberry.rerum.io/paleography/logout.html" title="">Logout</a></li>
+      <li class="last leaf"><a href="http://newberry.rerum.io/paleography/logout.html?language=Italian" title="">Logout</a></li>
     </ul>
   </nav>
 `

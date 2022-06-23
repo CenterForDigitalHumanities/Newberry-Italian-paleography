@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
     --bg-color          : #ffffff;
@@ -20,7 +20,7 @@
 }
 
 html {
-    font-family: 'Open sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Fira Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container {
@@ -306,7 +306,7 @@ listing+ul li:hover {
 
 body {
     font-size: 15px;
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Fira Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
     line-height: 1.6;
 }
@@ -337,7 +337,7 @@ footer img, nl-footer img {
 #site-name {
     padding    : 0;
     margin     : 0;
-    font-size  : 250%;
+    font-size  : 240%;
     font-weight: normal !important;
     text-align : center;
 }
@@ -357,10 +357,6 @@ footer img, nl-footer img {
     padding: 5px 1%;
     height : 100px;
     display: inline;
-}
-
-.red {
-    color: #b43d2e;
 }
 
 .nav {
@@ -575,7 +571,7 @@ summary {
     font-size: 2em;
     transition: all 500ms;
     cursor: pointer;
-    transform-origin: center left;
+    transform-origin: 10% 50%;
 }
 
 summary:hover:not(details[open]>summary:first-of-type) {

@@ -81,7 +81,7 @@ header.innerHTML = `
 
 footer.innerHTML = `
 <link rel="stylesheet" href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/css/style.css">
-<footer class="row container">
+<footer class="row container no-embed">
 <div style="flex-grow: 2;">
   <h2> Partners </h2>
   <div class="row">

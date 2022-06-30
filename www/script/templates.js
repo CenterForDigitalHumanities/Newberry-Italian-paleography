@@ -74,7 +74,6 @@ header.innerHTML = `
             <li class="last leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/about-team" title="">About the Team</a></li>
           </ul>
         </li>
-      <li class="last leaf"><a href="http://newberry.rerum.io/paleography/logout.html?language=Italian" title="">Logout</a></li>
     </ul>
   </nav>
 `

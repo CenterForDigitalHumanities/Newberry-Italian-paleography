@@ -53,7 +53,7 @@ header.innerHTML = `
           <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/dictionaries">Dictionaries</a></li>
           <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/bibliography-references">Bibliography &amp; References</a></li>
           <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/teaching">Teaching Materials</a></li>
-          <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/transcription-and-metadata-standards">Transcription and Metadata Standards</a></li>
+          <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/standards">Transcription and Metadata Standards</a></li>
           <li class="last leaf active-trail active"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/project-history" class="active-trail active">History of the Project</a></li>
           </ul>
       </li>

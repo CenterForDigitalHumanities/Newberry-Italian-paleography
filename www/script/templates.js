@@ -84,7 +84,7 @@ footer.innerHTML = `
     <a class="col" href="http://onesearch.library.utoronto.ca" target="_blank"><img
         alt="University of Toronto Libraries" src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/UTL-logo.png"></a>
     <a class="col" href="http://lib.slu.edu/" style="line-height: 23.1111px;" target="_blank"><img
-        alt="St. Louis University" src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/slu.gif" style="width: 346px;"></a>
+        alt="St. Louis University" src="{{ site.logo }}" style="width: 470px;"></a>
   </div>
 </div>
 <div class="pane-content">

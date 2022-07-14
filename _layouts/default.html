@@ -22,8 +22,8 @@
               el.innerHTML = m.date
               const difficulty = document.createElement("span")
               difficulty.classList.add(String(m.difficulty).toLowerCase())
-              difficulty.innerHTML = ["Elementary","Intermediate","Advanced"].indexOf(m.difficulty)+1
-              difficulty.setAttribute("title",`${m.difficulty} Reading Difficulty`)
+              difficulty.innerHTML = ["Elementary", "Intermediate", "Advanced"].indexOf(m.difficulty) + 1
+              difficulty.setAttribute("title", `${m.difficulty} Reading Difficulty`)
               el.after(difficulty)
               return
             }
@@ -69,7 +69,8 @@
       <li class="expanded dropdown"><a href="{{site.baseurl }}/resources" title="" data-target="#"
           class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
           aria-expanded="false">Resources <span class="caret"></span></a>
-        <ul class="dropdown-menu"><li class="first leaf"><a href="{{ site.baseurl }}/new-paleography">New to Paleography</a></li>
+        <ul class="dropdown-menu">
+          <li class="first leaf"><a href="{{ site.baseurl }}/new-paleography">New to Paleography</a></li>
           <li class="leaf"><a href="{{ site.baseurl }}/transcriptions" title="">Transcriptions</a></li>
           <li class="leaf"><a href="{{ site.baseurl }}/essays" title="">Background Essays</a></li>
           <li class="leaf"><a href="{{ site.baseurl }}/abbreviations">Abbreviations &amp; Symbols</a></li>
@@ -78,26 +79,28 @@
           <li class="leaf"><a href="{{ site.baseurl }}/bibliography-references">Bibliography &amp; References</a></li>
           <li class="leaf"><a href="{{ site.baseurl }}/teaching">Teaching Materials</a></li>
           <li class="leaf"><a href="{{ site.baseurl }}/standards">Transcription and Metadata Standards</a></li>
-          <li class="last leaf active-trail active"><a href="{{ site.baseurl }}/project-history" class="active-trail active">History of the Project</a></li>
-          </ul>
+          <li class="last leaf active-trail active"><a href="{{ site.baseurl }}/project-history"
+              class="active-trail active">History of the Project</a></li>
+        </ul>
       </li>
       <li class="expanded dropdown"><a title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown"
-        role="button" aria-haspopup="true" aria-expanded="false">My Transcriptions <span class="caret"></span></a>
+          role="button" aria-haspopup="true" aria-expanded="false">My Transcriptions <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li class="first leaf"><a href="http://newberry.rerum.io/paleography/my-transcriptions.html?language=Italian" title="">My
-            Transcriptions</a></li>
-            <li class="last leaf"><a href="{{ site.baseurl }}/transcriptions" title="">Master Transcriptions</a>
-            </li>
-          </ul>
-        </li>
-        <li class="expanded dropdown"><a href="{{ site.baseurl }}/contact" title="" data-target="#" class="dropdown-toggle"
-            data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span
-              class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li class="first leaf"><a href="{{ site.baseurl }}/contact" title="">Contact Us</a></li>
-            <li class="last leaf"><a href="{{ site.baseurl }}/about-team" title="">About the Team</a></li>
-          </ul>
-        </li>
+          <li class="first leaf"><a href="http://newberry.rerum.io/paleography/my-transcriptions.html?language=Italian"
+              title="">My
+              Transcriptions</a></li>
+          <li class="last leaf"><a href="{{ site.baseurl }}/transcriptions" title="">Master Transcriptions</a>
+          </li>
+        </ul>
+      </li>
+      <li class="expanded dropdown"><a href="{{ site.baseurl }}/contact" title="" data-target="#"
+          class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+          aria-expanded="false">Contact <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li class="first leaf"><a href="{{ site.baseurl }}/contact" title="">Contact Us</a></li>
+          <li class="last leaf"><a href="{{ site.baseurl }}/about-team" title="">About the Team</a></li>
+        </ul>
+      </li>
     </ul>
   </nav>
   <div class="container markdown-body">
@@ -125,19 +128,14 @@
   </script>
   {% endif %}
 
-  <footer class="row container no-embed">
-    <div style="flex-grow: 2;">
-      <h2> Partners </h2>
-      <div class="row">
-        <a class="col" href="http://www.newberry.org/" target="_blank"><img alt="Newberry"
-            src="{{ site.baseurl }}/www/images/NewberryLogo_with_tag.png"></a>
-        <a class="col" href="http://onesearch.library.utoronto.ca" target="_blank"><img
-            alt="University of Toronto Libraries" src="{{ site.baseurl }}/www/images/UTL-logo.png"></a>
-        <a class="col" href="http://lib.slu.edu/" style="line-height: 23.1111px;" target="_blank"><img
-            alt="St. Louis University" src="{{ site.logo }}" style="width: 470px;"></a>
-      </div>
-    </div>
-    <div class="pane-content">
+  <footer class="row container no-embed" style="justify-content: center;flex-wrap: wrap;">
+    <a class="col" href="http://www.newberry.org/" target="_blank"><img alt="Newberry"
+        src="{{ site.baseurl }}/www/images/NewberryLogo_with_tag.png"></a>
+    <a class="col" href="http://onesearch.library.utoronto.ca" target="_blank"><img
+        alt="University of Toronto Libraries" src="{{ site.baseurl }}/www/images/UTL-logo.png"></a>
+    <a class="col" href="http://lib.slu.edu/" style="line-height: 23.1111px;" target="_blank"><img
+        alt="St. Louis University" src="{{ site.logo }}" style="width: 470px;"></a>
+    <div class="pane-content col">
       <p>Header image: Newberry Library, VAULT folio Case MS 214, f.1r</p>
       <p>Supported by a grant from <a href="http://mellon.org" target="_blank">The Andrew W. Mellon Foundation</a></p>
       <p><a href="https://italian-paleography.library.utoronto.ca">Italian Paleography</a> is licensed under a <a

@@ -75,19 +75,14 @@ header.innerHTML = `
 
 footer.innerHTML = `
 <link rel="stylesheet" href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/css/style.css">
-<footer class="row container no-embed">
-<div style="flex-grow: 2;">
-  <h2> Partners </h2>
-  <div class="row">
+<footer class="row container no-embed" style="justify-content: center;flex-wrap: wrap;">
     <a class="col" href="http://www.newberry.org/" target="_blank"><img alt="Newberry"
         src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/NewberryLogo_with_tag.png"></a>
     <a class="col" href="http://onesearch.library.utoronto.ca" target="_blank"><img
         alt="University of Toronto Libraries" src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/UTL-logo.png"></a>
     <a class="col" href="http://lib.slu.edu/" style="line-height: 23.1111px;" target="_blank"><img
         alt="St. Louis University" src="https://centerfordigitalhumanities.github.io/Newberry-paleography/images/slu_ovpr.png" style="width: 470px;"></a>
-  </div>
-</div>
-<div class="pane-content">
+<div class="pane-content col">
   <p>Header image: Newberry Library, VAULT folio Case MS 214, f.1r</p>
   <p>Supported by a grant from <a href="http://mellon.org" target="_blank">The Andrew W. Mellon Foundation</a></p>
   <p><a href="https://italian-paleography.library.utoronto.ca">Italian Paleography</a> is licensed under a <a

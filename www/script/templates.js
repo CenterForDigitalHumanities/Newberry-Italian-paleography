@@ -1,6 +1,6 @@
 var NL = new Map()
 
-NL.set("LOGIN", "http://newberry.rerum.io/paleography/geti")
+NL.set("LOGIN", "http://newberry.t-pen.org/paleography/geti")
 
 let header = document.createElement('template')
 let footer = document.createElement('template')
@@ -55,7 +55,7 @@ header.innerHTML = `
       <li class="expanded dropdown"><a title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown"
         role="button" aria-haspopup="true" aria-expanded="false">My Transcriptions <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li class="first leaf"><a href="http://newberry.rerum.io/paleography/my-transcriptions.html?language=Italian" title="">My
+          <li class="first leaf"><a href="http://newberry.t-pen.org/paleography/my-transcriptions.html?language=Italian" title="">My
             Transcriptions</a></li>
             <li class="last leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/transcriptions" title="">Master Transcriptions</a>
             </li>

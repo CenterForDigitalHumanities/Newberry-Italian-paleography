@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Manuscript Record | Italian Paleography</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href='{{ "/www/css/style.css" | relative_url }}'>
 </head>
 
 <body>
@@ -18,7 +21,7 @@
 
     <div role="main">
         <h3 id="pageHeader">Title</h3>
-        <a href="http://newberry.rerum.io/paleography/transcribe/" id="transcribeLink">Transcribe with TPEN</a>
+        <a href="http://newberry.t-pen.org/paleography/transcribe/" id="transcribeLink">Transcribe with TPEN</a>
         <div id="view">
             <div id="book-viewer" class="container">
                 <div id="mirador-bookreader" class="islandora-mirador-bookreader mirador-reader"></div>
@@ -28,69 +31,7 @@
             </div>
         </div>
     </div>
-    <!-- region: Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="region region-footer">
-                <div id="block-panels-mini-footer-panel" class="block block-panels-mini contextual-links-region">
-
-                    <div class="content">
-                        <div class="row" id="mini-panel-footer_panel">
-                            <div class="col-sm-8">
-                                <div class="panel-pane pane-custom pane-1 footer-bottom" id="footer-partner">
-
-                                    <h2 class="pane-title">
-                                        Partners </h2>
-
-                                    <div class="pane-content">
-                                        <ul>
-                                            <li><a href="http://www.newberry.org/" target="_blank"><img
-                                                        alt="The Newberry Library"
-                                                        src="//content.library.utoronto.ca/common/dh-images/paleography/NewberryLogo_with_tag.png" /></a>
-                                            </li>
-                                            <li><a href="http://onesearch.library.utoronto.ca" target="_blank"><img
-                                                        alt="University of Toronto Libraries"
-                                                        src="//content.library.utoronto.ca/common/dh-images/paleography/UTL-logo.png" /></a>
-                                            </li>
-                                            <li><a href="http://lib.slu.edu" target="_blank"><img
-                                                        alt="St Louis University Libraries"
-                                                        src="//content.library.utoronto.ca/common/dh-images/paleography/slu.gif" /></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="panel-pane pane-custom pane-2 footer-bottom" id="footer-contact">
-
-                                    <div class="pane-content">
-                                        <p>Header image: Newberry Library, VAULT folio Case MS 214, f.1r</p>
-                                        <p>Supported by a grant from <a href="http://mellon.org" target="_blank">The
-                                                Andrew W. Mellon Foundation</a></p>
-                                        <p><a href="https://www.newberry.org/paleography">Italian
-                                                Paleography</a> is licensed under a <a
-                                                href="http://creativecommons.org/licenses/by-nc-nd/4.0/"
-                                                rel="license">Creative Commons Attribution-NonCommercial-NoDerivatives
-                                                4.0 International License</a>.</p>
-                                        <p>Follow us on Twitter:<br /><a class="twitter-follow-button"
-                                                data-show-count="false"
-                                                href="https://twitter.com/italpaleography?ref_src=twsrc%5Etfw">Follow
-                                                @italpaleography</a></p>
-                                        <script async="" src="https://platform.twitter.com/widgets.js"
-                                            charset="utf-8"></script>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <button class="scrollToTop" id="back-to-top" aria-label="Scroll to top"><span
-            class="icon icon-angle-up"></span></button>
+    <footer>footer</footer>
     <script src="script/utils.js"></script>
     <script type="text/javascript" src="https://mirador-dev.netlify.app/dist/mirador.min.js?v=1606873758455"></script>
     <script type="text/javascript">
@@ -131,7 +72,7 @@
                 })
                 metadata.innerHTML = `<dl>${dl}</dl>`
                 pageHeader.textContent = manifest.label
-                transcribeLink.setAttribute("href", `http://newberry.rerum.io/paleography/transcribe/${manifest.label}`)
+                transcribeLink.setAttribute("href", `http://newberry.t-pen.org/paleography/transcribe/${manifest.label}`)
             })
             .catch(err => { throw Error(err) })
 

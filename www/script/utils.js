@@ -1,7 +1,7 @@
 var records = document.querySelectorAll(".record")
 function renderManuscripts(elem, manuscripts, noTranscribe) {
 
-    const TPEN_BASE = "http://newberry.rerum.io/paleography/"
+    const TPEN_BASE = "http://newberry.t-pen.org/paleography/"
     const FIELDS = page_FIELDS || [
         "Alternative Title", "Date Issued", "Is Part Of",
         "Date Issued", "Author(s) or Contributor(s)"

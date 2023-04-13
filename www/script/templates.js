@@ -1,6 +1,6 @@
 var NL = new Map()
 
-NL.set("LOGIN", "http://newberry.rerum.io/paleography/geti")
+NL.set("LOGIN", "http://newberry.t-pen.org/paleography/geti")
 
 let header = document.createElement('template')
 let footer = document.createElement('template')
@@ -20,11 +20,6 @@ header.innerHTML = `
         </h1>
       </div>
 
-    </div>
-    <div class="search-icon" id="search-btn"><button title="Search" aria-label="Search"
-        class="icon icon-search"></button></div>
-    <div class="hamburger-icon">
-      <div class="icon icon-menu">&nbsp;</div>
     </div>
   </header>
   <nav class="container no-embed">
@@ -53,14 +48,14 @@ header.innerHTML = `
           <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/dictionaries">Dictionaries</a></li>
           <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/bibliography-references">Bibliography &amp; References</a></li>
           <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/teaching">Teaching Materials</a></li>
-          <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/transcription-and-metadata-standards">Transcription and Metadata Standards</a></li>
+          <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/standards">Transcription and Metadata Standards</a></li>
           <li class="last leaf active-trail active"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/project-history" class="active-trail active">History of the Project</a></li>
           </ul>
       </li>
       <li class="expanded dropdown"><a title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown"
         role="button" aria-haspopup="true" aria-expanded="false">My Transcriptions <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li class="first leaf"><a href="http://newberry.rerum.io/paleography/my-transcriptions.html?language=Italian" title="">My
+          <li class="first leaf"><a href="http://newberry.t-pen.org/paleography/my-transcriptions.html?language=Italian" title="">My
             Transcriptions</a></li>
             <li class="last leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/transcriptions" title="">Master Transcriptions</a>
             </li>
@@ -74,26 +69,20 @@ header.innerHTML = `
             <li class="last leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/about-team" title="">About the Team</a></li>
           </ul>
         </li>
-      <li class="last leaf"><a href="http://newberry.rerum.io/paleography/logout.html?language=Italian" title="">Logout</a></li>
     </ul>
   </nav>
 `
 
 footer.innerHTML = `
 <link rel="stylesheet" href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/css/style.css">
-<footer class="row container">
-<div style="flex-grow: 2;">
-  <h2> Partners </h2>
-  <div class="row">
+<footer class="row container no-embed" style="justify-content: center;flex-wrap: wrap;">
     <a class="col" href="http://www.newberry.org/" target="_blank"><img alt="Newberry"
         src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/NewberryLogo_with_tag.png"></a>
     <a class="col" href="http://onesearch.library.utoronto.ca" target="_blank"><img
         alt="University of Toronto Libraries" src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/UTL-logo.png"></a>
     <a class="col" href="http://lib.slu.edu/" style="line-height: 23.1111px;" target="_blank"><img
-        alt="St. Louis University" src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/slu.gif" style="width: 346px;"></a>
-  </div>
-</div>
-<div class="pane-content">
+        alt="St. Louis University" src="https://centerfordigitalhumanities.github.io/Newberry-paleography/images/slu_ovpr.png" style="width: 470px;"></a>
+<div class="pane-content col">
   <p>Header image: Newberry Library, VAULT folio Case MS 214, f.1r</p>
   <p>Supported by a grant from <a href="http://mellon.org" target="_blank">The Andrew W. Mellon Foundation</a></p>
   <p><a href="https://italian-paleography.library.utoronto.ca">Italian Paleography</a> is licensed under a <a

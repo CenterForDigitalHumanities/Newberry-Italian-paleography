@@ -1,5 +1,5 @@
 ---
-baseurl: "/Newberry-Italian-paleography"
+baseurl: "/"
 logo: "https://centerfordigitalhumanities.github.io/Newberry-paleography/images/slu_ovpr.png"
 collections:
   background_essay:

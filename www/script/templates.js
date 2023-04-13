@@ -85,7 +85,7 @@ footer.innerHTML = `
 <div class="pane-content col">
   <p>Header image: Newberry Library, VAULT folio Case MS 214, f.1r</p>
   <p>Supported by a grant from <a href="http://mellon.org" target="_blank">The Andrew W. Mellon Foundation</a></p>
-  <p><a href="https://italian-paleography.library.utoronto.ca">Italian Paleography</a> is licensed under a <a
+  <p><a href="https://italian.newberry.t-pen.org">Italian Paleography</a> is licensed under a <a
       href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons
       Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
   <p>Follow us on Twitter:<br><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true"

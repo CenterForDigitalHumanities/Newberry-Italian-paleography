@@ -68,7 +68,6 @@
                 })
                 let dl = ``
                 manifest.metadata.forEach(dat => {
-                    dl += `<dt>${dat.label}</dt><dd>${Array.isArray(dat.value) ? dat.value.join(", ") : dat.value}</dd>`
                     const LOCALIZED_VAL = localizedValue(dat.value)
                     dl += `<dt>${dat.label}</dt><dd>${Array.isArray(LOCALIZED_VAL) ? LOCALIZED_VAL.join(", ") : LOCALIZED_VAL}</dd>`
                 })

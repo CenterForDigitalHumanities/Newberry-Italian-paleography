@@ -54,7 +54,7 @@ When we approach a handwritten text, through an examination of its materiality, 
 <li><strong><em>Why</em></strong>&nbsp;was the text written? In the particular time and space it was produced, what could have been its social and ideological goals?</li>
 </ol>
 
-These questions help us to identify, describe, and understand the social and cultural context in which a specific text and its script were produced. For a list of the main terms associated with paleography and manuscript studies in general, see&nbsp;[Glossary](https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/glossary).
+These questions help us to identify, describe, and understand the social and cultural context in which a specific text and its script were produced. For a list of the main terms associated with paleography and manuscript studies in general, see&nbsp;[Glossary](https://italian.newberry.t-pen.org/glossary).
 
 </details>
 
@@ -105,5 +105,5 @@ These questions help us to identify, describe, and understand the social and cul
 
 </div>
 
-For a detailed overview of Italian scripts, refer to the [Handbook](https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/handbook) for Italian paleography available here.
+For a detailed overview of Italian scripts, refer to the [Handbook](https://italian.newberry.t-pen.org/handbook) for Italian paleography available here.
 

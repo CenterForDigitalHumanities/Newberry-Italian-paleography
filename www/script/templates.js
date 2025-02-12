@@ -5,7 +5,7 @@ NL.set("LOGIN", "http://newberry.t-pen.org/paleography/geti")
 let header = document.createElement('template')
 let footer = document.createElement('template')
 header.innerHTML = `
-    <link rel="stylesheet" href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/css/style.css">
+    <link rel="stylesheet" href="https://italian.newberry.t-pen.org/www/css/style.css">
     <header class="header clearfix no-embed">
     <div id="branding" class="branding-elements clearfix">
       <div style="margin: 0px auto;">
@@ -16,7 +16,7 @@ header.innerHTML = `
         </div>
 
         <h1 id="site-name">
-          <a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/">Italian Paleography</a>
+          <a href="https://italian.newberry.t-pen.org/">Italian Paleography</a>
         </h1>
       </div>
 
@@ -24,32 +24,32 @@ header.innerHTML = `
   </header>
   <nav class="container no-embed">
     <ul class="nav nav-bar">
-      <li class="first leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography">Home</a></li>
-      <li class="leaf active-trail active"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/manuscripts.html" title=""
+      <li class="first leaf"><a href="https://italian.newberry.t-pen.org">Home</a></li>
+      <li class="leaf active-trail active"><a href="https://italian.newberry.t-pen.org/www/manuscripts.html" title=""
           class="active-trail active">Manuscripts</a></li>
-      <li class="leaf active-trail active"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/handbook" title=""
+      <li class="leaf active-trail active"><a href="https://italian.newberry.t-pen.org/handbook" title=""
           class="active-trail active">Handbook</a></li>
-      <li class="expanded dropdown"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/resources" title="" data-target="#"
+      <li class="expanded dropdown"><a href="https://italian.newberry.t-pen.org/resources" title="" data-target="#"
           class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
           aria-expanded="false">Appendix<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li class="first leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/calligraphy.html" title="">Calligraphy Books</a></li>
-          <li class="last leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/maps.html" title="">Historical Maps</a></li>
+          <li class="first leaf"><a href="https://italian.newberry.t-pen.org/www/calligraphy.html" title="">Calligraphy Books</a></li>
+          <li class="last leaf"><a href="https://italian.newberry.t-pen.org/www/maps.html" title="">Historical Maps</a></li>
         </ul>
       </li>
-      <li class="expanded dropdown"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/resources" title="" data-target="#"
+      <li class="expanded dropdown"><a href="https://italian.newberry.t-pen.org/resources" title="" data-target="#"
           class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
           aria-expanded="false">Resources <span class="caret"></span></a>
-        <ul class="dropdown-menu"><li class="first leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/new-paleography">New to Paleography</a></li>
-          <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/transcriptions" title="">Transcriptions</a></li>
-          <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/essays" title="">Background Essays</a></li>
-          <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/abbreviations">Abbreviations &amp; Symbols</a></li>
-          <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/glossary">Glossary</a></li>
-          <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/dictionaries">Dictionaries</a></li>
-          <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/bibliography-references">Bibliography &amp; References</a></li>
-          <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/teaching">Teaching Materials</a></li>
-          <li class="leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/standards">Transcription and Metadata Standards</a></li>
-          <li class="last leaf active-trail active"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/project-history" class="active-trail active">History of the Project</a></li>
+        <ul class="dropdown-menu"><li class="first leaf"><a href="https://italian.newberry.t-pen.org/new-paleography">New to Paleography</a></li>
+          <li class="leaf"><a href="https://italian.newberry.t-pen.org/transcriptions" title="">Transcriptions</a></li>
+          <li class="leaf"><a href="https://italian.newberry.t-pen.org/essays" title="">Background Essays</a></li>
+          <li class="leaf"><a href="https://italian.newberry.t-pen.org/abbreviations">Abbreviations &amp; Symbols</a></li>
+          <li class="leaf"><a href="https://italian.newberry.t-pen.org/glossary">Glossary</a></li>
+          <li class="leaf"><a href="https://italian.newberry.t-pen.org/dictionaries">Dictionaries</a></li>
+          <li class="leaf"><a href="https://italian.newberry.t-pen.org/bibliography-references">Bibliography &amp; References</a></li>
+          <li class="leaf"><a href="https://italian.newberry.t-pen.org/teaching">Teaching Materials</a></li>
+          <li class="leaf"><a href="https://italian.newberry.t-pen.org/standards">Transcription and Metadata Standards</a></li>
+          <li class="last leaf active-trail active"><a href="https://italian.newberry.t-pen.org/project-history" class="active-trail active">History of the Project</a></li>
           </ul>
       </li>
       <li class="expanded dropdown"><a title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown"
@@ -57,16 +57,16 @@ header.innerHTML = `
         <ul class="dropdown-menu">
           <li class="first leaf"><a href="http://newberry.t-pen.org/paleography/my-transcriptions.html?language=Italian" title="">My
             Transcriptions</a></li>
-            <li class="last leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/transcriptions" title="">Master Transcriptions</a>
+            <li class="last leaf"><a href="https://italian.newberry.t-pen.org/transcriptions" title="">Master Transcriptions</a>
             </li>
           </ul>
         </li>
-        <li class="expanded dropdown"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/contact" title="" data-target="#" class="dropdown-toggle"
+        <li class="expanded dropdown"><a href="https://italian.newberry.t-pen.org/contact" title="" data-target="#" class="dropdown-toggle"
             data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span
               class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li class="first leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/contact" title="">Contact Us</a></li>
-            <li class="last leaf"><a href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/about-team" title="">About the Team</a></li>
+            <li class="first leaf"><a href="https://italian.newberry.t-pen.org/contact" title="">Contact Us</a></li>
+            <li class="last leaf"><a href="https://italian.newberry.t-pen.org/about-team" title="">About the Team</a></li>
           </ul>
         </li>
     </ul>
@@ -74,7 +74,7 @@ header.innerHTML = `
 `
 
 footer.innerHTML = `
-<link rel="stylesheet" href="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/css/style.css">
+<link rel="stylesheet" href="https://italian.newberry.t-pen.org/www/css/style.css">
 <footer class="row container no-embed" style="justify-content: center;flex-wrap: wrap;">
     <a class="col" href="http://www.newberry.org/" target="_blank"><img alt="Newberry"
         src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/NewberryLogo_with_tag.png"></a>

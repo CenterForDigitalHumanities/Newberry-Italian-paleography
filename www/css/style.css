@@ -64,7 +64,7 @@ a.col {
 a.col img {
     object-fit: contain;
     object-position: center;
-    max-width: 100%;
+    max-width: 250px;
 }
 
 p img {

@@ -74,7 +74,7 @@ header.innerHTML = `
 `
 footer.innerHTML = `
 <link rel="stylesheet" href="https://italian.newberry.t-pen.org/www/css/style.css">
-<div class="row container no-embed" style="flex-grow:2;">
+<div class="row no-embed" style="flex-grow:2;">
     <div class="col">
       <h2>Partners</h2>
       <div class="row">

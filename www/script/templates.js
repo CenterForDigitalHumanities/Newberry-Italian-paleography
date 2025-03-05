@@ -72,30 +72,35 @@ header.innerHTML = `
     </ul>
   </nav>
 `
-
 footer.innerHTML = `
 <link rel="stylesheet" href="https://italian.newberry.t-pen.org/www/css/style.css">
-<footer class="row container no-embed" style="justify-content: center;flex-wrap: wrap;">
-    <a class="col" href="http://www.newberry.org/" target="_blank"><img alt="Newberry"
-        src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/NewberryLogo_with_tag.png"></a>
-    <a class="col" href="http://onesearch.library.utoronto.ca" target="_blank"><img
-        alt="University of Toronto Libraries" src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/UTL-logo.png"></a>
-    <a class="col" href="http://lib.slu.edu/" style="line-height: 23.1111px;" target="_blank"><img
-        alt="St. Louis University" src="https://centerfordigitalhumanities.github.io/Newberry-paleography/images/slu_ovpr.png" style="width: 470px;"></a>
-<div class="pane-content col">
-  <p>Header image: Newberry Library, VAULT folio Case MS 214, f.1r</p>
-  <p>Supported by a grant from <a href="http://mellon.org" target="_blank">The Andrew W. Mellon Foundation</a></p>
-  <p><a href="https://italian.newberry.t-pen.org">Italian Paleography</a> is licensed under a <a
-      href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons
-      Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
-  <p>Follow us on Twitter:<br><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true"
-      allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered"
-      style="position: static; visibility: visible; width: 152px; height: 20px;" title="Twitter Follow Button"
-      src="https://platform.twitter.com/widgets/follow_button.06c6ee58c3810956b7509218508c7b56.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=italpaleography&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1626898782476"
-      data-screen-name="italpaleography"></iframe></p>
-  <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="row container no-embed" style="flex-grow:2;">
+    <div class="col">
+      <h2>Partners</h2>
+      <div class="row">
+          <a class="col" href="http://www.newberry.org/" target="_blank"><img alt="Newberry" src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/NewberryLogo_with_tag.png"></a>
+          <a class="col" href="http://onesearch.library.utoronto.ca" target="_blank"><img alt="University of Toronto Libraries" src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/UTL-logo.png"></a>
+      </div>
+      <div class="row">
+        <a class="col" href="http://lib.slu.edu/" style="line-height: 23.1111px;" target="_blank"><img alt="St. Louis University" src="https://centerfordigitalhumanities.github.io/Newberry-paleography/images/slu_ovpr.png" style="width: 470px;"></a>
+      </div>
+    </div>
+    <div class="col">
+      <slot></slot>
+      <h2 class="pane-title"> Contact </h2>
+      <p>Header image: Newberry Library, VAULT folio Case MS 214, f.1r</p>
+      <p>Supported by a grant from <a href="http://mellon.org" target="_blank">The Andrew W. Mellon Foundation</a></p>
+      <p><a href="https://italian.newberry.t-pen.org">Italian Paleography</a> is licensed under a <a
+          href="http://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons
+          Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
+      <p>Follow us on Twitter:<br><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true"
+          allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered"
+          style="position: static; visibility: visible; width: 152px; height: 20px;" title="Twitter Follow Button"
+          src="https://platform.twitter.com/widgets/follow_button.06c6ee58c3810956b7509218508c7b56.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=italpaleography&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1626898782476"
+          data-screen-name="italpaleography"></iframe></p>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
 </div>
-</footer>
 `
 
 NL.set("HEADER_TEMPLATE", header)

@@ -11,7 +11,7 @@ header.innerHTML = `
       <div style="margin: 0px auto;">
         <div class="newberry-header hiddem-sm hidden-xs">
           <a href="http://www.newberry.org/">
-            <img alt="Newberry" src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/NewberryLogo_with_tag.png">
+            <img alt="Newberry" src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/Logo-Newberry-horiz-BW.jpg">
           </a>
         </div>
 
@@ -69,6 +69,11 @@ header.innerHTML = `
             <li class="last leaf"><a href="https://italian.newberry.t-pen.org/about-team" title="">About the Team</a></li>
           </ul>
         </li>
+        <li>
+          <a class="loginToTpen" href="https://newberry.t-pen.org/paleography/login.jsp">
+            Login
+          </a>
+        </li>
     </ul>
   </nav>
 `
@@ -78,7 +83,7 @@ footer.innerHTML = `
     <div class="col">
       <h2>Partners</h2>
       <div class="row">
-          <a class="col" href="http://www.newberry.org/" target="_blank"><img alt="Newberry" src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/NewberryLogo_with_tag.png"></a>
+          <a class="col" href="http://www.newberry.org/" target="_blank"><img alt="Newberry" src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/Logo-Newberry-horiz-BW.jpg"></a>
           <a class="col" href="http://onesearch.library.utoronto.ca" target="_blank"><img alt="University of Toronto Libraries" src="https://centerfordigitalhumanities.github.io/Newberry-Italian-paleography/www/images/UTL-logo.png"></a>
       </div>
       <div class="row">

@@ -69,6 +69,11 @@ header.innerHTML = `
             <li class="last leaf"><a href="https://italian.newberry.t-pen.org/about-team" title="">About the Team</a></li>
           </ul>
         </li>
+        <li>
+        <a class="loginToTpen" href="https://newberry.t-pen.org/paleography/login.jsp">
+          Login
+        </a>
+      </li>
     </ul>
   </nav>
 `

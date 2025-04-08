@@ -8,7 +8,7 @@
 <ul class="no-bullets"><li><a href="/new-paleography">New to paleography?</a></li>
 <li><a href="/how-navigate-site">How to navigate the site (video)</a></li>
 <li><a href="/how-use-t-pen">How to use TPEN (video)</a></li>
-</ul><p style="padding-top:0; padding-left:1.5em; padding-bottom: 1em;"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 173px; height: 20px;" title="Twitter Follow Button" src="https://platform.twitter.com/widgets/follow_button.a53eecb4584348a2ad32ec2ae21f6eae.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=italpaleography&show_count=false&show_screen_name=true&size=m&time=1634941545633" data-screen-name="italpaleography"></iframe></p>
+
 
 <p>The Italian Paleography website presents 102&nbsp;Italian documents and manuscripts written between 1300 and 1700, with tools for deciphering them and learning about their social, cultural, and institutional settings. The site includes:</p>
 <ul><li>digitized images of 102&nbsp;manuscripts and documents;</li>

@@ -8,7 +8,7 @@
 <ul class="no-bullets"><li><a href="/new-paleography">New to paleography?</a></li>
 <li><a href="/how-navigate-site">How to navigate the site (video)</a></li>
 <li><a href="/how-use-t-pen">How to use TPEN (video)</a></li>
-
+</ul>
 
 <p>The Italian Paleography website presents 102&nbsp;Italian documents and manuscripts written between 1300 and 1700, with tools for deciphering them and learning about their social, cultural, and institutional settings. The site includes:</p>
 <ul><li>digitized images of 102&nbsp;manuscripts and documents;</li>
